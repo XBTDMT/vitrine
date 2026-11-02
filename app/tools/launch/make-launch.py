@@ -4,7 +4,7 @@
   python3 -I app/tools/launch/make-launch.py <out folder> [look ...]      (looks: teal-light teal-dark neutral)
 
 Inputs are the app's own renders in docs/media/ (drawn by `Vitrine --snapshot` from invented sample files) and the
-app icon. Each look gives: social-card (1200×675, X and GitHub's social preview), hero (2400×1350), every-file
+app icon. Each look gives: social-card (1200×675, X), social-github (1280×640, GitHub's social preview), hero (2400×1350), every-file
 (2400×1350), trust (2400×1350). roadmap: S-17
 """
 import json
@@ -57,6 +57,17 @@ def social(look):
     ]}
 
 
+def social_github(look):
+    # GitHub's social preview is 2:1 (1280×640 recommended); X's card is 16:9.
+    return {"size": [1280, 640], "ground": scale_ground(look, 1280, 640), "items": [
+        {"image": ICON, "rect": [68, 84, 144, 144]},
+        {"text": "Vitrine", "rect": [76, 244, 600, 124], "size": 100, "weight": "bold", "color": look["ink"]},
+        {"text": "Press Space on any file in Finder and see inside it. Free and open source.",
+         "rect": [78, 372, 560, 150], "size": 32, "color": look["soft"]},
+        panel(media("markdown", look), [400, 0, 1200, 1520], [700, 64, 516, 654], look, radius=22),
+    ]}
+
+
 def hero(look):
     return {"size": [2400, 1350], "ground": scale_ground(look, 2400, 1350), "items": [
         {"keycap": "space", "rect": [160, 150, 330, 120], "dark": look["keycapDark"]},
@@ -91,7 +102,7 @@ def trust(look):
     ]}
 
 
-PICTURES = {"social-card": social, "hero": hero, "every-file": every_file, "trust": trust}
+PICTURES = {"social-card": social, "social-github": social_github, "hero": hero, "every-file": every_file, "trust": trust}
 
 
 def main():

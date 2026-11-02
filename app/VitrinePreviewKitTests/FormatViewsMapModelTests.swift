@@ -114,8 +114,19 @@ final class FormatViewsMapModelTests: XCTestCase {
         return (window, stage)
     }
 
+    /// The view drawn at 2× whatever the screen: a CI runner's virtual display is 1×, which quarters the pixels of a
+    /// small marker (GitHub's runner counted 7 start-marker pixels where a Retina Mac counts more than 10).
     private func bitmap(_ view: NSView) throws -> NSBitmapImageRep {
-        let rep = try XCTUnwrap(view.bitmapImageRepForCachingDisplay(in: view.bounds))
+        let screen = try XCTUnwrap(view.bitmapImageRepForCachingDisplay(in: view.bounds))
+        guard screen.pixelsWide < Int(view.bounds.width * 2) else {
+            view.cacheDisplay(in: view.bounds, to: screen)
+            return screen
+        }
+        let rep = try XCTUnwrap(NSBitmapImageRep(bitmapDataPlanes: nil, pixelsWide: Int(view.bounds.width * 2),
+                                                 pixelsHigh: Int(view.bounds.height * 2), bitsPerSample: 8, samplesPerPixel: 4,
+                                                 hasAlpha: true, isPlanar: false, colorSpaceName: .deviceRGB, bytesPerRow: 0,
+                                                 bitsPerPixel: 0)?.retagging(with: screen.colorSpace))
+        rep.size = view.bounds.size
         view.cacheDisplay(in: view.bounds, to: rep)
         return rep
     }

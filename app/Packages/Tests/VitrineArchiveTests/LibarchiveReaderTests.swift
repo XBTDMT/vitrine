@@ -280,7 +280,7 @@ final class LibarchiveReaderTests: XCTestCase {
         let folder = try FixtureFolder()
         for i in 0..<6 { try folder.write("slow/f\(i).bin", noise(200_000, seed: UInt64(i + 7))) }
         try folder.run("/usr/bin/tar", ["-cJf", "slow.tar.xz", "slow"])
-        let slow = SlowSource(try FileByteSource(url: folder.path("slow.tar.xz")), delay: 0.03)
+        let slow = SlowSource(try FileByteSource(url: folder.path("slow.tar.xz")), delay: 0.03, fastBytes: 128 * 1024)
         let listing = try VitrineArchive.list(source: slow, fileName: "slow.tar.xz", limits: ArchiveLimits(timeBudget: 0.4))
         guard case .partial(_, nil, let reason) = listing.coverage else { return XCTFail("listing was complete") }
         XCTAssertTrue(reason.hasPrefix("Stopped after 0.4 s; in a compressed stream"), reason)
@@ -434,10 +434,16 @@ final class LibarchiveReaderTests: XCTestCase {
 final class SlowSource: ArchiveByteSource {
     let inner: any ArchiveByteSource
     let delay: TimeInterval
-    init(_ inner: any ArchiveByteSource, delay: TimeInterval) { self.inner = inner; self.delay = delay }
+    /// Reads below this offset are not slowed, so the format is recognised at full speed on any machine and the budget
+    /// runs out inside the compressed data, which is what the test is about (GitHub's slower runner used to run out
+    /// while the format was still being recognised).
+    let fastBytes: Int64
+    init(_ inner: any ArchiveByteSource, delay: TimeInterval, fastBytes: Int64 = 0) {
+        self.inner = inner; self.delay = delay; self.fastBytes = fastBytes
+    }
     var size: Int64 { inner.size }
     func read(at offset: Int64, count: Int) throws -> [UInt8] {
-        Thread.sleep(forTimeInterval: delay)
+        if offset >= fastBytes { Thread.sleep(forTimeInterval: delay) }
         return try inner.read(at: offset, count: min(count, 16 * 1024))
     }
 }
