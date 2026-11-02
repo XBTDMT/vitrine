@@ -1,0 +1,13 @@
+{
+  "positive": [
+    "sk-proj-b9hcwF5IUV9ErCex09Xt1WM1TTvjQhwTKWtVtsZ8hadM5hXb",
+    "OPENAI_API_KEY=sk-oqU2vJqk4Td9FN94xYlWizaJ2815dQ93ncXMqspl",
+    "sk-svcacct-laOMKRp5qrwtWIrIw9vVaneuh5kz5S4a21Glizr2",
+    "sk-admin-FihyluTHeswci02ILamyrBr7HDJ4dy6OVu66"
+  ],
+  "negative": [
+    "sk-ant-AxNVkSIBrjDzyklqxPk2NCEVxkm0slscJ1E16Eba",
+    "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",
+    "sk-d6BIo5eaJun8xc74LMhj"
+  ]
+}

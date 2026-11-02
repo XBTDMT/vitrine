@@ -1,0 +1,530 @@
+name: Vitrine
+options:
+  bundleIdPrefix: io.github.xbtdmt.vitrine
+  # English is the source language of the String Catalogs (S-12, parity H-6).
+  developmentLanguage: en
+  deploymentTarget:
+    macOS: "15.0"
+  xcodeVersion: "27.1"
+  createIntermediateGroups: true
+  generateEmptyDirectories: true
+configs:
+  Debug: debug
+  Release: release
+settings:
+  base:
+    SWIFT_VERSION: "6.0"
+    SWIFT_STRICT_CONCURRENCY: complete
+    MARKETING_VERSION: "0.1.0"
+    CURRENT_PROJECT_VERSION: "1"
+    DEVELOPMENT_TEAM: MPD7MLYSRW
+    CODE_SIGN_STYLE: Manual
+    CODE_SIGN_IDENTITY: "Apple Development"
+    PROVISIONING_PROFILE_SPECIFIER: ""
+    ENABLE_HARDENED_RUNTIME: true
+    MACOSX_DEPLOYMENT_TARGET: "15.0"
+    SWIFT_TREAT_WARNINGS_AS_ERRORS: false
+    GCC_TREAT_WARNINGS_AS_ERRORS: false
+    DEAD_CODE_STRIPPING: true
+  configs:
+    Release:
+      # Xcode adds the debug-only get-task-allow entitlement when signing manually with a non-distribution identity;
+      # it lets any same-user process read Vitrine's memory. Release never carries it (as Obscura, G-38's companion).
+      CODE_SIGN_INJECT_BASE_ENTITLEMENTS: "NO"
+      # An unstripped executable keeps debug-map entries naming the build Mac's source folder (a home path). Release
+      # strips every symbol before signing; app/scripts/check-app-signature.sh --release refuses a bundle that still
+      # names a home folder (S-13).
+      # STRIP_STYLE is left to Xcode's per-product default: all symbols for the app, the extensions and the tools,
+      # non-global for the framework and the Spotlight bundle (their exported symbols must stay); both drop the
+      # debug map that names the build folder. Forcing "all" fails on the framework and the bundle.
+      DEPLOYMENT_POSTPROCESSING: "YES"
+      STRIP_INSTALLED_PRODUCT: "YES"
+      COPY_PHASE_STRIP: "YES"
+packages:
+  VitrineKit:
+    path: Packages
+targets:
+  VitrinePreviewKit:
+    type: framework
+    platform: macOS
+    sources:
+      - path: VitrinePreviewKit/Sources
+      - path: VitrinePreviewKit/Resources/web
+        type: folder
+        buildPhase: resources
+      # The framework's own String Catalog (H-6, S-12): its strings resolve from this bundle, never the host's.
+      - path: VitrinePreviewKit/Localizable.xcstrings
+        buildPhase: resources
+    dependencies:
+      - package: VitrineKit
+        product: VitrineSupport
+      - package: VitrineKit
+        product: VitrineDocument
+      - package: VitrineKit
+        product: VitrineData
+      - package: VitrineKit
+        product: VitrineArchive
+      - package: VitrineKit
+        product: VitrineBinary
+      - package: VitrineKit
+        product: VitrineText
+      - package: VitrineKit
+        product: VitrineUI
+      - package: VitrineKit
+        product: VitrineGit
+      - package: VitrineKit
+        product: VitrineCompare
+      # G-22: the Claude connector's answers (and with them the detector engine and the protocol types), once, here,
+      # for the app's --mcp-call worker.
+      - package: VitrineKit
+        product: VitrineConnector
+      # S-20: the trust and safety lens.
+      - package: VitrineKit
+        product: VitrineTrust
+      # S-18: Finder thumbnails, drawn in the Thumbnails extension through this framework.
+      - package: VitrineKit
+        product: VitrineThumbnail
+      # S-22: engineering formats (lockfiles, certificates and keys, API specs, infrastructure, Apple development files).
+      - package: VitrineKit
+        product: VitrineEngineering
+      # S-21, S-23: AI-era and everyday formats.
+      - package: VitrineKit
+        product: VitrineFormats
+      # X-3: the helper's protocol, for the extensions' client and the app's --helper control (linked once, here).
+      - package: VitrineKit
+        product: VitrineHelperKit
+      # A-4, G-29: exact OpenAI token counts (o200k_base, bundled).
+      - package: VitrineKit
+        product: VitrineTokenizers
+      - sdk: QuickLookUI.framework
+      - sdk: WebKit.framework
+    # The libraries' String Catalogs (H-6, S-12) compile into VitrineKit_<Library>.bundle resource bundles. Xcode copies
+    # them only into the top-level products (the app, each appex, the test bundle), where SwiftPM's `Bundle.module`
+    # does not look from a host-less test bundle and stops the process. Carried inside the framework too, they are
+    # found from any host through `Bundle(for:)` of the library code linked into it.
+    postBuildScripts:
+      - name: Embed the libraries' resource bundles
+        shell: /bin/sh
+        script: |
+          set -eu
+          dest="${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"
+          mkdir -p "$dest"
+          for name in VitrineSupport VitrineDocument VitrineData VitrineText VitrineArchive VitrineBinary VitrineCompare VitrineGit VitrineDetect VitrineTrust VitrineThumbnail VitrineEngineering VitrineFormats VitrineTokenizers; do
+            src="${BUILT_PRODUCTS_DIR}/VitrineKit_${name}.bundle"
+            if [ ! -d "$src" ]; then echo "error: ${src} was not built"; exit 1; fi
+            rm -rf "$dest/VitrineKit_${name}.bundle"
+            cp -R "$src" "$dest/"
+          done
+        basedOnDependencyAnalysis: false
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: io.github.xbtdmt.vitrine.previewkit
+        SWIFT_EMIT_LOC_STRINGS: YES
+        LOCALIZATION_PREFERS_STRING_CATALOGS: YES
+        INFOPLIST_FILE: VitrinePreviewKit/Info.plist
+        GENERATE_INFOPLIST_FILE: false
+        DYLIB_INSTALL_NAME_BASE: "@rpath"
+        SKIP_INSTALL: true
+        BUILD_LIBRARY_FOR_DISTRIBUTION: false
+        DEFINES_MODULE: true
+  VitrinePreviewKitTests:
+    type: bundle.unit-test
+    platform: macOS
+    sources:
+      - VitrinePreviewKitTests
+      # The Diagnostics model is Foundation-only and side-effect free, so its tests compile it directly (S-10).
+      - path: Vitrine/DiagnosticsModel.swift
+      # So is the Settings window's model: its tests check every key against the renderer that reads it (S-10).
+      - path: Vitrine/SettingsModel.swift
+      # The column-file writers (Parquet, Arrow, xlsx) the package tests use, for the data view's tests (B-4, S-21).
+      - path: Packages/Tests/VitrineDataTests/Columnar/ColumnarTestFiles.swift
+    dependencies:
+      - target: VitrinePreviewKit
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: io.github.xbtdmt.vitrine.previewkit.tests
+        GENERATE_INFOPLIST_FILE: true
+  Vitrine:
+    type: application
+    platform: macOS
+    sources:
+      - path: Vitrine
+      # X-5: which Quick Action calls which of the app's Services entries.
+      - path: Extensions/QuickActions/QuickAction.swift
+      # X-3: the helper's launchd property list, where SMAppService looks for an app's agents.
+      - path: Helper/io.github.xbtdmt.vitrine.helper.plist
+        buildPhase:
+          copyFiles:
+            destination: wrapper
+            subpath: Contents/Library/LaunchAgents
+    dependencies:
+      - target: VitrinePreviewKit
+        embed: true
+        codeSign: true
+      # G-21: Vitrine's own signed updates (ported from Obscura); inert until the release key and feed exist (S-13).
+      - package: VitrineKit
+        product: VitrineUpdate
+      - target: VitrineMarkdown
+        embed: true
+      - target: VitrineCode
+        embed: true
+      - target: VitrineData
+        embed: true
+      - target: VitrinePackages
+        embed: true
+      - target: VitrineFolders
+        embed: true
+      # The `vitrine` command (S-10, H-3) lives in Contents/Helpers; the person links it onto their PATH from the app.
+      - target: VitrineCommandLine
+        embed: true
+        codeSign: true
+        copy:
+          destination: wrapper
+          subpath: Contents/Helpers
+      # VitrineHelper (X-3): the launch agent the extensions ask to act for them; beside the command in Contents/Helpers.
+      - target: VitrineHelper
+        embed: true
+        codeSign: true
+        copy:
+          destination: wrapper
+          subpath: Contents/Helpers
+      # The Spotlight importer (S-19, X-8) where Spotlight looks for an app's importers.
+      - target: VitrineSpotlightImporter
+        embed: true
+        codeSign: true
+        copy:
+          destination: wrapper
+          subpath: Contents/Library/Spotlight
+      # Finder thumbnails (S-18, thumbnails r3-a) for the files Vitrine previews; folders reach Finder's icon through
+      # FolderContentIcons (G-18), since Quick Look never asks a thumbnail extension for a folder.
+      - target: VitrineThumbnails
+        embed: true
+      # X-6: Shortcuts and App Intents (Vitrine/Intents); the build extracts their metadata into Metadata.appintents.
+      - sdk: AppIntents.framework
+      # Finder Quick Actions (X-5): one Action extension per entry in Finder's Quick Actions menu and preview pane.
+      - target: VitrineOpenAction
+        embed: true
+      - target: VitrineExportPDFAction
+        embed: true
+      - target: VitrineExportHTMLAction
+        embed: true
+      - target: VitrineCopyPromptAction
+        embed: true
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: io.github.xbtdmt.vitrine
+        # The signed update feed and the update key's public half (G-21). The key was made once on 2026-11-02 with
+        # `vitrine-release keygen --key-item "Vitrine update key"` (S-13, the maintainer's go); its public half is below.
+        # The feed lives on GitHub Pages beside the DMG it names (served without a cross-host redirect, G-21). The
+        # first release carries the address so it can update itself; the feed is published with that release (S-17).
+        VITRINE_UPDATE_FEED_URL: "https://xbtdmt.github.io/vitrine/vitrine-update.json"
+        VITRINE_UPDATE_PUBLIC_KEY: "Q0i5r4x3VTKfw5NSzGITX0+eeCEt7aNNYB02CzZTMdA="
+        INFOPLIST_FILE: Vitrine/Info.plist
+        GENERATE_INFOPLIST_FILE: false
+        CODE_SIGN_ENTITLEMENTS: Config/Vitrine.entitlements
+        ENABLE_APP_SANDBOX: false
+        LD_RUNPATH_SEARCH_PATHS: "$(inherited) @executable_path/../Frameworks"
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        # Strings the code marks for translation are extracted by the compiler into Vitrine/Localizable.xcstrings
+        # (S-12, parity H-6): SwiftUI's LocalizedStringKey and String(localized:) alike.
+        SWIFT_EMIT_LOC_STRINGS: YES
+        LOCALIZATION_PREFERS_STRING_CATALOGS: YES
+  # The Spotlight importer (S-19, X-8): a legacy CFPlugIn bundle (ARCHITECTURE §2; SP-7: macOS 27 still loads importers
+  # from an app's Contents/Library/Spotlight, as Xcode's own). Importer.c is the plug-in shell; Import.swift hands
+  # SpotlightText's record to Spotlight. Info.plist comes from tools/gen_utis.py (the types and the factory UUID).
+  VitrineSpotlightImporter:
+    type: bundle
+    platform: macOS
+    sources:
+      - path: Spotlight
+        excludes: [Info.plist]
+    dependencies:
+      - package: VitrineKit
+        product: VitrineSpotlight
+      - sdk: CoreServices.framework
+    settings:
+      base:
+        PRODUCT_NAME: Vitrine
+        PRODUCT_MODULE_NAME: VitrineSpotlightImporter
+        WRAPPER_EXTENSION: mdimporter
+        PRODUCT_BUNDLE_IDENTIFIER: io.github.xbtdmt.vitrine.spotlight
+        INFOPLIST_FILE: Spotlight/Info.plist
+        GENERATE_INFOPLIST_FILE: false
+        SKIP_INSTALL: true
+  # `vitrine`: the command-line tool (S-10, H-3). It parses its arguments into a vitrine:// request
+  # (Vitrine/CommandLineRequest.swift, shared with the app) and hands it to the Vitrine.app it is inside.
+  VitrineCommandLine:
+    type: tool
+    platform: macOS
+    sources:
+      - path: CommandLineTool
+      - path: Vitrine/CommandLineRequest.swift
+    dependencies:
+      # `vitrine mcp` serves the Claude connector (X-9, G-22); each call runs in a Vitrine worker process.
+      - package: VitrineKit
+        product: VitrineMCP
+    settings:
+      base:
+        PRODUCT_NAME: vitrine
+        PRODUCT_MODULE_NAME: VitrineCommandLine
+        PRODUCT_BUNDLE_IDENTIFIER: io.github.xbtdmt.vitrine.command
+        SKIP_INSTALL: true
+  # VitrineHelper (X-3, ARCHITECTURE §2, §8): a launch agent registered with SMAppService; answers only Vitrine's own
+  # signed processes over the app-group mach service in VitrineHelperKit.
+  VitrineHelper:
+    type: tool
+    platform: macOS
+    sources:
+      - path: Helper
+        excludes: ["*.plist"]
+    dependencies:
+      - package: VitrineKit
+        product: VitrineHelperKit
+      # Extract one member (G-31): the archive readers the previews use.
+      - package: VitrineKit
+        product: VitrineArchive
+    settings:
+      base:
+        PRODUCT_NAME: VitrineHelper
+        PRODUCT_BUNDLE_IDENTIFIER: io.github.xbtdmt.vitrine.helper
+        SKIP_INSTALL: true
+  # The Vitrine window and the command (S-10, H-3): the app's window files compiled straight into a host-less test
+  # bundle, as VitrinePreviewKitTests does with DiagnosticsModel, so no test launches the app.
+  VitrineWindowTests:
+    type: bundle.unit-test
+    platform: macOS
+    sources:
+      - VitrineWindowTests
+      - path: Vitrine/CommandLineRequest.swift
+      - path: Vitrine/CommandLineInstall.swift
+      - path: Vitrine/WindowController.swift
+      - path: Vitrine/WindowToolbar.swift
+      - path: Vitrine/WindowViews.swift
+      - path: Vitrine/WindowManager.swift
+      - path: Vitrine/WindowSnapshot.swift
+      # The update rules (H-8, G-21), tested with a stand-in updater.
+      - path: Vitrine/Updater.swift
+      # When the app asks Spotlight to re-read files (S-19).
+      - path: Vitrine/SpotlightReimport.swift
+      # X-3: the helper's lifecycle, for its no-answer test.
+      - path: Vitrine/HelperLifecycle.swift
+      # The App Intents (X-6), and the connector worker's document path they read through (S-11).
+      - path: Vitrine/Intents
+      - path: Vitrine/ConnectorWorker.swift
+      # The column-file writers the package tests use, for Extract Table's Parquet and Excel samples (X-6).
+      - path: Packages/Tests/VitrineDataTests/Columnar/ColumnarTestFiles.swift
+    dependencies:
+      - target: VitrinePreviewKit
+      - package: VitrineKit
+        product: VitrineUpdate
+      - sdk: AppIntents.framework
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: io.github.xbtdmt.vitrine.window.tests
+        GENERATE_INFOPLIST_FILE: true
+  VitrineMarkdown: &appex
+    type: app-extension
+    platform: macOS
+    sources: [Extensions/Markdown]
+    dependencies:
+      - target: VitrinePreviewKit
+        embed: false
+      - sdk: QuickLookUI.framework
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: io.github.xbtdmt.vitrine.quicklook.markdown
+        # Module names end in Extension so a VitrineKit library (VitrineData …) never shares a module name.
+        PRODUCT_MODULE_NAME: VitrineMarkdownExtension
+        INFOPLIST_FILE: Extensions/Markdown/Info.plist
+        GENERATE_INFOPLIST_FILE: false
+        CODE_SIGN_ENTITLEMENTS: Config/WebExtension.entitlements
+        ENABLE_APP_SANDBOX: true
+        LD_RUNPATH_SEARCH_PATHS: "$(inherited) @executable_path/../../../../Frameworks"
+        SKIP_INSTALL: true
+  VitrineCode:
+    <<: *appex
+    sources: [Extensions/Code]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: io.github.xbtdmt.vitrine.quicklook.code
+        PRODUCT_MODULE_NAME: VitrineCodeExtension
+        INFOPLIST_FILE: Extensions/Code/Info.plist
+        GENERATE_INFOPLIST_FILE: false
+        CODE_SIGN_ENTITLEMENTS: Config/WebExtension.entitlements
+        ENABLE_APP_SANDBOX: true
+        LD_RUNPATH_SEARCH_PATHS: "$(inherited) @executable_path/../../../../Frameworks"
+        SKIP_INSTALL: true
+  VitrineData:
+    <<: *appex
+    sources: [Extensions/Data]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: io.github.xbtdmt.vitrine.quicklook.data
+        PRODUCT_MODULE_NAME: VitrineDataExtension
+        INFOPLIST_FILE: Extensions/Data/Info.plist
+        GENERATE_INFOPLIST_FILE: false
+        CODE_SIGN_ENTITLEMENTS: Config/Extension.entitlements
+        ENABLE_APP_SANDBOX: true
+        LD_RUNPATH_SEARCH_PATHS: "$(inherited) @executable_path/../../../../Frameworks"
+        SKIP_INSTALL: true
+  VitrinePackages:
+    <<: *appex
+    sources: [Extensions/Packages]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: io.github.xbtdmt.vitrine.quicklook.packages
+        PRODUCT_MODULE_NAME: VitrinePackagesExtension
+        INFOPLIST_FILE: Extensions/Packages/Info.plist
+        GENERATE_INFOPLIST_FILE: false
+        CODE_SIGN_ENTITLEMENTS: Config/Extension.entitlements
+        ENABLE_APP_SANDBOX: true
+        LD_RUNPATH_SEARCH_PATHS: "$(inherited) @executable_path/../../../../Frameworks"
+        SKIP_INSTALL: true
+  VitrineThumbnails:
+    <<: *appex
+    sources: [Extensions/Thumbnails]
+    dependencies:
+      - target: VitrinePreviewKit
+        embed: false
+      - sdk: QuickLookThumbnailing.framework
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: io.github.xbtdmt.vitrine.quicklook.thumbnails
+        PRODUCT_MODULE_NAME: VitrineThumbnailsExtension
+        INFOPLIST_FILE: Extensions/Thumbnails/Info.plist
+        GENERATE_INFOPLIST_FILE: false
+        CODE_SIGN_ENTITLEMENTS: Config/Extension.entitlements
+        ENABLE_APP_SANDBOX: true
+        LD_RUNPATH_SEARCH_PATHS: "$(inherited) @executable_path/../../../../Frameworks"
+        SKIP_INSTALL: true
+  VitrineFolders:
+    <<: *appex
+    sources: [Extensions/Folders]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: io.github.xbtdmt.vitrine.quicklook.folders
+        PRODUCT_MODULE_NAME: VitrineFoldersExtension
+        INFOPLIST_FILE: Extensions/Folders/Info.plist
+        GENERATE_INFOPLIST_FILE: false
+        CODE_SIGN_ENTITLEMENTS: Config/Extension.entitlements
+        ENABLE_APP_SANDBOX: true
+        LD_RUNPATH_SEARCH_PATHS: "$(inherited) @executable_path/../../../../Frameworks"
+        SKIP_INSTALL: true
+  # Finder Quick Actions (X-5, ARCHITECTURE §2): UI-less Action extensions on `com.apple.services`, one per entry in
+  # Finder's Quick Actions menu and preview pane. The four share Extensions/QuickActions; each Info.plist names its
+  # action (VitrineQuickAction). Sandboxed: Copy as Prompt runs here, Open and the exports reach the app's Services
+  # entries (Vitrine/Info.plist NSServices, Vitrine/QuickActions).
+  # Entitlements (S-16, F44): Config/QuickAction.entitlements, the sandbox only. Unlike the previews they carry no
+  # read exception for "/": a host names the files, so the extension reads only what the system hands over with the
+  # host's own access. No app group or helper lookup either: no Quick Action code uses them.
+  VitrineOpenAction: &quickaction
+    type: app-extension
+    platform: macOS
+    sources:
+      - path: Extensions/QuickActions
+        excludes: ["*.plist"]
+    dependencies:
+      - target: VitrinePreviewKit
+        embed: false
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: io.github.xbtdmt.vitrine.action.open
+        PRODUCT_MODULE_NAME: VitrineOpenActionExtension
+        INFOPLIST_FILE: Extensions/QuickActions/OpenInVitrine-Info.plist
+        GENERATE_INFOPLIST_FILE: false
+        CODE_SIGN_ENTITLEMENTS: Config/QuickAction.entitlements
+        ENABLE_APP_SANDBOX: true
+        LD_RUNPATH_SEARCH_PATHS: "$(inherited) @executable_path/../../../../Frameworks"
+        SKIP_INSTALL: true
+  VitrineExportPDFAction:
+    <<: *quickaction
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: io.github.xbtdmt.vitrine.action.exportpdf
+        PRODUCT_MODULE_NAME: VitrineExportPDFActionExtension
+        INFOPLIST_FILE: Extensions/QuickActions/ExportPDF-Info.plist
+        GENERATE_INFOPLIST_FILE: false
+        CODE_SIGN_ENTITLEMENTS: Config/QuickAction.entitlements
+        ENABLE_APP_SANDBOX: true
+        LD_RUNPATH_SEARCH_PATHS: "$(inherited) @executable_path/../../../../Frameworks"
+        SKIP_INSTALL: true
+  VitrineExportHTMLAction:
+    <<: *quickaction
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: io.github.xbtdmt.vitrine.action.exporthtml
+        PRODUCT_MODULE_NAME: VitrineExportHTMLActionExtension
+        INFOPLIST_FILE: Extensions/QuickActions/ExportHTML-Info.plist
+        GENERATE_INFOPLIST_FILE: false
+        CODE_SIGN_ENTITLEMENTS: Config/QuickAction.entitlements
+        ENABLE_APP_SANDBOX: true
+        LD_RUNPATH_SEARCH_PATHS: "$(inherited) @executable_path/../../../../Frameworks"
+        SKIP_INSTALL: true
+  VitrineCopyPromptAction:
+    <<: *quickaction
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: io.github.xbtdmt.vitrine.action.copyprompt
+        PRODUCT_MODULE_NAME: VitrineCopyPromptActionExtension
+        INFOPLIST_FILE: Extensions/QuickActions/CopyPrompt-Info.plist
+        GENERATE_INFOPLIST_FILE: false
+        CODE_SIGN_ENTITLEMENTS: Config/QuickAction.entitlements
+        ENABLE_APP_SANDBOX: true
+        LD_RUNPATH_SEARCH_PATHS: "$(inherited) @executable_path/../../../../Frameworks"
+        SKIP_INSTALL: true
+  # The Quick Actions (X-5): the prompt text, the extensions' hand-off, the activation rules, the Services entries
+  # and the app's export, compiled straight into a host-less bundle; the clipboard is always a private pasteboard.
+  VitrineQuickActionsTests:
+    type: bundle.unit-test
+    platform: macOS
+    sources:
+      - VitrineQuickActionsTests
+      - path: Extensions/QuickActions
+        excludes: ["*.plist"]
+      - path: Vitrine/QuickActions/QuickActionExporter.swift
+    dependencies:
+      - target: VitrinePreviewKit
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: io.github.xbtdmt.vitrine.quickactions.tests
+        GENERATE_INFOPLIST_FILE: true
+schemes:
+  Vitrine:
+    build:
+      targets:
+        Vitrine: all
+        VitrinePreviewKitTests: [test]
+        VitrineWindowTests: [test]
+        VitrineQuickActionsTests: [test]
+    run:
+      config: Debug
+    test:
+      config: Debug
+      targets:
+        - VitrinePreviewKitTests
+        - VitrineWindowTests
+        # X-5: Finder Quick Actions.
+        - VitrineQuickActionsTests
+        - package: VitrineKit/VitrineSupportTests
+        - package: VitrineKit/VitrineDocumentTests
+        - package: VitrineKit/VitrineTextTests
+        - package: VitrineKit/VitrineDataTests
+        - package: VitrineKit/VitrineArchiveTests
+        - package: VitrineKit/VitrineBinaryTests
+        - package: VitrineKit/VitrineUITests
+        - package: VitrineKit/VitrineGitTests
+        - package: VitrineKit/VitrineCompareTests
+        # G-22: the Claude connector: the detector engine ported from Obscura, the protocol, the tools' answers.
+        - package: VitrineKit/VitrineDetectTests
+        - package: VitrineKit/VitrineMCPTests
+        - package: VitrineKit/VitrineConnectorTests
+        # S-19: what Spotlight is given for databases, column files, notebooks and archives.
+        - package: VitrineKit/VitrineSpotlightTests
+        # S-20: the trust and safety lens.
+        - package: VitrineKit/VitrineTrustTests
+        # S-18: Finder thumbnails.
+        - package: VitrineKit/VitrineThumbnailTests
+        # S-22: engineering formats.
+        - package: VitrineKit/VitrineEngineeringTests
+        # S-21, S-23: AI-era and everyday formats.
+        - package: VitrineKit/VitrineFormatsTests

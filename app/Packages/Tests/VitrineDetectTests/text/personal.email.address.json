@@ -1,0 +1,11 @@
+{
+  "positive": [
+    "alice@example.com",
+    "Contact: bob.smith+tag@mail.example.co.uk"
+  ],
+  "negative": [
+    "alice@",
+    "@example.com",
+    "alice at example dot com"
+  ]
+}

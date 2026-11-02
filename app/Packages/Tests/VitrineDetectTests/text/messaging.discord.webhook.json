@@ -1,0 +1,10 @@
+{
+  "positive": [
+    "https://discord.com/api/webhooks/365978947475173559/jJzNEer7z4PaXYM4UKqNEW2ZqLn2OsEWSi6uuhb9yUOovRv_Dxwiq1EEbA7VxCvH0__W",
+    "https://ptb.discordapp.com/api/webhooks/8967593856581232436/oyPtZ0lz1FNZd1mQ5alNvLQW4Lu5oZ3Is5KG5-6OKSV6Gunba5ktCIYA8BzL"
+  ],
+  "negative": [
+    "https://discord.com/api/webhooks/123/abc",
+    "https://discord.com/channels/1/2"
+  ]
+}

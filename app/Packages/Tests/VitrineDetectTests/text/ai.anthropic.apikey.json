@@ -1,0 +1,10 @@
+{
+  "positive": [
+    "sk-ant-api03-OdR-zLBztqrYi_rvGbv_a_Qx0nby3pkIrvS2pn9v7rZHTaTc8eH2yOynBcI5AA",
+    "ANTHROPIC_API_KEY=sk-ant-rIZKDR8uR0mpGWuGltQSttdp1FaFSAThUFkRk4y4"
+  ],
+  "negative": [
+    "sk-ant-short",
+    "sk-ant api03 kDAg1DH486Wxp2LcWZfCNFcSjUyof0b7LXsTYc4b"
+  ]
+}

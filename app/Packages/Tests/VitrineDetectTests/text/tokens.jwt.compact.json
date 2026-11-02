@@ -1,0 +1,13 @@
+{
+  "positive": [
+    "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IlRlc3QgVXNlciIsImlhdCI6MTUxNjIzOTAyMn0.M1Xt41AV-8O_vYID4sYKq4_JWGrMRS--W_XIUdBWxDX",
+    "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lzc3Vlci5leGFtcGxlIiwiZXhwIjoxNzAwMDAwMDAwfQ.NXcNHWS1CDUBF2yqAUpnGYX9ioOpZYsOu_WuoOJh5It"
+  ],
+  "negative": [
+    "eyJ0eXAiOiJKV1QiLCJraWQiOiJhYmMifQ.eyJzdWIiOiIxIn0.GbjsSJKKvGCpHwa2GQYICg3QbBlsNATe2BaPy0saYZH",
+    "eyJZfx5IDVZesvl2pFANf2rpHkWXgDTKb.eyJ1AYQbDNoFvD0CAkxKDVlnUUo6IfBtz.oogEfve7e70bI3HkOcbF81TMflb5j7",
+    "eyJhbGciOiJIUzI1NiJ9.notbase64!!.sig",
+    "A JWT header such as eyJhbGciOiJIUzI1NiJ9 is base64 for the algorithm",
+    "the three parts are eyJ..., eyJ... and a signature"
+  ]
+}

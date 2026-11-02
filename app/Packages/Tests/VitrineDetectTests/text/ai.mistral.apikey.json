@@ -1,0 +1,10 @@
+{
+  "positive": [
+    "MISTRAL_API_KEY=CdvGM5XYs4aR7H3AdDoOPkC5u8iJtauC",
+    "mistral_api_key: \"kQ6FG6KeCWH4IlNA2pLBOCcWZmDZmSas\""
+  ],
+  "negative": [
+    "CdvGM5XYs4aR7H3AdDoOPkC5u8iJtauC",
+    "MISTRAL_API_KEY=short1"
+  ]
+}

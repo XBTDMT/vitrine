@@ -1,0 +1,354 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "[line not checked for secrets (too long), withheld: %lld characters]" : {
+      "comment" : "Stands in for a line too long for the secret scanner; the number of characters it had.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "[Zeile nicht auf Geheimnisse geprüft (zu lang), zurückgehalten: %lld Zeichen]"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "[ligne non vérifiée (trop longue), retenue : %lld caractères]"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "[秘密情報を確認していない行（長すぎます）、非表示：%lld文字]"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "[비밀 정보를 확인하지 않은 줄(너무 김), 숨김: %lld자]"
+          }
+        }
+      }
+    },
+    "AI providers" : {
+      "comment" : "A kind of secret the detectors find, as a heading (Settings tiles, search labels).",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "KI-Anbieter"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fournisseurs d’IA"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "AIプロバイダ"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "AI 제공업체"
+          }
+        }
+      }
+    },
+    "Cloud" : {
+      "comment" : "A kind of secret the detectors find, as a heading (Settings tiles, search labels).",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cloud"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cloud"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "クラウド"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "클라우드"
+          }
+        }
+      }
+    },
+    "Config files" : {
+      "comment" : "A kind of secret the detectors find, as a heading (Settings tiles, search labels).",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Konfigurationsdateien"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fichiers de configuration"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "設定ファイル"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "설정 파일"
+          }
+        }
+      }
+    },
+    "Databases" : {
+      "comment" : "A kind of secret the detectors find, as a heading (Settings tiles, search labels).",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Datenbanken"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bases de données"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "データベース"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "데이터베이스"
+          }
+        }
+      }
+    },
+    "Messaging & email" : {
+      "comment" : "A kind of secret the detectors find, as a heading (Settings tiles, search labels).",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Messaging & E-Mail"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Messagerie et e-mail"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "メッセージとメール"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "메시지 및 이메일"
+          }
+        }
+      }
+    },
+    "Network" : {
+      "comment" : "A kind of secret the detectors find, as a heading (Settings tiles, search labels).",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Netzwerk"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Réseau"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ネットワーク"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "네트워크"
+          }
+        }
+      }
+    },
+    "Payments" : {
+      "comment" : "A kind of secret the detectors find, as a heading (Settings tiles, search labels).",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zahlungen"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Paiements"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "決済"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "결제"
+          }
+        }
+      }
+    },
+    "Personal info" : {
+      "comment" : "A kind of secret the detectors find, as a heading (Settings tiles, search labels).",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Persönliche Daten"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Informations personnelles"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "個人情報"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "개인 정보"
+          }
+        }
+      }
+    },
+    "Source control & packages" : {
+      "comment" : "A kind of secret the detectors find, as a heading (Settings tiles, search labels).",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Versionsverwaltung & Pakete"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gestion de versions et paquets"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ソース管理とパッケージ"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "소스 관리 및 패키지"
+          }
+        }
+      }
+    },
+    "Tokens & private keys" : {
+      "comment" : "A kind of secret the detectors find, as a heading (Settings tiles, search labels).",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tokens & private Schlüssel"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jetons et clés privées"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "トークンと秘密鍵"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "토큰 및 개인 키"
+          }
+        }
+      }
+    },
+    "Your rules" : {
+      "comment" : "A kind of secret the detectors find, as a heading (Settings tiles, search labels).",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ihre Regeln"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vos règles"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "あなたのルール"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "내 규칙"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

@@ -1,0 +1,10 @@
+{
+  "positive": [
+    "Serial Number: C02XK1ABJG5H",
+    "serial: FVFZQ2P3L410"
+  ],
+  "negative": [
+    "Serial Number: ABC",
+    "Serial Number: this is a long sentence"
+  ]
+}

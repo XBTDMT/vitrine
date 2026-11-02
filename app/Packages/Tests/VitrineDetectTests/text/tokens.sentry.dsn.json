@@ -1,0 +1,10 @@
+{
+  "positive": [
+    "https://3a35eb5e1e87e9fdd490b43d971dade5@o123456.ingest.us.sentry.io/4506",
+    "SENTRY_DSN=https://dc154dc565973bcd7d0b834dd26465f2@o1.ingest.sentry.io/1"
+  ],
+  "negative": [
+    "https://o123456.ingest.sentry.io/4506",
+    "https://4013683f28@o1.ingest.sentry.io/1"
+  ]
+}

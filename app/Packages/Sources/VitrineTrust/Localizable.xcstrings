@@ -1,0 +1,989 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "%@, shown masked" : {
+      "comment" : "Trust lens headline when the preview masks the values: the count sentence, then that the values are masked.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, maskiert angezeigt"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, affichés masqués"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@（マスクして表示）"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ (마스킹하여 표시)"
+          }
+        }
+      }
+    },
+    "%lld invisible characters hide inside words" : {
+      "comment" : "Trust lens headline: zero-width characters inside the text.",
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld invisible character hides inside words"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld invisible characters hide inside words"
+                }
+              }
+            }
+          }
+        },
+        "de" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld unsichtbares Zeichen versteckt sich in Wörtern"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld unsichtbare Zeichen verstecken sich in Wörtern"
+                }
+              }
+            }
+          }
+        },
+        "fr" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld caractère invisible se cache dans les mots"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld caractères invisibles se cachent dans les mots"
+                }
+              }
+            }
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "単語の中に見えない文字が%lld個あります"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "단어 안에 보이지 않는 문자 %lld개가 숨어 있습니다"
+          }
+        }
+      }
+    },
+    "%lld invisible characters on line %lld" : {
+      "comment" : "Trust lens finding: how many hidden tag characters, and the line.",
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld invisible character on line %lld"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld invisible characters on line %lld"
+                }
+              }
+            }
+          }
+        },
+        "de" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld unsichtbares Zeichen in Zeile %lld"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld unsichtbare Zeichen in Zeile %lld"
+                }
+              }
+            }
+          }
+        },
+        "fr" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld caractère invisible à la ligne %lld"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld caractères invisibles à la ligne %lld"
+                }
+              }
+            }
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%2$lld行目に見えない文字が%1$lld個"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%2$lld번째 줄에 보이지 않는 문자 %1$lld개"
+          }
+        }
+      }
+    },
+    "%lld personal details in this file" : {
+      "comment" : "Trust lens headline: how many personal details (card numbers, phone numbers…) the detectors found.",
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld personal detail in this file"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld personal details in this file"
+                }
+              }
+            }
+          }
+        },
+        "de" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld persönliche Angabe in dieser Datei"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld persönliche Angaben in dieser Datei"
+                }
+              }
+            }
+          }
+        },
+        "fr" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld donnée personnelle dans ce fichier"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld données personnelles dans ce fichier"
+                }
+              }
+            }
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "このファイルに個人情報が%lld件"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이 파일에 개인 정보 %lld건"
+          }
+        }
+      }
+    },
+    "%lld secrets and %lld personal details in this file" : {
+      "comment" : "Trust lens headline: how many secrets and personal details the detectors found.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lld secrets and %2$lld personal details in this file"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld Geheimnisse und %2$lld persönliche Angaben in dieser Datei"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld secrets et %2$lld données personnelles dans ce fichier"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "このファイルに秘密情報が%1$lld件、個人情報が%2$lld件"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이 파일에 비밀 정보 %1$lld건, 개인 정보 %2$lld건"
+          }
+        }
+      }
+    },
+    "%lld secrets in this file" : {
+      "comment" : "Trust lens headline: how many secrets (keys, tokens, passwords) the detectors found; values are never shown.",
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld secret in this file"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld secrets in this file"
+                }
+              }
+            }
+          }
+        },
+        "de" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld Geheimnis in dieser Datei"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld Geheimnisse in dieser Datei"
+                }
+              }
+            }
+          }
+        },
+        "fr" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld secret dans ce fichier"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld secrets dans ce fichier"
+                }
+              }
+            }
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "このファイルに秘密情報が%lld件"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이 파일에 비밀 정보 %lld건"
+          }
+        }
+      }
+    },
+    "%lld zero-width characters on line %lld" : {
+      "comment" : "Trust lens finding: how many zero-width characters, and the line.",
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld zero-width character on line %lld"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld zero-width characters on line %lld"
+                }
+              }
+            }
+          }
+        },
+        "de" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld Zeichen ohne Breite in Zeile %lld"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld Zeichen ohne Breite in Zeile %lld"
+                }
+              }
+            }
+          }
+        },
+        "fr" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld caractère de largeur nulle à la ligne %lld"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld caractères de largeur nulle à la ligne %lld"
+                }
+              }
+            }
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%2$lld行目に幅ゼロの文字が%1$lld個"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%2$lld번째 줄에 너비 없는 문자 %1$lld개"
+          }
+        }
+      }
+    },
+    "Asks for your password" : {
+      "comment" : "Trust lens finding: the script shows its own password prompt or feeds a password to sudo.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fragt nach Ihrem Passwort"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Demande votre mot de passe"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "パスワードを尋ねる"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "암호를 묻습니다"
+          }
+        }
+      }
+    },
+    "Check before opening" : {
+      "comment" : "Trust lens verdict chip on a suspicious link file.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vor dem Öffnen prüfen"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vérifier avant d’ouvrir"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "開く前に確認"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "열기 전에 확인"
+          }
+        }
+      }
+    },
+    "Checked on this Mac: no secrets, personal details or hidden text" : {
+      "comment" : "Trust lens, calm: the text lens ran on this Mac and found nothing.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auf diesem Mac geprüft: keine Geheimnisse, persönlichen Angaben oder versteckter Text"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vérifié sur ce Mac : aucun secret, aucune donnée personnelle ni texte caché"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "このMacで確認済み：秘密情報、個人情報、隠しテキストはありません"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이 Mac에서 확인함: 비밀 정보, 개인 정보, 숨은 텍스트 없음"
+          }
+        }
+      }
+    },
+    "Contains personal details" : {
+      "comment" : "Trust lens chip on a file with personal details.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enthält persönliche Angaben"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Contient des données personnelles"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "個人情報を含む"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "개인 정보 포함"
+          }
+        }
+      }
+    },
+    "Contains secrets" : {
+      "comment" : "Trust lens chip on a file with secrets.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enthält Geheimnisse"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Contient des secrets"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "秘密情報を含む"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "비밀 정보 포함"
+          }
+        }
+      }
+    },
+    "Do not run" : {
+      "comment" : "Trust lens verdict chip on a dangerous script.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nicht ausführen"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ne pas exécuter"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "実行しないでください"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "실행하지 마세요"
+          }
+        }
+      }
+    },
+    "Do not run: it %@" : {
+      "comment" : "Trust lens headline on a dangerous script; the argument is a list of what it does, lower-case, e.g. 'downloads and runs code and starts at every login'.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nicht ausführen: Es %@"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ne pas exécuter : il %@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "実行しないでください：%@"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "실행하지 마세요: %@"
+          }
+        }
+      }
+    },
+    "Downloads an installer" : {
+      "comment" : "Trust lens finding: a link file points straight at an installer download.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lädt ein Installationsprogramm"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Télécharge un programme d’installation"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "インストーラをダウンロードする"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "설치 프로그램을 다운로드합니다"
+          }
+        }
+      }
+    },
+    "Downloads and runs code" : {
+      "comment" : "Trust lens finding: the script fetches code from the internet and runs it.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lädt Code herunter und führt ihn aus"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Télécharge et exécute du code"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "コードをダウンロードして実行する"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "코드를 다운로드해 실행합니다"
+          }
+        }
+      }
+    },
+    "Hidden instructions: %lld invisible characters spell a command for AI agents" : {
+      "comment" : "Trust lens headline: hidden tag characters spell text an AI agent would read.",
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Hidden instructions: %lld invisible character spells a command for AI agents"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Hidden instructions: %lld invisible characters spell a command for AI agents"
+                }
+              }
+            }
+          }
+        },
+        "de" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Versteckte Anweisungen: %lld unsichtbares Zeichen bildet einen Befehl für KI-Agenten"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Versteckte Anweisungen: %lld unsichtbare Zeichen bilden einen Befehl für KI-Agenten"
+                }
+              }
+            }
+          }
+        },
+        "fr" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Instructions cachées : %lld caractère invisible forme une commande pour les agents IA"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Instructions cachées : %lld caractères invisibles forment une commande pour les agents IA"
+                }
+              }
+            }
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "隠された指示：見えない文字%lld個がAIエージェント向けの命令になっています"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "숨은 지시: 보이지 않는 문자 %lld개가 AI 에이전트용 명령을 이룹니다"
+          }
+        }
+      }
+    },
+    "Hidden text" : {
+      "comment" : "Trust lens verdict chip when a file hides characters.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Versteckter Text"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Texte caché"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "隠しテキスト"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "숨은 텍스트"
+          }
+        }
+      }
+    },
+    "hidden: “%@”" : {
+      "comment" : "Trust lens finding detail: the words the hidden characters spell.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "versteckt: „%@“"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "caché : « %@ »"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "隠し：「%@」"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "숨김: “%@”"
+          }
+        }
+      }
+    },
+    "Opens a link that downloads an installer, not a page" : {
+      "comment" : "Trust lens headline on a link file whose address is a downloadable installer.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Öffnet einen Link, der ein Installationsprogramm lädt, keine Seite"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ouvre un lien qui télécharge un programme d’installation, pas une page"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ページではなく、インストーラをダウンロードするリンクを開きます"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "페이지가 아니라 설치 프로그램을 다운로드하는 링크를 엽니다"
+          }
+        }
+      }
+    },
+    "Removes the download warning" : {
+      "comment" : "Trust lens finding: the script deletes macOS's quarantine flag so Gatekeeper does not check what was downloaded.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Entfernt die Download-Warnung"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Supprime l’avertissement de téléchargement"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ダウンロードの警告を消す"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "다운로드 경고를 제거합니다"
+          }
+        }
+      }
+    },
+    "Runs hidden code" : {
+      "comment" : "Trust lens finding: the script decodes base64 (or similar) and runs the result.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Führt versteckten Code aus"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exécute du code caché"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "隠されたコードを実行する"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "숨겨진 코드를 실행합니다"
+          }
+        }
+      }
+    },
+    "Starts at every login" : {
+      "comment" : "Trust lens finding: the script installs itself to run at login (launch agent, launch daemon, login item, cron).",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Startet bei jeder Anmeldung"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Démarre à chaque ouverture de session"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ログインのたびに起動する"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "로그인할 때마다 시작됩니다"
+          }
+        }
+      }
+    },
+    "Text direction flipped on line %lld" : {
+      "comment" : "Trust lens finding: a direction override reorders what is shown on this line.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Textrichtung in Zeile %lld umgekehrt"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sens du texte inversé à la ligne %lld"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld行目で文字の向きが反転"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld번째 줄에서 텍스트 방향이 뒤집힘"
+          }
+        }
+      }
+    },
+    "Text that reads differently than it is stored" : {
+      "comment" : "Trust lens headline: direction-override characters reorder what is shown.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Text, der anders angezeigt wird, als er gespeichert ist"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Texte qui s’affiche autrement qu’il n’est enregistré"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "保存内容と違って表示されるテキスト"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "저장된 것과 다르게 보이는 텍스트"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

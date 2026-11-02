@@ -1,0 +1,11 @@
+{
+  "positive": [
+    "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",
+    "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",
+    "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"
+  ],
+  "negative": [
+    "shpat_a8e8282800",
+    "shpxx_a5c193fb3a075c0bf01ea9d5cf4b5950"
+  ]
+}

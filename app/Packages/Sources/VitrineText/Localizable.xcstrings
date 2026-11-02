@@ -1,0 +1,4785 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "(unnamed file)" : {
+      "comment" : "Name shown for a file in a patch that names none.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "(Datei ohne Namen)"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "(fichier sans nom)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "（名前のないファイル）"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "(이름 없는 파일)"
+          }
+        }
+      }
+    },
+    "%@ … (%@ more characters)" : {
+      "comment" : "A very long line cut short: its start, then how many more characters it has.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ … (%2$@ weitere Zeichen)"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ … (%2$@ more characters)"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ … (%2$@ caractères de plus)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ …（ほか%2$@文字）"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ … (%2$@자 더 있음)"
+          }
+        }
+      }
+    },
+    "%@ · %@" : {
+      "comment" : "Detail of a finding in a patch: the file and the command shape such as curl … | sh.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ · %2$@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ · %2$@"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ · %2$@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ · %2$@"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ · %2$@"
+          }
+        }
+      }
+    },
+    "%@ · %@ · also made executable" : {
+      "comment" : "Detail of a finding in a patch: the file, the command shape such as curl … | sh, and that the file was made executable.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ · %2$@ · auch ausführbar gemacht"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ · %2$@ · also made executable"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ · %2$@ · également rendu exécutable"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ · %2$@ · 実行可能にも変更"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ · %2$@ · 실행 권한도 추가됨"
+          }
+        }
+      }
+    },
+    "%@ · %@ · value masked" : {
+      "comment" : "Detail of a finding in a patch: the file name and the kind of secret found. The secret itself is never shown.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ · %2$@ · Wert maskiert"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ · %2$@ · value masked"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ · %2$@ · valeur masquée"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ · %2$@ · 値はマスク済み"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ · %2$@ · 값 가려짐"
+          }
+        }
+      }
+    },
+    "%@ added" : {
+      "comment" : "Lead sentence of a diff summary for a single file; the argument is the file name.\nPart of a list in a diff summary: how many files were added.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ hinzugefügt"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ ajouté(s)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ 追加"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ 추가됨"
+          }
+        }
+      }
+    },
+    "%@ binary" : {
+      "comment" : "Part of a list in a diff summary: how many binary files changed.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ binär"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ binaire(s)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ バイナリ"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "바이너리 %@개"
+          }
+        }
+      }
+    },
+    "%@ changed (binary)" : {
+      "comment" : "Lead sentence of a diff summary for a single binary file; the argument is the file name.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ geändert (binär)"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ modifié (binaire)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ 変更（バイナリ）"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ 변경됨(바이너리)"
+          }
+        }
+      }
+    },
+    "%@ changes: %@" : {
+      "comment" : "Lead sentence of a diff summary. The last argument counts the lines added and removed.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Änderungen: %2$@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ changes: %2$@"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ modifications : %2$@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@個の変更：%2$@"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "변경 %1$@개: %2$@"
+          }
+        }
+      }
+    },
+    "%@ copied" : {
+      "comment" : "Lead sentence of a diff summary for a single file; the argument is the file name.\nPart of a list in a diff summary: how many files were copied.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ kopiert"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ copié(s)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ コピー"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ 복사됨"
+          }
+        }
+      }
+    },
+    "%@ deleted" : {
+      "comment" : "Lead sentence of a diff summary for a single file; the argument is the file name.\nPart of a list in a diff summary: how many files were deleted.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ gelöscht"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ supprimé(s)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ 削除"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ 삭제됨"
+          }
+        }
+      }
+    },
+    "%@ edited" : {
+      "comment" : "Lead sentence of a diff summary for a single file; the argument is the file name.\nPart of a list in a diff summary: how many files were edited.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ bearbeitet"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ modifié(s)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ 編集"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ 편집됨"
+          }
+        }
+      }
+    },
+    "%@ files changed" : {
+      "comment" : "Lead sentence of a diff summary.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ Dateien geändert"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ fichiers modifiés"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@個のファイルを変更"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "파일 %@개 변경됨"
+          }
+        }
+      }
+    },
+    "%@ line endings %@ → %@" : {
+      "comment" : "Whitespace summary part: how many line endings changed, for example 412 line endings CRLF → LF.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Zeilenenden %2$@ → %3$@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ line endings %2$@ → %3$@"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ fins de ligne %2$@ → %3$@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@個の改行コード %2$@ → %3$@"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "줄 끝 %1$@개 %2$@ → %3$@"
+          }
+        }
+      }
+    },
+    "%@ lines added" : {
+      "comment" : "Line counts in a diff summary.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ Zeilen hinzugefügt"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ lignes ajoutées"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@行を追加"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@줄 추가됨"
+          }
+        }
+      }
+    },
+    "%@ lines added, %@ removed" : {
+      "comment" : "Line counts in a diff summary.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Zeilen hinzugefügt, %2$@ entfernt"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ lines added, %2$@ removed"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ lignes ajoutées, %2$@ supprimées"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@行を追加、%2$@行を削除"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@줄 추가됨, %2$@줄 제거됨"
+          }
+        }
+      }
+    },
+    "%@ lines from line %lld are not part of any diff." : {
+      "comment" : "One sentence about a problem found while reading a patch, shown in the diff view.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Zeilen ab Zeile %2$lld gehören zu keinem Diff."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ lines from line %2$lld are not part of any diff."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ lignes à partir de la ligne %2$lld ne font partie d’aucun diff."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%2$lld行目からの%1$@行はどの差分にも含まれていません。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%2$lld번째 줄부터 %1$@줄은 어떤 diff에도 속하지 않습니다."
+          }
+        }
+      }
+    },
+    "%@ lines removed" : {
+      "comment" : "Line counts in a diff summary.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ Zeilen entfernt"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ lignes supprimées"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@行を削除"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@줄 제거됨"
+          }
+        }
+      }
+    },
+    "%@ lines were not UTF-8 and were read as Latin-1." : {
+      "comment" : "One sentence about a problem found while reading a patch, shown in the diff view.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ Zeilen waren kein UTF-8 und wurden als Latin-1 gelesen."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ lignes n’étaient pas en UTF-8 et ont été lues en Latin-1."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@行はUTF-8ではなかったため、Latin-1として読み込みました。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@줄이 UTF-8이 아니어서 Latin-1로 읽었습니다."
+          }
+        }
+      }
+    },
+    "%@ lines were too long and are shown cut short." : {
+      "comment" : "One sentence about a problem found while reading a patch, shown in the diff view.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ Zeilen waren zu lang und werden gekürzt angezeigt."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ lignes étaient trop longues et sont affichées tronquées."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@行が長すぎるため、途中で切って表示しています。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@줄이 너무 길어 잘린 채로 표시됩니다."
+          }
+        }
+      }
+    },
+    "%@ lines with spacing changes" : {
+      "comment" : "Whitespace summary part: how many lines' indentation or inner spacing changed.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ Zeilen mit geänderten Abständen"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ lignes avec des changements d’espacement"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@行のスペースが変更"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "간격 변경 %@줄"
+          }
+        }
+      }
+    },
+    "%@ long lines are cut short" : {
+      "comment" : "Coverage note for a patch with several very long lines.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ lange Zeilen werden gekürzt"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ lignes longues sont tronquées"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@行の長い行を途中で切っています"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "긴 줄 %@개가 잘림"
+          }
+        }
+      }
+    },
+    "%@ mode changed" : {
+      "comment" : "Lead sentence of a diff summary for a single file whose permissions changed; the argument is the file name.\nPart of a list in a diff summary: how many files had their permissions changed.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modus von %@ geändert"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ mode modifié"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ モード変更"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ 모드 변경됨"
+          }
+        }
+      }
+    },
+    "%@ renamed" : {
+      "comment" : "Lead sentence of a diff summary for a single file; the argument is the file name.\nPart of a list in a diff summary: how many files were renamed.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ umbenannt"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ renommé(s)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ 名称変更"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ 이름 변경됨"
+          }
+        }
+      }
+    },
+    "%@ trailing spaces" : {
+      "comment" : "Whitespace summary part: how many lines' trailing spaces changed.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ nachgestellte Leerzeichen"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ espaces de fin"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@個の末尾スペース"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "후행 공백 %@줄"
+          }
+        }
+      }
+    },
+    "%@, line %lld · %@" : {
+      "comment" : "Detail of a finding in a patch: the file, the line and the command shape such as curl … | sh.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@, Zeile %2$lld · %3$@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@, line %2$lld · %3$@"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@, ligne %2$lld · %3$@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@、%2$lld行目 · %3$@"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@, 줄 %2$lld · %3$@"
+          }
+        }
+      }
+    },
+    "%@, line %lld · %@ · also made executable" : {
+      "comment" : "Detail of a finding in a patch: the file, the line, the command shape such as curl … | sh, and that the file was made executable.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@, Zeile %2$lld · %3$@ · auch ausführbar gemacht"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@, line %2$lld · %3$@ · also made executable"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@, ligne %2$lld · %3$@ · également rendu exécutable"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@、%2$lld行目 · %3$@ · 実行可能にも変更"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@, 줄 %2$lld · %3$@ · 실행 권한도 추가됨"
+          }
+        }
+      }
+    },
+    "%@, line %lld · %@ · value masked" : {
+      "comment" : "Detail of a finding in a patch: the file name, the line number, the kind of secret found. The secret itself is never shown.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@, Zeile %2$lld · %3$@ · Wert maskiert"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@, line %2$lld · %3$@ · value masked"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@, ligne %2$lld · %3$@ · valeur masquée"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@、%2$lld行目 · %3$@ · 値はマスク済み"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@, 줄 %2$lld · %3$@ · 값 가려짐"
+          }
+        }
+      }
+    },
+    "%@; %@" : {
+      "comment" : "Lead sentence of a diff summary. The first argument counts the files, the second the lines.\nLead sentence of a diff summary. The first argument says what happened to a file, the second counts the lines.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@; %2$@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@; %2$@"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ ; %2$@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@、%2$@"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@; %2$@"
+          }
+        }
+      }
+    },
+    "%@: %@; %@" : {
+      "comment" : "Lead sentence of a diff summary. The arguments: files changed, then a list such as 2 edited, 1 added, then the line counts.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@: %2$@; %3$@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@: %2$@; %3$@"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ : %2$@ ; %3$@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@：%2$@、%3$@"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@: %2$@; %3$@"
+          }
+        }
+      }
+    },
+    "%lld imports and exports hidden" : {
+      "comment" : "MDX preview: how many import and export lines are hidden (2 or more).",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld Importe und Exporte ausgeblendet"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld imports et exports masqués"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld個のimportとexportを非表示"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "import 및 export %lld개 숨김"
+          }
+        }
+      }
+    },
+    "← %@ · %lld%% similar" : {
+      "comment" : "File detail in a diff summary: the old name of a renamed or copied file and how similar the two are.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "← %1$@ · %2$lld %% ähnlich"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "← %1$@ · %2$lld%% similar"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "← %1$@ · similaire à %2$lld %%"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "← %1$@ · 類似度%2$lld%%"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "← %1$@ · %2$lld%% 유사"
+          }
+        }
+      }
+    },
+    "1 change: %@" : {
+      "comment" : "Lead sentence of a diff summary. The argument counts the lines added and removed.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 Änderung: %@"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 modification : %@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1個の変更：%@"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "변경 1개: %@"
+          }
+        }
+      }
+    },
+    "1 file changed" : {
+      "comment" : "Lead sentence of a diff summary.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 Datei geändert"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 fichier modifié"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1個のファイルを変更"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "파일 1개 변경됨"
+          }
+        }
+      }
+    },
+    "1 import hidden" : {
+      "comment" : "MDX preview: one import line is hidden.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 Import ausgeblendet"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 import masqué"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1個のimportを非表示"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "import 1개 숨김"
+          }
+        }
+      }
+    },
+    "1 line added" : {
+      "comment" : "Line counts in a diff summary.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 Zeile hinzugefügt"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 ligne ajoutée"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1行を追加"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1줄 추가됨"
+          }
+        }
+      }
+    },
+    "1 line added, %@ removed" : {
+      "comment" : "Line counts in a diff summary: one line added and some removed.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 Zeile hinzugefügt, %@ entfernt"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 ligne ajoutée, %@ supprimées"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1行を追加、%@行を削除"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1줄 추가됨, %@줄 제거됨"
+          }
+        }
+      }
+    },
+    "1 line ending %@ → %@" : {
+      "comment" : "Whitespace summary part: one line's ending changed, for example CRLF → LF.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 Zeilenende %1$@ → %2$@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "1 line ending %1$@ → %2$@"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 fin de ligne %1$@ → %2$@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1個の改行コード %1$@ → %2$@"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "줄 끝 1개 %1$@ → %2$@"
+          }
+        }
+      }
+    },
+    "1 line from line %lld is not part of any diff." : {
+      "comment" : "One sentence about a problem found while reading a patch, shown in the diff view.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 Zeile ab Zeile %lld gehört zu keinem Diff."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 ligne à partir de la ligne %lld ne fait partie d’aucun diff."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld行目からの1行はどの差分にも含まれていません。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld번째 줄부터 1줄은 어떤 diff에도 속하지 않습니다."
+          }
+        }
+      }
+    },
+    "1 line removed" : {
+      "comment" : "Line counts in a diff summary.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 Zeile entfernt"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 ligne supprimée"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1行を削除"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1줄 제거됨"
+          }
+        }
+      }
+    },
+    "1 line was not UTF-8 and was read as Latin-1." : {
+      "comment" : "One sentence about a problem found while reading a patch, shown in the diff view.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 Zeile war kein UTF-8 und wurde als Latin-1 gelesen."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 ligne n’était pas en UTF-8 et a été lue en Latin-1."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1行はUTF-8ではなかったため、Latin-1として読み込みました。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1줄이 UTF-8이 아니어서 Latin-1로 읽었습니다."
+          }
+        }
+      }
+    },
+    "1 line was too long and is shown cut short." : {
+      "comment" : "One sentence about a problem found while reading a patch, shown in the diff view.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 Zeile war zu lang und wird gekürzt angezeigt."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 ligne était trop longue et est affichée tronquée."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1行が長すぎるため、途中で切って表示しています。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1줄이 너무 길어 잘린 채로 표시됩니다."
+          }
+        }
+      }
+    },
+    "1 line with spacing changes" : {
+      "comment" : "Whitespace summary part: one line's indentation or inner spacing changed.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 Zeile mit geänderten Abständen"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 ligne avec des changements d’espacement"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1行のスペースが変更"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "간격 변경 1줄"
+          }
+        }
+      }
+    },
+    "1 long line is cut short" : {
+      "comment" : "Coverage note for a patch with one very long line.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 lange Zeile wird gekürzt"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 ligne longue est tronquée"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1行の長い行を途中で切っています"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "긴 줄 1개가 잘림"
+          }
+        }
+      }
+    },
+    "1 trailing space" : {
+      "comment" : "Whitespace summary part: one line's trailing spaces changed.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 nachgestelltes Leerzeichen"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 espace de fin"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1個の末尾スペース"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "후행 공백 1줄"
+          }
+        }
+      }
+    },
+    "a secret-named key" : {
+      "comment" : "Name of a credential pattern found in a patch, shown in a finding's detail; product names stay as they are. A value under a key named like password or token.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ein Schlüssel mit geheimem Namen"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "une clé au nom de secret"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "シークレットらしい名前のキー"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "비밀 정보 이름의 키"
+          }
+        }
+      }
+    },
+    "added" : {
+      "comment" : "Kind of change to a file in a patch.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "hinzugefügt"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ajouté"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "追加"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "추가됨"
+          }
+        }
+      }
+    },
+    "Adds a live payment key" : {
+      "comment" : "Title of a finding: a patch adds a live Stripe secret key.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fügt einen Live-Zahlungsschlüssel hinzu"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajoute une clé de paiement réelle"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "本番用の決済キーを追加"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "라이브 결제 키 추가"
+          }
+        }
+      }
+    },
+    "Adds a private key" : {
+      "comment" : "Title of a finding: a patch adds a private key.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fügt einen privaten Schlüssel hinzu"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajoute une clé privée"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "秘密鍵を追加"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "개인 키 추가"
+          }
+        }
+      }
+    },
+    "Adds a secret" : {
+      "comment" : "Title of a finding: a patch adds a secret such as a token or password.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fügt ein Geheimnis hinzu"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajoute un secret"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "シークレットを追加"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "비밀 정보 추가"
+          }
+        }
+      }
+    },
+    "Adds a test key" : {
+      "comment" : "Title of a finding: a patch adds a test (not live) key.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fügt einen Testschlüssel hinzu"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajoute une clé de test"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "テスト用キーを追加"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "테스트 키 추가"
+          }
+        }
+      }
+    },
+    "API key shape" : {
+      "comment" : "Name of a credential pattern found in a patch, shown in a finding's detail; product names stay as they are.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Form eines API-Schlüssels"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Forme de clé d’API"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "APIキーの形式"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "API 키 형태"
+          }
+        }
+      }
+    },
+    "Author" : {
+      "comment" : "Fact label: the commit's author.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Autor"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auteur"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "作成者"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "작성자"
+          }
+        }
+      }
+    },
+    "AWS access key shape" : {
+      "comment" : "Name of a credential pattern found in a patch, shown in a finding's detail; product names stay as they are.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Form eines AWS-Zugriffsschlüssels"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Forme de clé d’accès AWS"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "AWSアクセスキーの形式"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "AWS 액세스 키 형태"
+          }
+        }
+      }
+    },
+    "binary" : {
+      "comment" : "Kind of change to a file in a patch: a binary file changed.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "binär"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "binaire"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "バイナリ"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "바이너리"
+          }
+        }
+      }
+    },
+    "Binary files" : {
+      "comment" : "Fact label for a patch or a two-file compare.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Binärdateien"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fichiers binaires"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "バイナリファイル"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "바이너리 파일"
+          }
+        }
+      }
+    },
+    "Binary files differ" : {
+      "comment" : "Lead sentence of a diff summary.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Binärdateien unterscheiden sich"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Les fichiers binaires diffèrent"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "バイナリファイルが異なります"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "바이너리 파일이 다름"
+          }
+        }
+      }
+    },
+    "Binary files differ: %@" : {
+      "comment" : "Lead sentence of a diff summary. The argument gives the sizes, such as 12 KB → 14 KB.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Binärdateien unterscheiden sich: %@"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Les fichiers binaires diffèrent : %@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "バイナリファイルが異なります：%@"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "바이너리 파일이 다름: %@"
+          }
+        }
+      }
+    },
+    "Binary patch data is noted, not decoded." : {
+      "comment" : "One sentence about a problem found while reading a patch, shown in the diff view.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Binäre Patch-Daten werden vermerkt, nicht decodiert."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Les données de patch binaire sont signalées, pas décodées."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "バイナリパッチのデータは記録のみで、デコードしていません。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "바이너리 패치 데이터는 기록만 하고 디코딩하지 않습니다."
+          }
+        }
+      }
+    },
+    "Binary, different" : {
+      "comment" : "Compare status: two binary files that differ.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Binär, unterschiedlich"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Binaires, différents"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "バイナリ、相違あり"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "바이너리, 다름"
+          }
+        }
+      }
+    },
+    "Caution" : {
+      "comment" : "Title of a Markdown alert box (GitHub's [!CAUTION]).",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Achtung"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Attention"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "注意"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "주의"
+          }
+        }
+      }
+    },
+    "Changes" : {
+      "comment" : "Fact label: the number of changed regions.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Änderungen"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modifications"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "変更"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "변경 사항"
+          }
+        }
+      }
+    },
+    "Combined diff" : {
+      "comment" : "Fact label: the patch is a merge's combined diff.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombiniertes Diff"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diff combiné"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "結合差分"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "결합 diff"
+          }
+        }
+      }
+    },
+    "Commits" : {
+      "comment" : "Fact label for a patch or a two-file compare.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Commits"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Commits"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "コミット"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "커밋"
+          }
+        }
+      }
+    },
+    "copied" : {
+      "comment" : "Kind of change to a file in a patch.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "kopiert"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "copié"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "コピー"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "복사됨"
+          }
+        }
+      }
+    },
+    "Copies" : {
+      "comment" : "Fact label: the number of copied files.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopien"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copies"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "コピー"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "복사본"
+          }
+        }
+      }
+    },
+    "counted, not shown" : {
+      "comment" : "File detail in a diff summary: the file's lines are counted but not drawn.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "gezählt, nicht angezeigt"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "compté, non affiché"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "数のみ、非表示"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "개수만 셈, 표시 안 함"
+          }
+        }
+      }
+    },
+    "Coverage" : {
+      "comment" : "Fact label: how much of the file is shown.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abdeckung"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Couverture"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "表示範囲"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "표시 범위"
+          }
+        }
+      }
+    },
+    "Date" : {
+      "comment" : "Fact label: the commit's date.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Datum"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Date"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "日付"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "날짜"
+          }
+        }
+      }
+    },
+    "deleted" : {
+      "comment" : "Kind of change to a file in a patch.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "gelöscht"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "supprimé"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "削除"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "삭제됨"
+          }
+        }
+      }
+    },
+    "Different" : {
+      "comment" : "Compare status: the files differ.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unterschiedlich"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Différents"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "相違あり"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "다름"
+          }
+        }
+      }
+    },
+    "Downloads and runs a script" : {
+      "comment" : "Title of a finding: a patch adds a command that downloads code and runs it.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lädt ein Skript und führt es aus"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Télécharge et exécute un script"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "スクリプトをダウンロードして実行"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "스크립트를 다운로드하여 실행함"
+          }
+        }
+      }
+    },
+    "edited" : {
+      "comment" : "Kind of change to a file in a patch.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bearbeitet"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "modifié"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "編集"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "편집됨"
+          }
+        }
+      }
+    },
+    "Encoding" : {
+      "comment" : "Fact label: the text encoding.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Codierung"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Encodage"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "エンコーディング"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "인코딩"
+          }
+        }
+      }
+    },
+    "executable" : {
+      "comment" : "File detail in a diff summary: a new executable file.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ausführbar"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "exécutable"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "実行可能"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "실행 파일"
+          }
+        }
+      }
+    },
+    "Files" : {
+      "comment" : "Fact label: how many files the patch changes.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dateien"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fichiers"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ファイル"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "파일"
+          }
+        }
+      }
+    },
+    "final newline" : {
+      "comment" : "Whitespace summary part: the newline at the end of the file was added or removed.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "abschließender Zeilenumbruch"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "saut de ligne final"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "末尾の改行"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "마지막 줄 바꿈"
+          }
+        }
+      }
+    },
+    "Format" : {
+      "comment" : "Fact label for a patch or a two-file compare.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Format"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Format"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "形式"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "포맷"
+          }
+        }
+      }
+    },
+    "GitHub token shape" : {
+      "comment" : "Name of a credential pattern found in a patch, shown in a finding's detail; product names stay as they are.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Form eines GitHub-Tokens"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Forme de jeton GitHub"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GitHubトークンの形式"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GitHub 토큰 형태"
+          }
+        }
+      }
+    },
+    "Google API key shape" : {
+      "comment" : "Name of a credential pattern found in a patch, shown in a finding's detail; product names stay as they are.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Form eines Google-API-Schlüssels"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Forme de clé d’API Google"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Google APIキーの形式"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Google API 키 형태"
+          }
+        }
+      }
+    },
+    "Hunks" : {
+      "comment" : "Fact label: the number of hunks (changed regions) in a patch.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hunks"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sections"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ハンク"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "헝크"
+          }
+        }
+      }
+    },
+    "Identical" : {
+      "comment" : "Compare status: the two files are the same.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Identisch"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Identiques"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "同一"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "동일함"
+          }
+        }
+      }
+    },
+    "Images" : {
+      "comment" : "Fact label for a Markdown document.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bilder"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Images"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "画像"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이미지"
+          }
+        }
+      }
+    },
+    "Important" : {
+      "comment" : "Title of a Markdown alert box (GitHub's [!IMPORTANT]).",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wichtig"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Important"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "重要"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "중요"
+          }
+        }
+      }
+    },
+    "JSON Web Token shape" : {
+      "comment" : "Name of a credential pattern found in a patch, shown in a finding's detail; product names stay as they are.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Form eines JSON Web Token"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Forme de JSON Web Token"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "JSON Web Tokenの形式"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "JSON Web Token 형태"
+          }
+        }
+      }
+    },
+    "Line %lld" : {
+      "comment" : "Label of a change at one line; the argument is its line number.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zeile %lld"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ligne %lld"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld行目"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld번째 줄"
+          }
+        }
+      }
+    },
+    "Line %lld has a file mode that is not octal (%@)." : {
+      "comment" : "One sentence about a problem found while reading a patch, shown in the diff view.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zeile %1$lld hat einen Dateimodus, der nicht oktal ist (%2$@)."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Line %1$lld has a file mode that is not octal (%2$@)."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La ligne %1$lld a un mode de fichier qui n’est pas octal (%2$@)."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld行目のファイルモードが8進数ではありません（%2$@）。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "줄 %1$lld: 파일 모드가 8진수가 아닙니다(%2$@)."
+          }
+        }
+      }
+    },
+    "Line %lld is not a valid hunk header; %@ lines after it were skipped." : {
+      "comment" : "One sentence about a problem found while reading a patch, shown in the diff view.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zeile %1$lld ist kein gültiger Hunk-Header; %2$@ Zeilen danach wurden übersprungen."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Line %1$lld is not a valid hunk header; %2$@ lines after it were skipped."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La ligne %1$lld n’est pas un en-tête de section valide ; %2$@ lignes suivantes ont été ignorées."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld行目は有効なハンクヘッダではありません。その後の%2$@行をスキップしました。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "줄 %1$lld: 유효한 헝크 헤더가 아니어서 그 뒤의 %2$@줄을 건너뛰었습니다."
+          }
+        }
+      }
+    },
+    "Line %lld is not a valid hunk header; 1 line after it was skipped." : {
+      "comment" : "One sentence about a problem found while reading a patch, shown in the diff view.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zeile %lld ist kein gültiger Hunk-Header; 1 Zeile danach wurde übersprungen."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La ligne %lld n’est pas un en-tête de section valide ; 1 ligne suivante a été ignorée."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld行目は有効なハンクヘッダではありません。その後の1行をスキップしました。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "줄 %lld: 유효한 헝크 헤더가 아니어서 그 뒤의 1줄을 건너뛰었습니다."
+          }
+        }
+      }
+    },
+    "Line %lld is not a valid hunk header." : {
+      "comment" : "One sentence about a problem found while reading a patch, shown in the diff view.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zeile %lld ist kein gültiger Hunk-Header."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La ligne %lld n’est pas un en-tête de section valide."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld行目は有効なハンクヘッダではありません。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld번째 줄은 유효한 헝크 헤더가 아닙니다."
+          }
+        }
+      }
+    },
+    "Line %lld says \"no newline at end of file\" but follows no line." : {
+      "comment" : "One sentence about a problem found while reading a patch, shown in the diff view. The quoted phrase is git's marker text.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zeile %lld meldet „no newline at end of file“, folgt aber auf keine Zeile."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La ligne %lld indique « no newline at end of file » mais ne suit aucune ligne."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld行目に\"no newline at end of file\"とありますが、その前に行がありません。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "줄 %lld: \"no newline at end of file\"이라고 되어 있지만 앞에 줄이 없습니다."
+          }
+        }
+      }
+    },
+    "Line %lld starts a context diff (*** / ---), which is not shown; only unified diffs are." : {
+      "comment" : "One sentence about a problem found while reading a patch, shown in the diff view.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zeile %lld beginnt ein Kontext-Diff (*** / ---), das nicht angezeigt wird; nur Unified Diffs werden angezeigt."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La ligne %lld commence un diff contextuel (*** / ---), qui n’est pas affiché ; seuls les diffs unifiés le sont."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld行目からコンテキスト形式の差分（*** / ---）が始まりますが、表示されません。表示されるのはunified形式の差分のみです。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "줄 %lld: context diff(*** / ---)가 시작되지만 표시하지 않습니다. unified diff만 표시됩니다."
+          }
+        }
+      }
+    },
+    "line %lld unchanged" : {
+      "comment" : "Folded region in a diff: one unchanged line; the argument is its number.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zeile %lld unverändert"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ligne %lld inchangée"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld行目は変更なし"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld번째 줄 변경 없음"
+          }
+        }
+      }
+    },
+    "Line endings" : {
+      "comment" : "Fact label for a patch or a two-file compare.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zeilenenden"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fins de ligne"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "改行コード"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "줄 끝"
+          }
+        }
+      }
+    },
+    "Lines" : {
+      "comment" : "Fact label for a patch or a two-file compare.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zeilen"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lignes"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "行数"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "줄"
+          }
+        }
+      }
+    },
+    "Lines %lld–%lld" : {
+      "comment" : "Label of a change over a range of lines.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zeilen %1$lld–%2$lld"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Lines %1$lld–%2$lld"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lignes %1$lld–%2$lld"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld〜%2$lld行目"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "줄 %1$lld–%2$lld"
+          }
+        }
+      }
+    },
+    "lines %lld–%lld unchanged" : {
+      "comment" : "Folded region in a diff: a range of unchanged lines.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zeilen %1$lld–%2$lld unverändert"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "lines %1$lld–%2$lld unchanged"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "lignes %1$lld–%2$lld inchangées"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld〜%2$lld行目は変更なし"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld–%2$lld번째 줄 변경 없음"
+          }
+        }
+      }
+    },
+    "Lines added" : {
+      "comment" : "Fact label for a patch or a two-file compare.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hinzugefügte Zeilen"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lignes ajoutées"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "追加された行"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "추가된 줄"
+          }
+        }
+      }
+    },
+    "Lines removed" : {
+      "comment" : "Fact label for a patch or a two-file compare.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Entfernte Zeilen"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lignes supprimées"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "削除された行"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "제거된 줄"
+          }
+        }
+      }
+    },
+    "Links" : {
+      "comment" : "Fact label for a Markdown document.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Links"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Liens"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "リンク"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "링크"
+          }
+        }
+      }
+    },
+    "MDX component — rendered by your site, shown here as a labelled block" : {
+      "comment" : "Caption under an MDX component in a Markdown preview; MDX is a format name.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MDX-Komponente – von Ihrer Website gerendert, hier als beschrifteter Block angezeigt"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Composant MDX : rendu par votre site, affiché ici sous forme de bloc étiqueté"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MDXコンポーネント — サイトでレンダリングされます。ここではラベル付きのブロックとして表示しています"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MDX 컴포넌트 — 사이트에서 렌더링되며, 여기서는 레이블이 붙은 블록으로 표시됩니다"
+          }
+        }
+      }
+    },
+    "Merge" : {
+      "comment" : "Combined diff fact value: the patch shows a merge commit.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Merge"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fusion"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "マージ"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "병합"
+          }
+        }
+      }
+    },
+    "merge of %lld parents" : {
+      "comment" : "File detail in a diff summary: a merge's combined diff.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Merge von %lld Eltern"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "fusion de %lld parents"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld個の親のマージ"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "부모 %lld개의 병합"
+          }
+        }
+      }
+    },
+    "Missing links" : {
+      "comment" : "Fact label for a Markdown document. Links to files beside the document that do not exist.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fehlende Links"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Liens manquants"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "見つからないリンク"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "누락된 링크"
+          }
+        }
+      }
+    },
+    "Mixed" : {
+      "comment" : "Line ending style: a file mixes LF and CRLF.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gemischt"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mixte"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "混在"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "혼합"
+          }
+        }
+      }
+    },
+    "Mixed (%@ CRLF)" : {
+      "comment" : "Line endings fact value: some lines end in CRLF; the argument is how many.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gemischt (%@ CRLF)"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mixte (%@ CRLF)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "混在（%@行がCRLF）"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "혼합(CRLF %@개)"
+          }
+        }
+      }
+    },
+    "mode %@ → %@" : {
+      "comment" : "File detail in a diff summary: the file's permission bits changed, in octal.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modus %1$@ → %2$@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "mode %1$@ → %2$@"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "mode %1$@ → %2$@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "モード %1$@ → %2$@"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "모드 %1$@ → %2$@"
+          }
+        }
+      }
+    },
+    "mode changed" : {
+      "comment" : "Kind of change to a file in a patch: its permissions changed.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modus geändert"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "mode modifié"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "モード変更"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "모드 변경됨"
+          }
+        }
+      }
+    },
+    "Mode changes" : {
+      "comment" : "Fact label: files whose permissions (mode) changed.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modusänderungen"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Changements de mode"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "モード変更"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "모드 변경"
+          }
+        }
+      }
+    },
+    "No changes" : {
+      "comment" : "Lead sentence of a diff summary. The patch changes nothing.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keine Änderungen"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aucune modification"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "変更なし"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "변경 사항 없음"
+          }
+        }
+      }
+    },
+    "No diff found" : {
+      "comment" : "Lead sentence of a diff summary. The file holds no diff.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kein Diff gefunden"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aucun diff trouvé"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "差分が見つかりません"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "diff를 찾을 수 없음"
+          }
+        }
+      }
+    },
+    "No diff was found in this file." : {
+      "comment" : "One sentence about a problem found while reading a patch, shown in the diff view.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In dieser Datei wurde kein Diff gefunden."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aucun diff n’a été trouvé dans ce fichier."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "このファイルに差分は見つかりませんでした。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이 파일에서 diff를 찾을 수 없습니다."
+          }
+        }
+      }
+    },
+    "no lines changed" : {
+      "comment" : "Line counts in a diff summary.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "keine Zeilen geändert"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "aucune ligne modifiée"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "変更された行なし"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "변경된 줄 없음"
+          }
+        }
+      }
+    },
+    "no longer a symlink" : {
+      "comment" : "File detail in a diff summary.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "kein Symlink mehr"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "n’est plus un lien symbolique"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "シンボリックリンクではなくなった"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "더 이상 심볼릭 링크 아님"
+          }
+        }
+      }
+    },
+    "no longer executable" : {
+      "comment" : "File detail in a diff summary.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "nicht mehr ausführbar"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "n’est plus exécutable"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "実行可能ではなくなった"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "더 이상 실행 파일 아님"
+          }
+        }
+      }
+    },
+    "None" : {
+      "comment" : "Line ending style: the file has no line break at all.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keine"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aucune"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "なし"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "없음"
+          }
+        }
+      }
+    },
+    "Note" : {
+      "comment" : "Title of a Markdown alert box (GitHub's [!NOTE]).",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hinweis"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Remarque"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "メモ"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "참고"
+          }
+        }
+      }
+    },
+    "now a symlink" : {
+      "comment" : "File detail in a diff summary.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "jetzt ein Symlink"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "désormais un lien symbolique"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "シンボリックリンクになった"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이제 심볼릭 링크임"
+          }
+        }
+      }
+    },
+    "now executable" : {
+      "comment" : "File detail in a diff summary: the file became executable.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "jetzt ausführbar"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "désormais exécutable"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "実行可能になった"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이제 실행 파일임"
+          }
+        }
+      }
+    },
+    "Only the first %@ of %@ were read." : {
+      "comment" : "One sentence about a problem found while reading a patch, shown in the diff view. The arguments are byte sizes.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nur die ersten %1$@ von %2$@ wurden gelesen."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Only the first %1$@ of %2$@ were read."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seuls les %1$@ premiers sur %2$@ ont été lus."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%2$@のうち最初の%1$@のみ読み込みました。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%2$@ 중 처음 %1$@만 읽었습니다."
+          }
+        }
+      }
+    },
+    "private key block" : {
+      "comment" : "Name of a credential pattern found in a patch, shown in a finding's detail; product names stay as they are.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Block mit privatem Schlüssel"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bloc de clé privée"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "秘密鍵ブロック"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "개인 키 블록"
+          }
+        }
+      }
+    },
+    "Problems" : {
+      "comment" : "Fact label: the number of problems found while reading the patch.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Probleme"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Problèmes"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "問題"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "문제"
+          }
+        }
+      }
+    },
+    "Reading time" : {
+      "comment" : "Fact label for a Markdown document. About how long the text takes to read.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lesezeit"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Temps de lecture"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "読了時間"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "읽기 시간"
+          }
+        }
+      }
+    },
+    "Remote images" : {
+      "comment" : "Fact label for a Markdown document. Images loaded from the web.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Externe Bilder"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Images distantes"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "リモート画像"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "원격 이미지"
+          }
+        }
+      }
+    },
+    "Removed line %lld" : {
+      "comment" : "Label of a change: one line removed; the argument is its line number.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zeile %lld entfernt"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ligne %lld supprimée"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld行目を削除"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "제거된 줄(%lld번째)"
+          }
+        }
+      }
+    },
+    "Removed lines %lld–%lld" : {
+      "comment" : "Label of a change: a range of removed lines.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zeilen %1$lld–%2$lld entfernt"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Removed lines %1$lld–%2$lld"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lignes %1$lld–%2$lld supprimées"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld〜%2$lld行目を削除"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "제거된 줄 %1$lld–%2$lld"
+          }
+        }
+      }
+    },
+    "renamed" : {
+      "comment" : "Kind of change to a file in a patch.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "umbenannt"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "renommé"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "名称変更"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이름 변경됨"
+          }
+        }
+      }
+    },
+    "Renames" : {
+      "comment" : "Fact label: the number of renamed files.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Umbenennungen"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Renommages"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "名称変更"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이름 변경"
+          }
+        }
+      }
+    },
+    "Same text, different whitespace" : {
+      "comment" : "Lead sentence of a diff summary.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gleicher Text, anderer Leerraum"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Même texte, espaces différents"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "テキストは同じで、空白が異なります"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "텍스트는 같고 공백만 다름"
+          }
+        }
+      }
+    },
+    "Same text, different whitespace: %@" : {
+      "comment" : "Lead sentence of a diff summary. The argument lists what whitespace differs.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gleicher Text, anderer Leerraum: %@"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Même texte, espaces différents : %@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "テキストは同じで、空白が異なります：%@"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "텍스트는 같고 공백만 다름: %@"
+          }
+        }
+      }
+    },
+    "Showing %@ of %@ files" : {
+      "comment" : "Coverage note for a large patch.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ von %2$@ Dateien werden angezeigt"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Showing %1$@ of %2$@ files"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ fichiers affichés sur %2$@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%2$@個中%1$@個のファイルを表示"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "파일 %2$@개 중 %1$@개 표시 중"
+          }
+        }
+      }
+    },
+    "Showing %@ of %@ lines" : {
+      "comment" : "Coverage note for a large patch.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ von %2$@ Zeilen werden angezeigt"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Showing %1$@ of %2$@ lines"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ lignes affichées sur %2$@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%2$@行中%1$@行を表示"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%2$@줄 중 %1$@줄 표시 중"
+          }
+        }
+      }
+    },
+    "Showing the first %@ of %@" : {
+      "comment" : "Coverage note for a large patch; the arguments are byte sizes.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die ersten %1$@ von %2$@ werden angezeigt"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Showing the first %1$@ of %2$@"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Affichage des %1$@ premiers sur %2$@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%2$@のうち最初の%1$@を表示"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%2$@ 중 처음 %1$@ 표시 중"
+          }
+        }
+      }
+    },
+    "Simplified: the compare hit its time or size limit" : {
+      "comment" : "Coverage note for a two-file compare.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vereinfacht: Der Vergleich hat sein Zeit- oder Größenlimit erreicht"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Simplifié : la comparaison a atteint sa limite de temps ou de taille"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "簡略表示：比較が時間またはサイズの上限に達しました"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "간소화됨: 비교가 시간 또는 크기 제한에 도달함"
+          }
+        }
+      }
+    },
+    "Size" : {
+      "comment" : "Fact label for a patch or a two-file compare.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Größe"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Taille"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "サイズ"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "크기"
+          }
+        }
+      }
+    },
+    "Slack token shape" : {
+      "comment" : "Name of a credential pattern found in a patch, shown in a finding's detail; product names stay as they are.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Form eines Slack-Tokens"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Forme de jeton Slack"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slackトークンの形式"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slack 토큰 형태"
+          }
+        }
+      }
+    },
+    "Status" : {
+      "comment" : "Fact label: whether the two compared files differ.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Status"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "État"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "状態"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "상태"
+          }
+        }
+      }
+    },
+    "Stripe secret key shape" : {
+      "comment" : "Name of a credential pattern found in a patch, shown in a finding's detail; product names stay as they are.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Form eines geheimen Stripe-Schlüssels"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Forme de clé secrète Stripe"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stripeシークレットキーの形式"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stripe 비밀 키 형태"
+          }
+        }
+      }
+    },
+    "Stripe test key shape" : {
+      "comment" : "Name of a credential pattern found in a patch, shown in a finding's detail; product names stay as they are.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Form eines Stripe-Testschlüssels"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Forme de clé de test Stripe"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stripeテストキーの形式"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stripe 테스트 키 형태"
+          }
+        }
+      }
+    },
+    "Subject" : {
+      "comment" : "Fact label: the commit's subject line.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Betreff"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Objet"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "件名"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "제목"
+          }
+        }
+      }
+    },
+    "submodule" : {
+      "comment" : "File detail in a diff summary: a new git submodule.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Submodul"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "sous-module"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "サブモジュール"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "하위 모듈"
+          }
+        }
+      }
+    },
+    "symlink" : {
+      "comment" : "File detail in a diff summary: a new symbolic link.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Symlink"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "lien symbolique"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "シンボリックリンク"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "심볼릭 링크"
+          }
+        }
+      }
+    },
+    "The email body was %@ and was decoded." : {
+      "comment" : "One sentence about a problem found while reading a patch, shown in the diff view. The argument is a transfer encoding such as quoted-printable or base64.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Der E-Mail-Text war %@ und wurde decodiert."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le corps de l’e-mail était en %@ et a été décodé."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "メール本文は%@でエンコードされていたため、デコードしました。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이메일 본문이 %@ 인코딩되어 있어 디코딩했습니다."
+          }
+        }
+      }
+    },
+    "The hunk at line %lld has %@ lines more than its header says; they are shown." : {
+      "comment" : "One sentence about a problem found while reading a patch, shown in the diff view.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Der Hunk in Zeile %1$lld hat %2$@ Zeilen mehr, als sein Header angibt; sie werden angezeigt."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "The hunk at line %1$lld has %2$@ lines more than its header says; they are shown."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La section à la ligne %1$lld compte %2$@ lignes de plus que ne l’indique son en-tête ; elles sont affichées."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld行目のハンクにはヘッダの記載より%2$@行多く含まれています。それらも表示しています。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld번째 줄의 헝크에 머리글보다 %2$@줄이 더 있습니다. 해당 줄도 표시됩니다."
+          }
+        }
+      }
+    },
+    "The hunk at line %lld has 1 line more than its header says; it is shown." : {
+      "comment" : "One sentence about a problem found while reading a patch, shown in the diff view.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Der Hunk in Zeile %lld hat 1 Zeile mehr, als sein Header angibt; sie wird angezeigt."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La section à la ligne %lld compte 1 ligne de plus que ne l’indique son en-tête ; elle est affichée."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld行目のハンクにはヘッダの記載より1行多く含まれています。その行も表示しています。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld번째 줄의 헝크에 머리글보다 1줄이 더 있습니다. 해당 줄도 표시됩니다."
+          }
+        }
+      }
+    },
+    "The hunk at line %lld has no file header above it." : {
+      "comment" : "One sentence about a problem found while reading a patch, shown in the diff view.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Über dem Hunk in Zeile %lld steht kein Datei-Header."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La section à la ligne %lld n’a pas d’en-tête de fichier au-dessus."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld行目のハンクの上にファイルヘッダがありません。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld번째 줄의 헝크 위에 파일 머리글이 없습니다."
+          }
+        }
+      }
+    },
+    "The hunk header says %@ lines; %@ arrived. Showing what is there." : {
+      "comment" : "One sentence about a problem found while reading a patch, shown in the diff view.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Der Hunk-Header nennt %1$@ Zeilen; %2$@ sind vorhanden. Angezeigt wird, was da ist."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "The hunk header says %1$@ lines; %2$@ arrived. Showing what is there."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L’en-tête de section annonce %1$@ lignes ; %2$@ sont arrivées. Affichage de ce qui est présent."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ハンクヘッダには%1$@行とありますが、実際は%2$@行でした。存在する行を表示しています。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "헝크 머리글에는 %1$@줄로 되어 있지만 %2$@줄이 들어왔습니다. 있는 내용을 표시합니다."
+          }
+        }
+      }
+    },
+    "The hunk header says %@ old and %@ new lines; %@ and %@ arrived. Showing what is there." : {
+      "comment" : "One sentence about a problem found while reading a patch, shown in the diff view.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Der Hunk-Header nennt %1$@ alte und %2$@ neue Zeilen; %3$@ und %4$@ sind vorhanden. Angezeigt wird, was da ist."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "The hunk header says %1$@ old and %2$@ new lines; %3$@ and %4$@ arrived. Showing what is there."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L’en-tête de section annonce %1$@ anciennes et %2$@ nouvelles lignes ; %3$@ et %4$@ sont arrivées. Affichage de ce qui est présent."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ハンクヘッダには旧%1$@行、新%2$@行とありますが、実際は%3$@行と%4$@行でした。存在する行を表示しています。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "헝크 머리글에는 이전 %1$@줄, 새 %2$@줄로 되어 있지만 %3$@줄과 %4$@줄이 들어왔습니다. 있는 내용을 표시합니다."
+          }
+        }
+      }
+    },
+    "The hunk header says 1 line; %@ arrived. Showing what is there." : {
+      "comment" : "One sentence about a problem found while reading a patch, shown in the diff view.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Der Hunk-Header nennt 1 Zeile; %@ sind vorhanden. Angezeigt wird, was da ist."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L’en-tête de section annonce 1 ligne ; %@ sont arrivées. Affichage de ce qui est présent."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ハンクヘッダには1行とありますが、実際は%@行でした。存在する行を表示しています。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "헝크 머리글에는 1줄로 되어 있지만 %@줄이 들어왔습니다. 있는 내용을 표시합니다."
+          }
+        }
+      }
+    },
+    "These files are identical" : {
+      "comment" : "Lead sentence of a diff summary.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diese Dateien sind identisch"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ces fichiers sont identiques"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "これらのファイルは同一です"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "두 파일이 동일합니다"
+          }
+        }
+      }
+    },
+    "This is a merge's combined diff against %lld parents; lines are shown against the merge result." : {
+      "comment" : "One sentence about a problem found while reading a patch, shown in the diff view.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dies ist das kombinierte Diff eines Merges gegen %lld Eltern; Zeilen werden gegen das Merge-Ergebnis angezeigt."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Il s’agit du diff combiné d’une fusion avec %lld parents ; les lignes sont affichées par rapport au résultat de la fusion."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "これは%lld個の親に対するマージの結合差分です。行はマージ結果と比較して表示しています。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "부모 %lld개에 대한 병합의 결합 diff입니다. 줄은 병합 결과를 기준으로 표시됩니다."
+          }
+        }
+      }
+    },
+    "This patch is cut off at line %lld." : {
+      "comment" : "One sentence about a problem found while reading a patch, shown in the diff view.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dieser Patch bricht in Zeile %lld ab."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ce patch est tronqué à la ligne %lld."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "このパッチは%lld行目で途切れています。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이 패치는 %lld번째 줄에서 잘렸습니다."
+          }
+        }
+      }
+    },
+    "This patch is large: files from line %lld on are counted, not shown." : {
+      "comment" : "One sentence about a problem found while reading a patch, shown in the diff view.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dieser Patch ist groß: Dateien ab Zeile %lld werden gezählt, nicht angezeigt."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ce patch est volumineux : les fichiers à partir de la ligne %lld sont comptés, pas affichés."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "このパッチは大きいため、%lld行目以降のファイルは数のみ表示しています。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이 패치는 큽니다. %lld번째 줄부터의 파일은 개수만 세고 표시하지 않습니다."
+          }
+        }
+      }
+    },
+    "Tip" : {
+      "comment" : "Title of a Markdown alert box (GitHub's [!TIP]).",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tipp"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Astuce"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ヒント"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "팁"
+          }
+        }
+      }
+    },
+    "Unified diff" : {
+      "comment" : "Format fact value: a patch in unified diff format.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unified Diff"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diff unifié"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "unified形式の差分"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unified diff"
+          }
+        }
+      }
+    },
+    "Warning" : {
+      "comment" : "Title of a Markdown alert box (GitHub's [!WARNING]).",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Warnung"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avertissement"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "警告"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "경고"
+          }
+        }
+      }
+    },
+    "Whitespace" : {
+      "comment" : "Fact label: what whitespace differs between the files.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leerraum"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Espaces"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "空白"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "공백"
+          }
+        }
+      }
+    },
+    "Whitespace only" : {
+      "comment" : "Compare status: the files differ only in spaces, tabs or line endings.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nur Leerraum"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Espaces uniquement"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "空白のみ"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "공백만 다름"
+          }
+        }
+      }
+    },
+    "Words" : {
+      "comment" : "Fact label for a Markdown document. The number of words.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wörter"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mots"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "単語数"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "단어"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

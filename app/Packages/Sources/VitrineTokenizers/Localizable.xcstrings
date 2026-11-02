@@ -1,0 +1,35 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Counted exactly with OpenAI's o200k_base tokenizer (GPT-4o and the o-series), on this Mac." : {
+      "comment" : "Token meter foot for the exact OpenAI count. Product and tokenizer names stay as they are.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exakt gezählt mit dem o200k_base-Tokenizer von OpenAI (GPT-4o und die o-Reihe), auf diesem Mac."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Compté exactement avec le tokeniseur o200k_base d’OpenAI (GPT-4o et la série o), sur ce Mac."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OpenAI の o200k_base トークナイザー（GPT-4o と o シリーズ）でこの Mac 上で正確に数えました。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OpenAI의 o200k_base 토크나이저(GPT-4o 및 o 시리즈)로 이 Mac에서 정확히 셌습니다."
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

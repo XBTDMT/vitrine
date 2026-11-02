@@ -1,0 +1,10 @@
+{
+  "positive": [
+    "pk_live_UGhx1kyee7bEQONgXo16eNIO",
+    "pk_test_jFUmHdoh8qc5you60OB49sh8gCJraS1yGjnqrykFeXhqIyxBIR"
+  ],
+  "negative": [
+    "sk_live_JyIjH3oSvNaWSOaA0TMSFmSS",
+    "pk_live_iSLeb1SNiy"
+  ]
+}

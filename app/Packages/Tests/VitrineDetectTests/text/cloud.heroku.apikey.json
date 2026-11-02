@@ -1,0 +1,10 @@
+{
+  "positive": [
+    "HEROKU_API_KEY=fe476389-de53-b8ce-4432-d2bc4a66a397",
+    "heroku_api_key: 'ec2f9829-4698-e52e-796c-b75731be8918'"
+  ],
+  "negative": [
+    "4e0123fe-b85c-7779-c87b-0ff54ade40f0",
+    "HEROKU_API_KEY=notauuid"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "positive": [
+    "dckr_pat_kG4CKfaEfirumsrVJl2OgpTEuet",
+    "dckr_pat_ZipJOGxdFUu6qPrqW9UAwI2mzczmeR23UC3SP3jC"
+  ],
+  "negative": [
+    "dckr_pat_nQPBj1l1c9",
+    "docker login"
+  ]
+}

@@ -1,0 +1,615 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "%@ files were not hashed (over the size or count bound)" : {
+      "comment" : "Repository note in the folder view: what Vitrine could not read.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ Dateien wurden nicht gehasht (über der Größen- oder Anzahlgrenze)"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ fichiers n’ont pas été hachés (limite de taille ou de nombre dépassée)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@個のファイルはハッシュ化されませんでした（サイズまたは数の上限を超過）"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "파일 %@개를 해시하지 않음(크기 또는 개수 한도 초과)"
+          }
+        }
+      }
+    },
+    "%@ pack files could not be read" : {
+      "comment" : "Repository note in the folder view: what Vitrine could not read.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ Pack-Dateien konnten nicht gelesen werden"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ fichiers pack n’ont pas pu être lus"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@個のパックファイルを読み込めませんでした"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "팩 파일 %@개를 읽을 수 없음"
+          }
+        }
+      }
+    },
+    "1 file was not hashed (over the size or count bound)" : {
+      "comment" : "Repository note in the folder view: what Vitrine could not read.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 Datei wurde nicht gehasht (über der Größen- oder Anzahlgrenze)"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 fichier n’a pas été haché (limite de taille ou de nombre dépassée)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1個のファイルはハッシュ化されませんでした（サイズまたは数の上限を超過）"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "파일 1개를 해시하지 않음(크기 또는 개수 한도 초과)"
+          }
+        }
+      }
+    },
+    "1 pack file could not be read" : {
+      "comment" : "Repository note in the folder view: what Vitrine could not read.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 Pack-Datei konnte nicht gelesen werden"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 fichier pack n’a pas pu être lu"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1個のパックファイルを読み込めませんでした"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "팩 파일 1개를 읽을 수 없음"
+          }
+        }
+      }
+    },
+    "a split index is not read" : {
+      "comment" : "Repository note in the folder view: what Vitrine could not read.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ein geteilter Index wird nicht gelesen"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "un index fractionné n’est pas lu"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "分割インデックスは読み込まれません"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "분할 인덱스는 읽지 않음"
+          }
+        }
+      }
+    },
+    "ahead and behind were not counted (history too long)" : {
+      "comment" : "Repository note in the folder view: what Vitrine could not read.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vorsprung und Rückstand wurden nicht gezählt (Verlauf zu lang)"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "l’avance et le retard n’ont pas été comptés (historique trop long)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "先行・遅延のコミット数は数えていません（履歴が長すぎます）"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "앞섬/뒤처짐을 세지 않음(기록이 너무 김)"
+          }
+        }
+      }
+    },
+    "HEAD could not be read" : {
+      "comment" : "Repository note in the folder view: what Vitrine could not read.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "HEAD konnte nicht gelesen werden"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "HEAD n’a pas pu être lu"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "HEADを読み込めませんでした"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "HEAD를 읽을 수 없음"
+          }
+        }
+      }
+    },
+    "HEAD's tree was not fully compared" : {
+      "comment" : "Repository note in the folder view: what Vitrine could not read.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Der Baum von HEAD wurde nicht vollständig verglichen"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "l’arborescence de HEAD n’a pas été entièrement comparée"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "HEADのツリーは完全には比較されませんでした"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "HEAD의 트리를 끝까지 비교하지 않음"
+          }
+        }
+      }
+    },
+    "reftable refs are not read" : {
+      "comment" : "Repository note in the folder view: what Vitrine could not read.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reftable-Refs werden nicht gelesen"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "les références reftable ne sont pas lues"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "reftableの参照は読み込まれません"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "reftable 참조는 읽지 않음"
+          }
+        }
+      }
+    },
+    "SHA-256 repository: objects are not read" : {
+      "comment" : "Repository note in the folder view: what Vitrine could not read.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SHA-256-Repository: Objekte werden nicht gelesen"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "dépôt SHA-256 : les objets ne sont pas lus"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SHA-256リポジトリ：オブジェクトは読み込まれません"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SHA-256 저장소: 객체를 읽지 않음"
+          }
+        }
+      }
+    },
+    "shallow clone: history ends early" : {
+      "comment" : "Repository note in the folder view: what Vitrine could not read.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Shallow Clone: Der Verlauf endet vorzeitig"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "clone superficiel : l’historique s’arrête tôt"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "シャロークローン：履歴が途中で終わっています"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "얕은 복제: 기록이 일찍 끝남"
+          }
+        }
+      }
+    },
+    "the current commit could not be read" : {
+      "comment" : "Repository note in the folder view: what Vitrine could not read.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "der aktuelle Commit konnte nicht gelesen werden"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "le commit actuel n’a pas pu être lu"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "現在のコミットを読み込めませんでした"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "현재 커밋을 읽을 수 없음"
+          }
+        }
+      }
+    },
+    "the index could not be read" : {
+      "comment" : "Repository note in the folder view: what Vitrine could not read.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "der Index konnte nicht gelesen werden"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "l’index n’a pas pu être lu"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "インデックスを読み込めませんでした"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "인덱스를 읽을 수 없음"
+          }
+        }
+      }
+    },
+    "the index has more entries than were read" : {
+      "comment" : "Repository note in the folder view: what Vitrine could not read.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "der Index hat mehr Einträge, als gelesen wurden"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "l’index contient plus d’entrées que celles lues"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "インデックスには読み込んだ数より多くの項目があります"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "인덱스의 항목이 읽은 것보다 많음"
+          }
+        }
+      }
+    },
+    "the index is too large to read" : {
+      "comment" : "Repository note in the folder view: what Vitrine could not read.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "der Index ist zu groß zum Lesen"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "l’index est trop volumineux pour être lu"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "インデックスが大きすぎて読み込めません"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "인덱스가 너무 커서 읽을 수 없음"
+          }
+        }
+      }
+    },
+    "the time budget ran out" : {
+      "comment" : "Repository note in the folder view: what Vitrine could not read.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "das Zeitbudget ist aufgebraucht"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "le temps imparti est écoulé"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "制限時間を超えました"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "시간 예산이 소진됨"
+          }
+        }
+      }
+    },
+    "the upstream %@ is not known locally" : {
+      "comment" : "Repository note; the argument is the upstream branch name.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "der Upstream %@ ist lokal nicht bekannt"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "la branche amont %@ n’est pas connue localement"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アップストリーム%@はローカルで認識されていません"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "업스트림 %@을(를) 로컬에서 알 수 없음"
+          }
+        }
+      }
+    },
+    "time ran out comparing files" : {
+      "comment" : "Repository note in the folder view: what Vitrine could not read.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "beim Vergleichen der Dateien ist die Zeit abgelaufen"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "le temps a manqué pour comparer les fichiers"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ファイルの比較中に時間切れになりました"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "파일을 비교하는 중 시간이 다 됨"
+          }
+        }
+      }
+    },
+    "unknown repository format version" : {
+      "comment" : "Repository note in the folder view: what Vitrine could not read.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "unbekannte Repository-Formatversion"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "version de format de dépôt inconnue"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "不明なリポジトリ形式のバージョン"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "알 수 없는 저장소 형식 버전"
+          }
+        }
+      }
+    },
+    "untracked files were not all counted" : {
+      "comment" : "Repository note in the folder view: what Vitrine could not read.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "nicht alle nicht verfolgten Dateien wurden gezählt"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "les fichiers non suivis n’ont pas tous été comptés"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "追跡されていないファイルの一部は数えていません"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "추적되지 않는 파일을 모두 세지 못함"
+          }
+        }
+      }
+    },
+    "untracked files were not counted" : {
+      "comment" : "Repository note in the folder view: what Vitrine could not read.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "nicht verfolgte Dateien wurden nicht gezählt"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "les fichiers non suivis n’ont pas été comptés"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "追跡されていないファイルは数えていません"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "추적되지 않는 파일을 세지 않음"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

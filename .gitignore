@@ -1,0 +1,9 @@
+.DS_Store
+xcuserdata/
+*.xcuserstate
+app/build/
+app/Vitrine.xcodeproj/
+/build/
+.build/
+__pycache__/
+.claude/

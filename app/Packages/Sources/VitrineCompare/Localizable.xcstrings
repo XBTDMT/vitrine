@@ -1,0 +1,3234 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "“%@”" : {
+      "comment" : "Words inserted in a prose compare, quoted; use your language's quotation marks.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%@“"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "« %@ »"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「%@」"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“%@”"
+          }
+        }
+      }
+    },
+    "“%@” → “%@”" : {
+      "comment" : "Part of a block change in a prose compare: old words → new words, quoted; use your language's quotation marks.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%1$@“ → „%2$@“"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "“%1$@” → “%2$@”"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "« %1$@ » → « %2$@ »"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「%1$@」→「%2$@」"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“%1$@” → “%2$@”"
+          }
+        }
+      }
+    },
+    "%@ (%@)" : {
+      "comment" : "Why a compare cannot start, then where in the file, such as line 4, column 9.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ (%2$@)"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ (%2$@)"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ (%2$@)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@（%2$@）"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ (%2$@)"
+          }
+        }
+      }
+    },
+    "%@ → %@ · %@ → %@" : {
+      "comment" : "Image compare detail: the pixel sizes before and after, then the file sizes before and after.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ → %2$@ · %3$@ → %4$@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ → %2$@ · %3$@ → %4$@"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ → %2$@ · %3$@ → %4$@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ → %2$@ · %3$@ → %4$@"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ → %2$@ · %3$@ → %4$@"
+          }
+        }
+      }
+    },
+    "%@ and %@ in %@" : {
+      "comment" : "Prose compare summary, such as 12 insertions and 3 deletions in 4 blocks.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ und %2$@ in %3$@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ and %2$@ in %3$@"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ et %2$@ dans %3$@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%3$@内で%1$@、%2$@"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%3$@에서 %1$@, %2$@"
+          }
+        }
+      }
+    },
+    "%@ both · %@ → %@" : {
+      "comment" : "Image compare detail: the shared pixel size such as 800 × 600, then the file sizes before and after.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ beide · %2$@ → %3$@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ both · %2$@ → %3$@"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ des deux côtés · %2$@ → %3$@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "どちらも%1$@ · %2$@ → %3$@"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "둘 다 %1$@ · %2$@ → %3$@"
+          }
+        }
+      }
+    },
+    "%@ larger" : {
+      "comment" : "How much larger the new image file is, such as 3 KB larger.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ größer"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ de plus"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@大きい"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ 더 큼"
+          }
+        }
+      }
+    },
+    "%@ smaller" : {
+      "comment" : "How much smaller the new image file is, such as 22 KB smaller.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ kleiner"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ de moins"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@小さい"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ 더 작음"
+          }
+        }
+      }
+    },
+    "%@, %@" : {
+      "comment" : "An image compare summary, then how the file size changed, such as 22 KB smaller.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@, %2$@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@, %2$@"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@, %2$@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@、%2$@"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@, %2$@"
+          }
+        }
+      }
+    },
+    "%lld added" : {
+      "comment" : "Part of a list change in a prose compare: how many items were added.\nStructural compare summary part: how many values were added.\nStructural compare: how many values inside a container were added.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld hinzugefügt"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld ajouté(s)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld件追加"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld개 추가됨"
+          }
+        }
+      }
+    },
+    "%lld blocks" : {
+      "comment" : "Count of changed blocks (paragraphs, headings, list items) in a prose compare (not 1).",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld Blöcke"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld blocs"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld個のブロック"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld개 블록"
+          }
+        }
+      }
+    },
+    "%lld cells · %lld changed" : {
+      "comment" : "Notebook compare lead: how many cells, and how many changed.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld Zellen · %2$lld geändert"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lld cells · %2$lld changed"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld cellules · %2$lld modifiée(s)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld個のセル · %2$lld個を変更"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "셀 %1$lld개 · %2$lld개 변경됨"
+          }
+        }
+      }
+    },
+    "%lld cells added" : {
+      "comment" : "Notebook compare summary part (not 1).",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld Zellen hinzugefügt"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld cellules ajoutées"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld個のセルを追加"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "셀 %lld개 추가됨"
+          }
+        }
+      }
+    },
+    "%lld cells removed" : {
+      "comment" : "Notebook compare summary part (not 1).",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld Zellen entfernt"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld cellules supprimées"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld個のセルを削除"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "셀 %lld개 제거됨"
+          }
+        }
+      }
+    },
+    "%lld changed" : {
+      "comment" : "Structural compare summary part: how many values changed.\nStructural compare: how many values inside a container changed.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld geändert"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld modifié(s)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld件変更"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld개 변경됨"
+          }
+        }
+      }
+    },
+    "%lld changes" : {
+      "comment" : "Structural compare: how many changes inside a container (not 1).",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld Änderungen"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld modifications"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld件の変更"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "변경 사항 %lld개"
+          }
+        }
+      }
+    },
+    "%lld deletions" : {
+      "comment" : "Count of deleted words in a prose compare (not 1).",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld Löschungen"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld suppressions"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld件の削除"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld개 삭제"
+          }
+        }
+      }
+    },
+    "%lld insertions" : {
+      "comment" : "Count of inserted words in a prose compare (not 1).",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld Einfügungen"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld insertions"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld件の挿入"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld개 삽입"
+          }
+        }
+      }
+    },
+    "%lld metadata changes hidden" : {
+      "comment" : "Notebook compare note: metadata changes are not shown (not 1).",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld Metadatenänderungen ausgeblendet"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld modifications de métadonnées masquées"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld件のメタデータの変更を非表示"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "메타데이터 변경 사항 %lld개 숨김"
+          }
+        }
+      }
+    },
+    "%lld objects reordered" : {
+      "comment" : "Structural compare summary part: how many objects' keys were reordered (not 1).",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld Objekte umsortiert"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld objets réordonnés"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld個のオブジェクトの順序を変更"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "객체 %lld개 순서 변경됨"
+          }
+        }
+      }
+    },
+    "%lld output changes" : {
+      "comment" : "Notebook compare summary part (not 1).",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld Ausgabeänderungen"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld modifications de sortie"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld件の出力の変更"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "출력 변경 사항 %lld개"
+          }
+        }
+      }
+    },
+    "%lld regions changed" : {
+      "comment" : "Summary line of an image compare. The argument is how many regions (not 1).",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld Bereiche geändert"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld zones modifiées"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld個の領域を変更"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "영역 %lld개 변경됨"
+          }
+        }
+      }
+    },
+    "%lld removed" : {
+      "comment" : "Notebook compare summary part after cells added: how many cells were removed.\nPart of a list change in a prose compare: how many items were removed.\nStructural compare summary part: how many values were removed.\nStructural compare: how many values inside a container were removed.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld entfernt"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld supprimé(s)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld件削除"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld개 제거됨"
+          }
+        }
+      }
+    },
+    "%lld source changes" : {
+      "comment" : "Notebook compare summary part (not 1).",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld Quelltextänderungen"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld modifications de source"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld件のソースの変更"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "소스 변경 사항 %lld개"
+          }
+        }
+      }
+    },
+    "1 block" : {
+      "comment" : "Count of changed blocks (paragraphs, headings, list items) in a prose compare.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 Block"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 bloc"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1個のブロック"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1개 블록"
+          }
+        }
+      }
+    },
+    "1 cell · %lld changed" : {
+      "comment" : "Notebook compare lead: one cell, and how many changed.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 Zelle · %lld geändert"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 cellule · %lld modifiée(s)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1個のセル · %lld個を変更"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "셀 1개 · %lld개 변경됨"
+          }
+        }
+      }
+    },
+    "1 cell added" : {
+      "comment" : "Notebook compare summary part.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 Zelle hinzugefügt"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 cellule ajoutée"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1個のセルを追加"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "셀 1개 추가됨"
+          }
+        }
+      }
+    },
+    "1 cell removed" : {
+      "comment" : "Notebook compare summary part.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 Zelle entfernt"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 cellule supprimée"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1個のセルを削除"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "셀 1개 제거됨"
+          }
+        }
+      }
+    },
+    "1 change" : {
+      "comment" : "Structural compare: changes inside a container.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 Änderung"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 modification"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1件の変更"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "변경 사항 1개"
+          }
+        }
+      }
+    },
+    "1 deletion" : {
+      "comment" : "Count of deleted words in a prose compare.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 Löschung"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 suppression"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1件の削除"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1개 삭제"
+          }
+        }
+      }
+    },
+    "1 insertion" : {
+      "comment" : "Count of inserted words in a prose compare.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 Einfügung"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 insertion"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1件の挿入"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1개 삽입"
+          }
+        }
+      }
+    },
+    "1 metadata change hidden" : {
+      "comment" : "Notebook compare note: a metadata change is not shown.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 Metadatenänderung ausgeblendet"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 modification de métadonnées masquée"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1件のメタデータの変更を非表示"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "메타데이터 변경 사항 1개 숨김"
+          }
+        }
+      }
+    },
+    "1 object reordered" : {
+      "comment" : "Structural compare summary part: one object's keys were reordered.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 Objekt umsortiert"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 objet réordonné"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1個のオブジェクトの順序を変更"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "객체 1개 순서 변경됨"
+          }
+        }
+      }
+    },
+    "1 output change" : {
+      "comment" : "Notebook compare summary part.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 Ausgabeänderung"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 modification de sortie"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1件の出力の変更"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "출력 변경 사항 1개"
+          }
+        }
+      }
+    },
+    "1 region changed" : {
+      "comment" : "Summary line of an image compare.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 Bereich geändert"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 zone modifiée"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1個の領域を変更"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "영역 1개 변경됨"
+          }
+        }
+      }
+    },
+    "1 source change" : {
+      "comment" : "Notebook compare summary part.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 Quelltextänderung"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 modification de source"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1件のソースの変更"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "소스 변경 사항 1개"
+          }
+        }
+      }
+    },
+    "added" : {
+      "comment" : "What happened to a block in a prose compare.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "hinzugefügt"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ajouté"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "追加"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "추가됨"
+          }
+        }
+      }
+    },
+    "Added" : {
+      "comment" : "A notebook cell was added.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hinzugefügt"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajoutée"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "追加"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "추가됨"
+          }
+        }
+      }
+    },
+    "Block" : {
+      "comment" : "Kind of a changed block in a prose compare: any other block.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Block"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bloc"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ブロック"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "블록"
+          }
+        }
+      }
+    },
+    "cell %lld is not an object" : {
+      "comment" : "A compare could not start: lower-case reason; the argument is a 1-based cell number.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zelle %lld ist kein Objekt"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "la cellule %lld n’est pas un objet"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "セル%lldがオブジェクトではありません"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "셀 %lld이(가) 객체가 아님"
+          }
+        }
+      }
+    },
+    "changed" : {
+      "comment" : "What happened to a block in a prose compare.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "geändert"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "modifié"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "変更"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "변경됨"
+          }
+        }
+      }
+    },
+    "Code block" : {
+      "comment" : "Kind of a changed block in a prose compare.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Codeblock"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bloc de code"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "コードブロック"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "코드 블록"
+          }
+        }
+      }
+    },
+    "Code cell" : {
+      "comment" : "Kind of a notebook cell.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Codezelle"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cellule de code"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "コードセル"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "코드 셀"
+          }
+        }
+      }
+    },
+    "Dimensions differ: %@ → %@" : {
+      "comment" : "Summary line of an image compare. The arguments are pixel sizes such as 800 × 600.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abmessungen unterschiedlich: %1$@ → %2$@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Dimensions differ: %1$@ → %2$@"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dimensions différentes : %1$@ → %2$@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "サイズが異なります：%1$@ → %2$@"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "크기가 다름: %1$@ → %2$@"
+          }
+        }
+      }
+    },
+    "document %lld" : {
+      "comment" : "Name of a YAML document or JSON Lines record in a structural compare; the argument is its 1-based number.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dokument %lld"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "document %lld"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ドキュメント%lld"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "문서 %lld"
+          }
+        }
+      }
+    },
+    "each side is %@ MP; pixels are compared up to %@ MP" : {
+      "comment" : "Why an image compare is incomplete; MP = megapixels; lower-case, no final period.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "jede Seite hat %1$@ MP; Pixel werden bis %2$@ MP verglichen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "each side is %1$@ MP; pixels are compared up to %2$@ MP"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "chaque côté fait %1$@ MP ; les pixels sont comparés jusqu’à %2$@ MP"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "各画像は%1$@ MPです。ピクセルは%2$@ MPまで比較されます"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "양쪽 모두 %1$@MP이며, 픽셀은 최대 %2$@MP까지 비교함"
+          }
+        }
+      }
+    },
+    "Execution counts and %lld metadata changes hidden" : {
+      "comment" : "Notebook compare note (not 1).",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ausführungszähler und %lld Metadatenänderungen ausgeblendet"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Compteurs d’exécution et %lld modifications de métadonnées masqués"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "実行回数と%lld件のメタデータの変更を非表示"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "실행 횟수 및 메타데이터 변경 사항 %lld개 숨김"
+          }
+        }
+      }
+    },
+    "Execution counts and 1 metadata change hidden" : {
+      "comment" : "Notebook compare note.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ausführungszähler und 1 Metadatenänderung ausgeblendet"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Compteurs d’exécution et 1 modification de métadonnées masqués"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "実行回数と1件のメタデータの変更を非表示"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "실행 횟수 및 메타데이터 변경 사항 1개 숨김"
+          }
+        }
+      }
+    },
+    "Execution counts hidden" : {
+      "comment" : "Notebook compare note: changed execution counts are not shown as changes.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ausführungszähler ausgeblendet"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Compteurs d’exécution masqués"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "実行回数を非表示"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "실행 횟수 숨김"
+          }
+        }
+      }
+    },
+    "Heading" : {
+      "comment" : "Kind of a changed block in a prose compare.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Überschrift"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Titre"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "見出し"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "제목"
+          }
+        }
+      }
+    },
+    "heading level %lld → %lld" : {
+      "comment" : "Part of a block change in a prose compare: the heading level changed, such as 2 → 3.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Überschriftenebene %1$lld → %2$lld"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "heading level %1$lld → %2$lld"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "niveau de titre %1$lld → %2$lld"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "見出しレベル%1$lld → %2$lld"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "제목 수준 %1$lld → %2$lld"
+          }
+        }
+      }
+    },
+    "Identical files" : {
+      "comment" : "Summary line of an image compare.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Identische Dateien"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fichiers identiques"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "同一のファイル"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "동일한 파일"
+          }
+        }
+      }
+    },
+    "Intro" : {
+      "comment" : "Kind of a changed block in a prose compare: the first paragraph.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Einleitung"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Introduction"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "導入"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "도입부"
+          }
+        }
+      }
+    },
+    "key order changed, ignored" : {
+      "comment" : "Structural compare: an object's keys were reordered, which does not count as a change.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schlüsselreihenfolge geändert, ignoriert"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ordre des clés modifié, ignoré"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "キーの順序が変更されました（無視）"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "키 순서 변경됨, 무시함"
+          }
+        }
+      }
+    },
+    "key order only, ignored" : {
+      "comment" : "Structural compare: only an object's key order changed, which does not count as a change.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "nur Schlüsselreihenfolge, ignoriert"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ordre des clés uniquement, ignoré"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "キーの順序のみ（無視）"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "키 순서만 변경됨, 무시함"
+          }
+        }
+      }
+    },
+    "line %lld" : {
+      "comment" : "Where a compare error is in a file.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zeile %lld"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ligne %lld"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld行目"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld번째 줄"
+          }
+        }
+      }
+    },
+    "line %lld, column %lld" : {
+      "comment" : "Where a compare error is in a file.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zeile %1$lld, Spalte %2$lld"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "line %1$lld, column %2$lld"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ligne %1$lld, colonne %2$lld"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld行目、%2$lld列目"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld번째 줄, %2$lld번째 열"
+          }
+        }
+      }
+    },
+    "Link" : {
+      "comment" : "Kind of a changed block in a prose compare: only a link target changed.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Link"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lien"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "リンク"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "링크"
+          }
+        }
+      }
+    },
+    "List" : {
+      "comment" : "Kind of a changed block in a prose compare: a list.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Liste"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Liste"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "リスト"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "목록"
+          }
+        }
+      }
+    },
+    "Markdown cell" : {
+      "comment" : "Kind of a notebook cell; Markdown is a format name.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Markdown-Zelle"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cellule Markdown"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Markdownセル"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Markdown 셀"
+          }
+        }
+      }
+    },
+    "nbformat %lld notebooks are not compared; nbformat 4 is" : {
+      "comment" : "A compare could not start: lower-case reason; nbformat is the notebook format version field and stays as is.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notebooks mit nbformat %lld werden nicht verglichen, nur nbformat 4"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "les notebooks nbformat %lld ne sont pas comparés ; seul nbformat 4 l’est"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "nbformat %lldのノートブックは比較されません。比較できるのはnbformat 4です"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "nbformat %lld 노트북은 비교하지 않음. nbformat 4만 비교함"
+          }
+        }
+      }
+    },
+    "new file: %@" : {
+      "comment" : "Why a structural compare is incomplete: the new file's coverage note.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "neue Datei: %@"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "nouveau fichier : %@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "新しいファイル：%@"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "새 파일: %@"
+          }
+        }
+      }
+    },
+    "No differences" : {
+      "comment" : "Compare summary: the two files have no differences.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keine Unterschiede"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aucune différence"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "差分はありません"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "차이 없음"
+          }
+        }
+      }
+    },
+    "not a Jupyter notebook (no cells list)" : {
+      "comment" : "A compare could not start: lower-case reason.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "kein Jupyter-Notebook (keine Zellenliste)"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "pas un notebook Jupyter (aucune liste de cellules)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jupyterノートブックではありません（セルのリストがありません）"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jupyter 노트북이 아님(셀 목록 없음)"
+          }
+        }
+      }
+    },
+    "not a Jupyter notebook (the top level is not an object)" : {
+      "comment" : "A compare could not start: lower-case reason.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "kein Jupyter-Notebook (die oberste Ebene ist kein Objekt)"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "pas un notebook Jupyter (le niveau supérieur n’est pas un objet)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jupyterノートブックではありません（最上位がオブジェクトではありません）"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jupyter 노트북이 아님(최상위 수준이 객체가 아님)"
+          }
+        }
+      }
+    },
+    "not a marimo notebook (no “import marimo” and “marimo.App(” at the top)" : {
+      "comment" : "Why a .py file is not drawn as a marimo notebook: lower-case reason; 'import marimo' and 'marimo.App(' are code and stay as they are.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "kein marimo-Notebook (oben fehlen „import marimo“ und „marimo.App(“)"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "pas un notebook marimo (pas de « import marimo » ni de « marimo.App( » en tête)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "marimo ノートブックではありません（先頭に「import marimo」と「marimo.App(」がありません）"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "marimo 노트북이 아님(맨 위에 ‘import marimo’와 ‘marimo.App(’이 없음)"
+          }
+        }
+      }
+    },
+    "not an image this Mac can read" : {
+      "comment" : "A compare could not start: lower-case reason.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "kein Bild, das dieser Mac lesen kann"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "pas une image lisible par ce Mac"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "このMacで読み込める画像ではありません"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이 Mac에서 읽을 수 있는 이미지가 아님"
+          }
+        }
+      }
+    },
+    "not valid %@: %@" : {
+      "comment" : "A compare could not start: lower-case reason; the arguments are a format name such as JSON and the parser's message.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "kein gültiges %1$@: %2$@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "not valid %1$@: %2$@"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ non valide : %2$@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "有効な%1$@ではありません：%2$@"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "유효한 %1$@ 아님: %2$@"
+          }
+        }
+      }
+    },
+    "not valid JSON: %@" : {
+      "comment" : "A compare could not start: lower-case reason; the argument is the JSON parser's message.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "kein gültiges JSON: %@"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "JSON non valide : %@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "有効なJSONではありません：%@"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "유효한 JSON 아님: %@"
+          }
+        }
+      }
+    },
+    "old file: %@" : {
+      "comment" : "Why a structural compare is incomplete: the old file's coverage note.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "alte Datei: %@"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ancien fichier : %@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "古いファイル：%@"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이전 파일: %@"
+          }
+        }
+      }
+    },
+    "Output changed" : {
+      "comment" : "What changed in a notebook cell.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ausgabe geändert"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sortie modifiée"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "出力を変更"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "출력 변경됨"
+          }
+        }
+      }
+    },
+    "Output changed (error)" : {
+      "comment" : "What changed in a notebook cell.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ausgabe geändert (Fehler)"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sortie modifiée (erreur)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "出力を変更（エラー）"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "출력 변경됨(오류)"
+          }
+        }
+      }
+    },
+    "Output changed (HTML)" : {
+      "comment" : "What changed in a notebook cell.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ausgabe geändert (HTML)"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sortie modifiée (HTML)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "出力を変更（HTML）"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "출력 변경됨(HTML)"
+          }
+        }
+      }
+    },
+    "Output changed (image)" : {
+      "comment" : "What changed in a notebook cell.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ausgabe geändert (Bild)"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sortie modifiée (image)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "出力を変更（画像）"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "출력 변경됨(이미지)"
+          }
+        }
+      }
+    },
+    "Paragraph" : {
+      "comment" : "Kind of a changed block in a prose compare.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Absatz"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Paragraphe"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "段落"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "단락"
+          }
+        }
+      }
+    },
+    "Pixels identical" : {
+      "comment" : "Summary line of an image compare. The files differ but every pixel is the same.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pixel identisch"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pixels identiques"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ピクセルは同一"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "픽셀 동일"
+          }
+        }
+      }
+    },
+    "Quote" : {
+      "comment" : "Kind of a changed block in a prose compare: a block quote.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zitat"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Citation"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "引用"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "인용"
+          }
+        }
+      }
+    },
+    "Raw cell" : {
+      "comment" : "Kind of a notebook cell.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rohzelle"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cellule brute"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rawセル"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Raw 셀"
+          }
+        }
+      }
+    },
+    "Region %lld · %lld × %lld px" : {
+      "comment" : "Label of a changed region in an image compare: its number, then its width × height in pixels.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bereich %1$lld · %2$lld × %3$lld px"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Region %1$lld · %2$lld × %3$lld px"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zone %1$lld · %2$lld × %3$lld px"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "領域%1$lld · %2$lld × %3$lld px"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "영역 %1$lld · %2$lld × %3$lld px"
+          }
+        }
+      }
+    },
+    "removed" : {
+      "comment" : "What happened to a block in a prose compare.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "entfernt"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "supprimé"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "削除"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "제거됨"
+          }
+        }
+      }
+    },
+    "Removed" : {
+      "comment" : "A notebook cell was removed.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Entfernt"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Supprimée"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "削除"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "제거됨"
+          }
+        }
+      }
+    },
+    "removed “%@”" : {
+      "comment" : "Part of a block change in a prose compare: words removed, quoted; use your language's quotation marks.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%@“ entfernt"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "« %@ » supprimé"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「%@」を削除"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“%@” 제거됨"
+          }
+        }
+      }
+    },
+    "sentence added" : {
+      "comment" : "Part of a block change in a prose compare.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Satz hinzugefügt"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "phrase ajoutée"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "文を追加"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "문장 추가됨"
+          }
+        }
+      }
+    },
+    "sentence removed" : {
+      "comment" : "Part of a block change in a prose compare.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Satz entfernt"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "phrase supprimée"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "文を削除"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "문장 제거됨"
+          }
+        }
+      }
+    },
+    "sentence replaced" : {
+      "comment" : "Part of a block change in a prose compare.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Satz ersetzt"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "phrase remplacée"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "文を置換"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "문장 대체됨"
+          }
+        }
+      }
+    },
+    "Source and output changed" : {
+      "comment" : "What changed in a notebook cell.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quelltext und Ausgabe geändert"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Source et sortie modifiées"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ソースと出力を変更"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "소스 및 출력 변경됨"
+          }
+        }
+      }
+    },
+    "Source changed" : {
+      "comment" : "What changed in a notebook cell.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quelltext geändert"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Source modifiée"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ソースを変更"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "소스 변경됨"
+          }
+        }
+      }
+    },
+    "Table" : {
+      "comment" : "Kind of a changed block in a prose compare.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tabelle"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tableau"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "テーブル"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "표"
+          }
+        }
+      }
+    },
+    "target %@ → %@" : {
+      "comment" : "Part of a block change in a prose compare: a link target changed.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ziel %1$@ → %2$@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "target %1$@ → %2$@"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cible %1$@ → %2$@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "リンク先%1$@ → %2$@"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "대상 %1$@ → %2$@"
+          }
+        }
+      }
+    },
+    "the compare stopped at its time limit (%@ s); later values are not compared" : {
+      "comment" : "Why a structural compare is incomplete; the argument is a number of seconds; lower-case, no final period.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "der Vergleich hat sein Zeitlimit (%@ s) erreicht; spätere Werte werden nicht verglichen"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "la comparaison a atteint sa limite de temps (%@ s) ; les valeurs suivantes ne sont pas comparées"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "比較が制限時間（%@ s）に達しました。それ以降の値は比較されていません"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "비교가 제한 시간(%@초)에 도달해 중단됨. 이후 값은 비교하지 않음"
+          }
+        }
+      }
+    },
+    "the file holds no %@ value" : {
+      "comment" : "A compare could not start: lower-case reason; the argument is a format identifier such as json.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "die Datei enthält keinen %@-Wert"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "le fichier ne contient aucune valeur %@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ファイルに%@の値がありません"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "파일에 %@ 값이 없음"
+          }
+        }
+      }
+    },
+    "the image could not be decoded" : {
+      "comment" : "A compare could not start: lower-case reason.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "das Bild konnte nicht decodiert werden"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "l’image n’a pas pu être décodée"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "画像をデコードできませんでした"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이미지를 디코딩할 수 없음"
+          }
+        }
+      }
+    },
+    "the list holds the first %@ changes" : {
+      "comment" : "Why a structural compare is incomplete; lower-case, no final period.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "die Liste enthält die ersten %@ Änderungen"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "la liste contient les %@ premières modifications"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "リストには最初の%@件の変更が含まれています"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "목록에는 처음 변경 사항 %@개가 있음"
+          }
+        }
+      }
+    },
+    "the new file is compared through its first %@ blocks" : {
+      "comment" : "Why a prose compare is incomplete; lower-case, no final period.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "die neue Datei wird bis zu ihren ersten %@ Blöcken verglichen"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "le nouveau fichier est comparé sur ses %@ premiers blocs"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "新しいファイルは最初の%@個のブロックまで比較されています"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "새 파일은 처음 %@개 블록까지 비교함"
+          }
+        }
+      }
+    },
+    "The new file: %@" : {
+      "comment" : "Why a compare cannot start; the argument is the reason.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die neue Datei: %@"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le nouveau fichier : %@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "新しいファイル：%@"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "새 파일: %@"
+          }
+        }
+      }
+    },
+    "The new file: %@ (%@)" : {
+      "comment" : "Why a compare cannot start; the arguments are the reason and where it is, such as line 4, column 9.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die neue Datei: %1$@ (%2$@)"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "The new file: %1$@ (%2$@)"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le nouveau fichier : %1$@ (%2$@)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "新しいファイル：%1$@（%2$@）"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "새 파일: %1$@(%2$@)"
+          }
+        }
+      }
+    },
+    "the new notebook is compared through its first %@ cells" : {
+      "comment" : "Why a notebook compare is incomplete; lower-case, no final period.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "das neue Notebook wird bis zu seinen ersten %@ Zellen verglichen"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "le nouveau notebook est comparé sur ses %@ premières cellules"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "新しいノートブックは最初の%@個のセルまで比較されています"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "새 노트북은 처음 %@개 셀까지 비교함"
+          }
+        }
+      }
+    },
+    "the notebook is larger than %@" : {
+      "comment" : "A compare could not start: lower-case reason; the argument is a file size.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "das Notebook ist größer als %@"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "le notebook dépasse %@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ノートブックが%@を超えています"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "노트북이 %@보다 큼"
+          }
+        }
+      }
+    },
+    "the old file is compared through its first %@ blocks" : {
+      "comment" : "Why a prose compare is incomplete; lower-case, no final period.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "die alte Datei wird bis zu ihren ersten %@ Blöcken verglichen"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "l’ancien fichier est comparé sur ses %@ premiers blocs"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "古いファイルは最初の%@個のブロックまで比較されています"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이전 파일은 처음 %@개 블록까지 비교함"
+          }
+        }
+      }
+    },
+    "The old file: %@" : {
+      "comment" : "Why a compare cannot start; the argument is the reason.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die alte Datei: %@"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L’ancien fichier : %@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "古いファイル：%@"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이전 파일: %@"
+          }
+        }
+      }
+    },
+    "The old file: %@ (%@)" : {
+      "comment" : "Why a compare cannot start; the arguments are the reason and where it is, such as line 4, column 9.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die alte Datei: %1$@ (%2$@)"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "The old file: %1$@ (%2$@)"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L’ancien fichier : %1$@ (%2$@)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "古いファイル：%1$@（%2$@）"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이전 파일: %1$@(%2$@)"
+          }
+        }
+      }
+    },
+    "the old notebook is compared through its first %@ cells" : {
+      "comment" : "Why a notebook compare is incomplete; lower-case, no final period.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "das alte Notebook wird bis zu seinen ersten %@ Zellen verglichen"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "l’ancien notebook est comparé sur ses %@ premières cellules"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "古いノートブックは最初の%@個のセルまで比較されています"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이전 노트북은 처음 %@개 셀까지 비교함"
+          }
+        }
+      }
+    },
+    "the time limit was reached; later changed sources show as whole replacements" : {
+      "comment" : "Why a notebook compare is incomplete; lower-case, no final period.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "das Zeitlimit wurde erreicht; spätere geänderte Quelltexte erscheinen als vollständige Ersetzungen"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "la limite de temps a été atteinte ; les sources modifiées suivantes apparaissent comme des remplacements complets"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "制限時間に達しました。それ以降に変更されたソースは全体の置換として表示されます"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "제한 시간에 도달함. 이후 변경된 소스는 전체 대체로 표시됨"
+          }
+        }
+      }
+    },
+    "the time limit was reached; later edited blocks show as whole replacements" : {
+      "comment" : "Why a prose compare is incomplete; lower-case, no final period.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "das Zeitlimit wurde erreicht; später bearbeitete Blöcke erscheinen als vollständige Ersetzungen"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "la limite de temps a été atteinte ; les blocs modifiés suivants apparaissent comme des remplacements complets"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "制限時間に達しました。それ以降に編集されたブロックは全体の置換として表示されます"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "제한 시간에 도달함. 이후 편집된 블록은 전체 대체로 표시됨"
+          }
+        }
+      }
+    },
+    "the tree shows its first %@ rows" : {
+      "comment" : "Why a structural compare is incomplete; lower-case, no final period.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "die Baumansicht zeigt ihre ersten %@ Zeilen"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "l’arborescence affiche ses %@ premières lignes"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ツリーには最初の%@行が表示されています"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "트리에 처음 %@개 행이 표시됨"
+          }
+        }
+      }
+    },
+    "Title" : {
+      "comment" : "Kind of a changed block in a prose compare: the top-level heading.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Titel"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Titre principal"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "タイトル"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "제목"
+          }
+        }
+      }
+    },
+    "Too large to compare pixels" : {
+      "comment" : "Summary line of an image compare.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zu groß für Pixelvergleich"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trop volumineux pour comparer les pixels"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "大きすぎるためピクセルを比較できません"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "너무 커서 픽셀을 비교할 수 없음"
+          }
+        }
+      }
+    },
+    "XML is not compared by structure (elements repeat names and keep order); compare it as text" : {
+      "comment" : "A compare could not start: reason.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "XML wird nicht strukturell verglichen (Elemente wiederholen Namen und behalten ihre Reihenfolge); vergleichen Sie es als Text"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le XML n’est pas comparé par structure (les éléments répètent leurs noms et conservent leur ordre) ; comparez-le en tant que texte"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "XMLは構造では比較されません（要素名が繰り返され、順序が保たれるため）。テキストとして比較してください"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "XML은 구조로 비교하지 않습니다(요소 이름이 반복되고 순서가 유지됨). 텍스트로 비교하세요"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

@@ -1,0 +1,11 @@
+{
+  "positive": [
+    "e4f92508f541694322f0e1a017a5a395-us21",
+    "46309bc32f320ea8248f18b6682e3875-us1"
+  ],
+  "negative": [
+    "65b1a52cdd2712522ad2f7ff29f19974-eu1",
+    "13b7567d8c40cf4ca5e9-us21",
+    "fcd41b534c4fdef4b996c0a237dee188-us123"
+  ]
+}

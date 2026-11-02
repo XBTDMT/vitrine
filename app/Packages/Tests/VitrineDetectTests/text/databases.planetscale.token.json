@@ -1,0 +1,11 @@
+{
+  "positive": [
+    "pscale_tkn_lUXqd1wlH9QS8CUBIxdmphc8GWtVKwjpiIh8ugxv",
+    "pscale_pw_c8NX6DhfHy7X6PhMjznlZ4uhS7YN8k2x",
+    "pscale_oauth_F02ASG2qgTXSaHleK7sSyXD3K16bDK65wOp4u5aucMEf"
+  ],
+  "negative": [
+    "pscale_tkn_iVzc8zk2is",
+    "pscale_abc_od7TFxHC8ZOO5V87QhUNrXulEFAO1IjhsY9ML7Tk"
+  ]
+}

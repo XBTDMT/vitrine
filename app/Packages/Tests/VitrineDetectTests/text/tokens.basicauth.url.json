@@ -1,0 +1,10 @@
+{
+  "positive": [
+    "https://admin:7tHhOfc3zFVk@internal.example.com/status",
+    "http://u:lBqyfphk@10.0.0.5:8080/"
+  ],
+  "negative": [
+    "https://internal.example.com/status",
+    "https://admin@internal.example.com/"
+  ]
+}

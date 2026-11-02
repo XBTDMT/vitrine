@@ -1,0 +1,10 @@
+{
+  "positive": [
+    "DD_API_KEY=a8e87bf732d59ceaadd9e9e3bf93074a",
+    "DD_APP_KEY: b1d0d07eb9bd502dd030c2b4ae8b2e9b550a4028"
+  ],
+  "negative": [
+    "DD_API_KEY=fe9d781890",
+    "DD_SITE=datadoghq.com"
+  ]
+}

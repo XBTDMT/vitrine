@@ -1,0 +1,11 @@
+{
+  "positive": [
+    "CLOUDFLARE_API_TOKEN=DEOn5tRux4TmAzzg69YGKqszZsRF_hgEeUGPA8NR",
+    "CF_API_TOKEN: lA2hoikgrBc5pN3HbtDGuCioiz8B6DyfG1Qg6Y0F",
+    "Authorization: Bearer KRN8a4G0sHRGvyZ5gaC5SmQyc9YhiXlaNcf07xDY  # cloudflare"
+  ],
+  "negative": [
+    "CLOUDFLARE_API_TOKEN=ImjUzMJ650qiWi6KfEI7",
+    "Authorization: Bearer wvOAWx3i3B7xHxjDfUJZyVPK8Xo7VniQ98RJZVx9"
+  ]
+}

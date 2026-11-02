@@ -1,0 +1,7 @@
+// The system libarchive (/usr/lib/libarchive.2.dylib, linked through the SDK's libarchive.tbd). The SDK ships no
+// headers for it, so CArchive.h declares the small read API VitrineArchive uses (G-15). roadmap: S-8
+module CArchive [system] {
+    header "CArchive.h"
+    link "archive"
+    export *
+}

@@ -1,0 +1,10 @@
+{
+  "positive": [
+    "vercel_nwmN6jhoW2laIOnuSbeP1acw",
+    "VERCEL_TOKEN=vercel_EGdN5Zt0FBe0yxNuqk7tgwc8oeEHQ0"
+  ],
+  "negative": [
+    "vercel_abc",
+    "vercel deploy --prod"
+  ]
+}

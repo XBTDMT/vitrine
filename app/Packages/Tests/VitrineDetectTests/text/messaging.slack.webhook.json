@@ -1,0 +1,10 @@
+{
+  "positive": [
+    "https://hooks.slack.com/services/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",
+    "https://hooks.slack.com/workflows/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"
+  ],
+  "negative": [
+    "https://hooks.slack.com/services/",
+    "https://slack.com/api/chat.postMessage"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "positive": [
+    "pypi-AgEIcHlwaS5vcmcjsJGFtvYhvYkJ4KXZVHaq3_do0Eyp86bhn7vzYEqN5ox0bEiwSBqP0JuWw2eSV3DmXMrDk"
+  ],
+  "negative": [
+    "pypi-AgEIcHlwaS5vcmcrd89kLhTWv",
+    "pypi-1b5HVjXLj8yCnuiRHYFUeBlRgYvSY5Y25uhdkXBc29v836fuZaJ5riERM4CRqwHObLHkkN"
+  ]
+}

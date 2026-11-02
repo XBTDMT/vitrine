@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>Export as PDF</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>XPC!</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>$(MACOSX_DEPLOYMENT_TARGET)</string>
+	<key>NSExtension</key>
+	<dict>
+		<key>NSExtensionAttributes</key>
+		<dict>
+			<key>NSExtensionActivationRule</key>
+			<string>SUBQUERY(extensionItems, $item, $item.attachments.@count &gt;= 1 AND SUBQUERY($item.attachments, $attachment, ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "net.daringfireball.markdown" OR ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.markdown" OR ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "io.github.xbtdmt.vitrine.mdx" OR ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "io.github.xbtdmt.vitrine.mdc" OR ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "io.github.xbtdmt.vitrine.qmd" OR ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "io.github.xbtdmt.vitrine.rmd" OR ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "org.textbundle.package" OR ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "org.python.restructuredtext" OR ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "org.asciidoc.asciidoc" OR ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "org.orgmode.org").@count == $item.attachments.@count).@count &gt;= 1</string>
+			<key>NSExtensionServiceAllowsFinderPreviewItem</key>
+			<true/>
+			<key>NSExtensionServiceFinderPreviewIconName</key>
+			<string>NSShareTemplate</string>
+			<key>NSExtensionServiceFinderPreviewLabel</key>
+			<string>PDF</string>
+			<key>NSExtensionServiceRoleType</key>
+			<string>NSExtensionServiceRoleTypeEditor</string>
+		</dict>
+		<key>NSExtensionPointIdentifier</key>
+		<string>com.apple.services</string>
+		<key>NSExtensionPrincipalClass</key>
+		<string>$(PRODUCT_MODULE_NAME).QuickActionRequestHandler</string>
+	</dict>
+	<key>VitrineQuickAction</key>
+	<string>exportPDF</string>
+</dict>
+</plist>

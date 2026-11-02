@@ -1,0 +1,10 @@
+{
+  "positive": [
+    "otpauth://totp/Example:alice@example.com?secret=M6HQNG3O5V22LAHQJ4ECS4B6NQGR6D6T&issuer=Example",
+    "otpauth://hotp/acct?issuer=X&secret=6G7YMPNYDVKCJDOI&counter=0"
+  ],
+  "negative": [
+    "otpauth://totp/Example:alice?issuer=Example",
+    "https://example.com/?secret=ABCDEFGHIJKLMNOP"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "positive": [
+    "npm_45jo66fZbJl96neLUjKEMMdyQbfmUDvNQ6xZ",
+    "//registry.npmjs.org/:_authToken=npm_Wt1A8cj6n7OayYPZ8yI7esNbWpB3PvIUAzuP"
+  ],
+  "negative": [
+    "npm_qUGGvSwBY5",
+    "npm install"
+  ]
+}

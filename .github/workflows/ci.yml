@@ -1,0 +1,80 @@
+name: CI
+# roadmap: S-17 · DRAFT, not pushed. Ported from Obscura's ci.yml (Obscura G-42).
+# Every step fails the job when its command fails: `shell: bash` runs with -eo pipefail, and no output is piped through
+# tail and no failure is swallowed (Obscura, 2026-10-28: both jobs reported success while the tests did not compile).
+# Built and tested with Xcode 27, the release Mac's toolchain; the project's xcodeVersion is 27.1 and Swift 6 strict
+# concurrency needs it. Add an older Xcode to the matrices only once it is measured to build.
+# The full suite is the Vitrine scheme's tests (the app's three XCTest bundles and 17 package test targets) plus
+# `swift test` in app/Packages, which also covers VitrineUpdate, VitrineHelperKit and VitrineTokenizers (not in the
+# scheme). No test runs git (a project rule); the app is signed ad-hoc, so no certificate is needed.
+on:
+  push: { branches: [main] }
+  pull_request:
+  workflow_dispatch:
+defaults:
+  run:
+    shell: bash
+permissions: { contents: read }
+jobs:
+  packages:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { runner: xcode-27, xcode: latest }
+    runs-on: ${{ matrix.runner }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: maxim-lobanov/setup-xcode@v1
+        with: { xcode-version: "${{ matrix.xcode }}" }
+      - run: xcodebuild -version && swift --version
+      - name: No real credentials outside the made-up test trees
+        run: app/scripts/scan-fixtures-for-real-secrets.sh "$GITHUB_WORKSPACE"
+      - name: Build the libraries (release)
+        working-directory: app/Packages
+        run: swift build -c release
+      - name: Test the libraries
+        working-directory: app/Packages
+        env: { CI: "1" }
+        run: swift test
+  app:
+    needs: packages
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { runner: xcode-27, xcode: latest }
+    runs-on: ${{ matrix.runner }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: maxim-lobanov/setup-xcode@v1
+        with: { xcode-version: "${{ matrix.xcode }}" }
+      - run: xcodebuild -version
+      - run: brew install xcodegen
+      - run: xcodegen generate --spec app/project.yml
+      - name: Build and run the full test suite (ad-hoc signed)
+        env: { CI: "1" }
+        run: |
+          if ! xcodebuild -project app/Vitrine.xcodeproj -scheme Vitrine -configuration Debug -destination 'platform=macOS' \
+               -derivedDataPath app/build/DerivedData -onlyUsePackageVersionsFromResolvedFile \
+               test CODE_SIGN_IDENTITY=- DEVELOPMENT_TEAM= > test.log 2>&1; then
+            # Display only (awk exits 0 whether or not it matches); xcodebuild's status already decided the job.
+            awk '/error:|failed|\*\* TEST/ && n++ < 120 { print NR ": " $0 }' test.log
+            tail -80 test.log
+            exit 1
+          fi
+          grep -E '\*\* TEST' test.log
+      - name: Build the app (Release, ad-hoc)
+        run: |
+          if ! xcodebuild -project app/Vitrine.xcodeproj -scheme Vitrine -configuration Release -destination 'generic/platform=macOS' \
+               -derivedDataPath app/build/DerivedData -onlyUsePackageVersionsFromResolvedFile \
+               build CODE_SIGN_IDENTITY=- DEVELOPMENT_TEAM= > build.log 2>&1; then
+            awk '/error:|\*\* BUILD/ && n++ < 80 { print NR ": " $0 }' build.log   # display only
+            tail -60 build.log
+            exit 1
+          fi
+          grep -E '\*\* BUILD' build.log
+      - name: Keep the test log
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with: { name: test-log, path: "*.log", if-no-files-found: ignore }

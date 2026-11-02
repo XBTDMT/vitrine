@@ -1,0 +1,11 @@
+{
+  "positive": [
+    "secret_vMFodATiIdoI939hNiy3j94HibiRcKd8WGVJyBD3I88",
+    "ntn_4XJVT78lcId4fDldQMZ2cNM5bppVwRjz4PZ4UEO6uNIX6TOGnM"
+  ],
+  "negative": [
+    "secret_LN7bzBvlBk",
+    "ntn_Ek7xqKO3FKAK8CdUgw9j",
+    "secret_sauce recipe"
+  ]
+}

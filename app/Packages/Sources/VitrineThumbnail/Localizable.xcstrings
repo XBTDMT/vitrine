@@ -1,0 +1,122 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Does not parse" : {
+      "comment" : "Finder thumbnail warning band: the file is broken.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lässt sich nicht lesen"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Illisible"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "読み込めません"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "읽을 수 없음"
+          }
+        }
+      }
+    },
+    "Does not parse at line %lld" : {
+      "comment" : "Finder thumbnail warning band: the file is broken at this line.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fehler in Zeile %lld"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erreur à la ligne %lld"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld行目でエラー"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld번째 줄에 오류"
+          }
+        }
+      }
+    },
+    "Empty" : {
+      "comment" : "Finder thumbnail of a file with nothing in it.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leer"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vide"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "空"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "비어 있음"
+          }
+        }
+      }
+    },
+    "Too large to show" : {
+      "comment" : "Finder thumbnail warning band: the file expands to more than a thumbnail can draw.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zu groß zum Anzeigen"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trop volumineux à afficher"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "大きすぎて表示できません"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "너무 커서 표시할 수 없음"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

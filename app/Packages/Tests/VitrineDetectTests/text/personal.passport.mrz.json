@@ -1,0 +1,11 @@
+{
+  "positive": [
+    "P<UTOERIKSSON<<ANNA<MARIA<<<<<<<<<<<<<<<<<<<",
+    "P<GBRSMITH<<JOHN<<<<<<<<<<<<<<<<<<<<<<<<<<<<"
+  ],
+  "negative": [
+    "P<UTOERIKSSON<<ANNA",
+    "L898902C36UTO7408122F1204159ZE184226B<<<<<10",
+    "P<UTOERIKSSON<<ANNA<MARIA<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<"
+  ]
+}

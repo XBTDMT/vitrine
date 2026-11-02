@@ -1,0 +1,11 @@
+{
+  "positive": [
+    "dop_v1_33e45c5cd67138ea9d175766c971ef12afde6d5ed282e1c390d4883af2bd22e9",
+    "doo_v1_1144be9ab264be3b656a608172c33b9e049b92dfa4a217c30395193ed981d923",
+    "dor_v1_f779ce6f3bd63a457bbf03995f3ba847e2e1bdecee25ffac7bcf2308b56cb4fa"
+  ],
+  "negative": [
+    "dop_v1_9ab6752111c86b6026f92e8b1d147d",
+    "dop_v2_fb9b455d89f32c50b1b883f1beeeb6cedcce25c9ae682b1629004703a068dc75"
+  ]
+}

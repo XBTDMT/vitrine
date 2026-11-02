@@ -1,0 +1,9 @@
+{
+  "positive": [
+    "hf_1MjSk8qf2LCMLFEnctvYBugNZaqbsNBknP"
+  ],
+  "negative": [
+    "hf_J3HficOFh6",
+    "HF_TOKEN set in env"
+  ]
+}

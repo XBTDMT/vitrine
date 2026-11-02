@@ -1,0 +1,9 @@
+{
+  "positive": [
+    "DEEPSEEK_API_KEY=sk-c618465dab01896623e0a7763c013e2b"
+  ],
+  "negative": [
+    "DEEPSEEK_API_KEY=sk-33Ilw0ArTniu9T8w1bvB8JlKeCA6Sb7L",
+    "sk-792b04c4fc884a444df48be87accc944"
+  ]
+}

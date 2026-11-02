@@ -1,0 +1,16 @@
+{
+  "positive": [
+    "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",
+    "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",
+    "ghs_MCISQgcnE0Omqley8ssxTA9S5ABEWy1jqkzQ",
+    "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"
+  ],
+  "negative": [
+    "ghp_1EepcLKfmT868FeG5CfOyzk3oyOfEzmmC9Z0",
+    "ghp_IcdLVnyCteNGE36tIWqt",
+    "github_pat_GSaOamqHw6ozTvvcQFXk00_YQaVand9Ai",
+    "Create a personal access token; classic ones start with ghp_ and are 40 characters long",
+    "ghp_tokens expire after 90 days unless you choose otherwise",
+    "see the docs at ghp_example_token_value_here for the format"
+  ]
+}

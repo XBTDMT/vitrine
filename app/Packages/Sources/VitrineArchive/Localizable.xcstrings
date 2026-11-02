@@ -1,0 +1,4636 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "“%@” is %@; archives inside archives open up to %@" : {
+      "comment" : "Why a member inside an archive cannot be opened. A path, its size, then the size limit.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%1$@“ ist %2$@ groß; Archive in Archiven werden bis %3$@ geöffnet"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "“%1$@” is %2$@; archives inside archives open up to %3$@"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "« %1$@ » fait %2$@ ; les archives imbriquées s’ouvrent jusqu’à %3$@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「%1$@」は%2$@です。アーカイブ内のアーカイブは%3$@まで開けます"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“%1$@”의 크기: %2$@. 아카이브 안의 아카이브는 최대 %3$@까지 열 수 있습니다"
+          }
+        }
+      }
+    },
+    "“%@” is larger than that; archives inside archives open up to %@" : {
+      "comment" : "Why a member inside an archive cannot be opened. The first argument is a path, the second a size limit.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%1$@“ ist größer; Archive in Archiven werden bis %2$@ geöffnet"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "“%1$@” is larger than that; archives inside archives open up to %2$@"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "« %1$@ » est plus grand ; les archives imbriquées s’ouvrent jusqu’à %2$@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「%1$@」はそれより大きいサイズです。アーカイブ内のアーカイブは%2$@まで開けます"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“%1$@”이(가) 그보다 큽니다. 아카이브 안의 아카이브는 최대 %2$@까지 열 수 있습니다"
+          }
+        }
+      }
+    },
+    "“%@” is not in the archive" : {
+      "comment" : "Why a member inside an archive cannot be opened. The argument is a path.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%@“ ist nicht im Archiv"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "« %@ » ne figure pas dans l’archive"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「%@」はアーカイブ内にありません"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "아카이브에 “%@” 없음"
+          }
+        }
+      }
+    },
+    "(the names themselves are encrypted)" : {
+      "comment" : "Archive safety card: shown instead of a path when the member names are encrypted.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "(die Namen selbst sind verschlüsselt)"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "(les noms eux-mêmes sont chiffrés)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "（名前自体が暗号化されています）"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "(이름 자체가 암호화되어 있음)"
+          }
+        }
+      }
+    },
+    "%@ (%@ from %@)" : {
+      "comment" : "Archive safety card: expansion ratio, then the expanded size and the archive's own size.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ (%2$@ von %3$@)"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ (%2$@ from %3$@)"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ (%2$@ pour %3$@)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@（%3$@から%2$@）"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ (%3$@에서 %2$@)"
+          }
+        }
+      }
+    },
+    "%@ (%@)" : {
+      "comment" : "A path in the archive safety card followed by its expansion ratio, like 420×.\nA path in the archive safety card followed by its size.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ (%2$@)"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ (%2$@)"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ (%2$@)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@（%2$@）"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ (%2$@)"
+          }
+        }
+      }
+    },
+    "%@ archives inside are larger than Vitrine opens in place." : {
+      "comment" : "Archive safety card: one finding's sentence (more than one; the argument is the count).",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ enthaltene Archive sind größer, als Vitrine direkt öffnet."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ archives internes dépassent la taille que Vitrine ouvre sur place."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "内部のアーカイブのうち%@個は、Vitrineがその場で開けるサイズを超えています。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "내부 아카이브 %@개가 Vitrine에서 바로 열 수 있는 크기보다 큽니다."
+          }
+        }
+      }
+    },
+    "%@ bytes follow the end of the archive." : {
+      "comment" : "A note under the archive listing.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ Byte folgen auf das Ende des Archivs."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ octets suivent la fin de l’archive."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アーカイブの末尾の後に%@バイトのデータがあります。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "아카이브 끝 뒤에 %@바이트가 더 있습니다."
+          }
+        }
+      }
+    },
+    "%@ bytes precede the archive (a self-extractor stub)." : {
+      "comment" : "A note under the archive listing.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ Byte stehen vor dem Archiv (ein Selbstentpacker-Stub)."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ octets précèdent l’archive (amorce auto-extractible)."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アーカイブの前に%@バイトのデータがあります（自己解凍スタブ）。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "아카이브 앞에 %@바이트가 있습니다(자동 압축 해제 스텁)."
+          }
+        }
+      }
+    },
+    "%@ encryption" : {
+      "comment" : "How an archive member is encrypted; the argument is a format name like 7-Zip or RAR.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@-Verschlüsselung"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chiffrement %@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@暗号化"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ 암호화"
+          }
+        }
+      }
+    },
+    "%@ entries" : {
+      "comment" : "Archive safety card: how many entries the archive holds (always many).",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ Einträge"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ entrées"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@個の項目"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "항목 %@개"
+          }
+        }
+      }
+    },
+    "%@ entries are devices or pipes." : {
+      "comment" : "Archive safety card: one finding's sentence (more than one; the argument is the count).",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ Einträge sind Geräte oder Pipes."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ entrées sont des périphériques ou des tubes."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@個の項目はデバイスまたはパイプです。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@개 항목이 장치 또는 파이프입니다."
+          }
+        }
+      }
+    },
+    "%@ entries listed: %@" : {
+      "comment" : "Archive safety card: entries listed (total unknown), then why the listing stopped.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ Einträge aufgelistet: %2$@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ entries listed: %2$@"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ entrées listées : %2$@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@個の項目を表示：%2$@"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "나열된 항목 %1$@개: %2$@"
+          }
+        }
+      }
+    },
+    "%@ entries name an absolute location on disk." : {
+      "comment" : "Archive safety card: one finding's sentence (more than one; the argument is the count).",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ Einträge verweisen auf einen absoluten Ort auf dem Volume."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ entrées désignent un emplacement absolu sur le disque."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@個の項目がディスク上の絶対位置を指しています。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@개 항목이 디스크의 절대 위치를 가리킵니다."
+          }
+        }
+      }
+    },
+    "%@ entries would be written above the folder it is extracted into." : {
+      "comment" : "Archive safety card: one finding's sentence (more than one; the argument is the count).",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ Einträge würden oberhalb des Zielordners geschrieben."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ entrées seraient écrites au-dessus du dossier d’extraction."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@個の項目が、展開先フォルダより上の階層に書き込まれます。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@개 항목이 압축 해제할 폴더의 상위 위치에 쓰입니다."
+          }
+        }
+      }
+    },
+    "%@ extra copies of paths already in the archive; later ones overwrite." : {
+      "comment" : "Archive safety card: one finding's sentence (more than one; the argument is the count).",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ weitere Kopien von Pfaden, die schon im Archiv sind; spätere überschreiben frühere."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ copies supplémentaires de chemins déjà présents dans l’archive ; les suivantes écrasent les précédentes."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アーカイブ内に既にあるパスのコピーが%@個あります。後のものが上書きします。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "아카이브에 이미 있는 경로의 추가 사본 %@개: 나중 사본이 앞의 것을 덮어씁니다."
+          }
+        }
+      }
+    },
+    "%@ files are programs, installers or scripts: they run when opened." : {
+      "comment" : "Archive safety card: one finding's sentence (more than one; the argument is the count).",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ Dateien sind Programme, Installationsprogramme oder Skripte: Sie werden beim Öffnen ausgeführt."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ fichiers sont des programmes, installeurs ou scripts : ils s’exécutent à l’ouverture."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@個のファイルはプログラム、インストーラ、またはスクリプトです。開くと実行されます。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@개 파일이 프로그램, 설치 프로그램 또는 스크립트입니다. 열면 실행됩니다."
+          }
+        }
+      }
+    },
+    "%@ files would run with the group's privileges." : {
+      "comment" : "Archive safety card: one finding's sentence (more than one; the argument is the count).",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ Dateien würden mit den Rechten der Gruppe ausgeführt."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ fichiers s’exécuteraient avec les privilèges du groupe."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@個のファイルはグループの権限で実行されます。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@개 파일이 그룹 권한으로 실행됩니다."
+          }
+        }
+      }
+    },
+    "%@ files would run with the owner's privileges." : {
+      "comment" : "Archive safety card: one finding's sentence (more than one; the argument is the count).",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ Dateien würden mit den Rechten des Eigentümers ausgeführt."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ fichiers s’exécuteraient avec les privilèges du propriétaire."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@個のファイルは所有者の権限で実行されます。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@개 파일이 소유자 권한으로 실행됩니다."
+          }
+        }
+      }
+    },
+    "%@ hard links." : {
+      "comment" : "Archive safety card: one finding's sentence (more than one; the argument is the count).",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ harte Links."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ liens physiques."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ハードリンクが%@個あります。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "하드 링크 %@개."
+          }
+        }
+      }
+    },
+    "%@ links lead outside the extracted folder." : {
+      "comment" : "Archive safety card: one finding's sentence (more than one; the argument is the count).",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ Links führen aus dem entpackten Ordner hinaus."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ liens mènent hors du dossier extrait."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@個のリンクが展開先フォルダの外を指しています。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@개 링크가 압축 해제된 폴더 밖을 가리킵니다."
+          }
+        }
+      }
+    },
+    "%@ members are archives themselves; open one to look inside." : {
+      "comment" : "Archive safety card: one finding's sentence (more than one; the argument is the count).",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ Objekte sind selbst Archive; öffnen Sie eines, um hineinzusehen."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ éléments sont eux-mêmes des archives ; ouvrez-en une pour voir son contenu."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@個の項目はそれ自体がアーカイブです。開くと中身を確認できます。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@개 멤버가 그 자체로 아카이브입니다. 열어서 내부를 살펴보세요."
+          }
+        }
+      }
+    },
+    "%@ members are encrypted; their content cannot be previewed." : {
+      "comment" : "Archive safety card: one finding's sentence (more than one; the argument is the count).",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ Objekte sind verschlüsselt; ihr Inhalt kann nicht angezeigt werden."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ éléments sont chiffrés ; leur contenu ne peut pas être prévisualisé."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@個の項目は暗号化されているため、内容をプレビューできません。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@개 멤버가 암호화되어 있어 내용을 미리 볼 수 없습니다."
+          }
+        }
+      }
+    },
+    "%@ members expand over the per-member ratio threshold." : {
+      "comment" : "Archive safety card: one finding's sentence (more than one; the argument is the count).",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ Objekte überschreiten den Grenzwert für das Entpackungsverhältnis pro Objekt."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ éléments dépassent le seuil de taux d’expansion par élément."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@個の項目が項目ごとの展開率のしきい値を超えて展開されます。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@개 멤버가 멤버당 압축률 한도를 넘어 확장됩니다."
+          }
+        }
+      }
+    },
+    "%@ members overlap another's data, a zip bomb construction." : {
+      "comment" : "Archive safety card: one finding's sentence (more than one; the argument is the count).",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ Objekte überlappen die Daten eines anderen, eine typische Zip-Bomben-Konstruktion."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ éléments chevauchent les données d’un autre, une construction de bombe zip."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@個の項目が他の項目のデータと重なっています。zip爆弾の構造です。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@개 멤버가 다른 멤버의 데이터와 겹칩니다. 압축 폭탄의 구성 방식입니다."
+          }
+        }
+      }
+    },
+    "%@ names collide on a case-insensitive disk." : {
+      "comment" : "Archive safety card: one finding's sentence (more than one; the argument is the count).",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ Namen kollidieren auf einem Volume ohne Groß-/Kleinschreibung."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ noms entrent en conflit sur un disque insensible à la casse."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@個の名前が大文字と小文字を区別しないディスク上で衝突します。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@개 이름이 대소문자를 구분하지 않는 디스크에서 충돌합니다."
+          }
+        }
+      }
+    },
+    "%@ names contain bidirectional controls that can disguise an extension." : {
+      "comment" : "Archive safety card: one finding's sentence (more than one; the argument is the count).",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ Namen enthalten Richtungssteuerzeichen, die eine Dateiendung tarnen können."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ noms contiennent des contrôles bidirectionnels pouvant masquer une extension."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@個の名前に、拡張子を偽装できる双方向制御文字が含まれています。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@개 이름에 확장자를 위장할 수 있는 양방향 제어 문자가 있습니다."
+          }
+        }
+      }
+    },
+    "%@ names contain invisible control characters." : {
+      "comment" : "Archive safety card: one finding's sentence (more than one; the argument is the count).",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ Namen enthalten unsichtbare Steuerzeichen."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ noms contiennent des caractères de contrôle invisibles."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@個の名前に、目に見えない制御文字が含まれています。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@개 이름에 보이지 않는 제어 문자가 있습니다."
+          }
+        }
+      }
+    },
+    "%@ names use drive letters or backslashes, which Windows reads as folders." : {
+      "comment" : "Archive safety card: one finding's sentence (more than one; the argument is the count).",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ Namen verwenden Laufwerksbuchstaben oder Backslashes, die Windows als Ordner liest."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ noms utilisent des lettres de lecteur ou des barres obliques inverses, que Windows lit comme des dossiers."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@個の名前にドライブ文字またはバックスラッシュが使われています。Windowsはこれらをフォルダとして解釈します。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@개 이름에 Windows가 폴더로 읽는 드라이브 문자나 백슬래시가 있습니다."
+          }
+        }
+      }
+    },
+    "%@ of %@ entries listed: %@" : {
+      "comment" : "Archive safety card: entries listed out of the total, then why the listing stopped.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ von %2$@ Einträgen aufgelistet: %3$@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ of %2$@ entries listed: %3$@"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ entrées listées sur %2$@ : %3$@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%2$@個中%1$@個の項目を表示：%3$@"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "항목 %2$@개 중 %1$@개 나열됨: %3$@"
+          }
+        }
+      }
+    },
+    "%@ programs wear a document's extension first (“invoice.pdf.exe”), which hides what they are." : {
+      "comment" : "Archive safety card: one finding's sentence (more than one; the argument is the count).",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ Programme tragen zuerst die Endung eines Dokuments („Rechnung.pdf.exe“), was verbirgt, was sie sind."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ programmes portent d’abord l’extension d’un document (« facture.pdf.exe »), ce qui masque leur nature."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@個のプログラムが書類の拡張子を先に付けており（「invoice.pdf.exe」）、正体を隠しています。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@개 프로그램이 문서 확장자를 앞에 붙여(“invoice.pdf.exe”) 정체를 숨깁니다."
+          }
+        }
+      }
+    },
+    "%@ symbolic link targets were not read." : {
+      "comment" : "A note under the archive listing.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Ziele von %@ symbolischen Links wurden nicht gelesen."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ cibles de liens symboliques n’ont pas été lues."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@個のシンボリックリンクのリンク先は読み込まれませんでした。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "심볼릭 링크 대상 %@개를 읽지 않았습니다."
+          }
+        }
+      }
+    },
+    "%@ symbolic links." : {
+      "comment" : "Archive safety card: one finding's sentence (more than one; the argument is the count).",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ symbolische Links."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ liens symboliques."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "シンボリックリンクが%@個あります。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "심볼릭 링크 %@개."
+          }
+        }
+      }
+    },
+    "%@-compressed file" : {
+      "comment" : "Archive format name shown in the archive preview. The argument names the compression, like xz or Zstandard.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@-komprimierte Datei"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fichier compressé %@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@圧縮ファイル"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ 압축 파일"
+          }
+        }
+      }
+    },
+    "%@; its size is unknown" : {
+      "comment" : "Why the archive listing is partial. The argument is the reason the reading stopped.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@; die Größe ist unbekannt"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ ; sa taille est inconnue"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@。サイズは不明です"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@. 크기를 알 수 없음"
+          }
+        }
+      }
+    },
+    "1 archive inside is larger than Vitrine opens in place." : {
+      "comment" : "Archive safety card: one finding's sentence (one).",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 enthaltenes Archiv ist größer, als Vitrine direkt öffnet."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 archive interne dépasse la taille que Vitrine ouvre sur place."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "内部のアーカイブのうち1個は、Vitrineがその場で開けるサイズを超えています。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "내부 아카이브 1개가 Vitrine에서 바로 열 수 있는 크기보다 큽니다."
+          }
+        }
+      }
+    },
+    "1 entry is a device or pipe." : {
+      "comment" : "Archive safety card: one finding's sentence (one).",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 Eintrag ist ein Gerät oder eine Pipe."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 entrée est un périphérique ou un tube."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1個の項目はデバイスまたはパイプです。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1개 항목이 장치 또는 파이프입니다."
+          }
+        }
+      }
+    },
+    "1 entry names an absolute location on disk." : {
+      "comment" : "Archive safety card: one finding's sentence (one).",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 Eintrag verweist auf einen absoluten Ort auf dem Volume."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 entrée désigne un emplacement absolu sur le disque."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1個の項目がディスク上の絶対位置を指しています。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1개 항목이 디스크의 절대 위치를 가리킵니다."
+          }
+        }
+      }
+    },
+    "1 entry would be written above the folder it is extracted into." : {
+      "comment" : "Archive safety card: one finding's sentence (one).",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 Eintrag würde oberhalb des Zielordners geschrieben."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 entrée serait écrite au-dessus du dossier d’extraction."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1個の項目が、展開先フォルダより上の階層に書き込まれます。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1개 항목이 압축 해제할 폴더의 상위 위치에 쓰입니다."
+          }
+        }
+      }
+    },
+    "1 extra copy of paths already in the archive; later ones overwrite." : {
+      "comment" : "Archive safety card: one finding's sentence (one).",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 weitere Kopie eines Pfads, der schon im Archiv ist; spätere überschreiben frühere."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 copie supplémentaire d’un chemin déjà présent dans l’archive ; les suivantes écrasent les précédentes."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アーカイブ内に既にあるパスのコピーが1個あります。後のものが上書きします。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "아카이브에 이미 있는 경로의 추가 사본 1개: 나중 사본이 앞의 것을 덮어씁니다."
+          }
+        }
+      }
+    },
+    "1 file is a program, installer or script: it runs when opened." : {
+      "comment" : "Archive safety card: one finding's sentence (one).",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 Datei ist ein Programm, Installationsprogramm oder Skript: Sie wird beim Öffnen ausgeführt."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 fichier est un programme, un installeur ou un script : il s’exécute à l’ouverture."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1個のファイルはプログラム、インストーラ、またはスクリプトです。開くと実行されます。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1개 파일이 프로그램, 설치 프로그램 또는 스크립트입니다. 열면 실행됩니다."
+          }
+        }
+      }
+    },
+    "1 file would run with the group's privileges." : {
+      "comment" : "Archive safety card: one finding's sentence (one).",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 Datei würde mit den Rechten der Gruppe ausgeführt."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 fichier s’exécuterait avec les privilèges du groupe."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1個のファイルはグループの権限で実行されます。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1개 파일이 그룹 권한으로 실행됩니다."
+          }
+        }
+      }
+    },
+    "1 file would run with the owner's privileges." : {
+      "comment" : "Archive safety card: one finding's sentence (one).",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 Datei würde mit den Rechten des Eigentümers ausgeführt."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 fichier s’exécuterait avec les privilèges du propriétaire."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1個のファイルは所有者の権限で実行されます。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1개 파일이 소유자 권한으로 실행됩니다."
+          }
+        }
+      }
+    },
+    "1 hard link." : {
+      "comment" : "Archive safety card: one finding's sentence (one).",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 harter Link."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 lien physique."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ハードリンクが1個あります。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "하드 링크 1개."
+          }
+        }
+      }
+    },
+    "1 link leads outside the extracted folder." : {
+      "comment" : "Archive safety card: one finding's sentence (one).",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 Link führt aus dem entpackten Ordner hinaus."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 lien mène hors du dossier extrait."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1個のリンクが展開先フォルダの外を指しています。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1개 링크가 압축 해제된 폴더 밖을 가리킵니다."
+          }
+        }
+      }
+    },
+    "1 member expands over the per-member ratio threshold." : {
+      "comment" : "Archive safety card: one finding's sentence (one).",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 Objekt überschreitet den Grenzwert für das Entpackungsverhältnis pro Objekt."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 élément dépasse le seuil de taux d’expansion par élément."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1個の項目が項目ごとの展開率のしきい値を超えて展開されます。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1개 멤버가 멤버당 압축률 한도를 넘어 확장됩니다."
+          }
+        }
+      }
+    },
+    "1 member is an archive itself; open it to look inside." : {
+      "comment" : "Archive safety card: one finding's sentence (one).",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 Objekt ist selbst ein Archiv; öffnen Sie es, um hineinzusehen."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 élément est lui-même une archive ; ouvrez-le pour voir son contenu."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1個の項目はそれ自体がアーカイブです。開くと中身を確認できます。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1개 멤버가 그 자체로 아카이브입니다. 열어서 내부를 살펴보세요."
+          }
+        }
+      }
+    },
+    "1 member is encrypted; its content cannot be previewed." : {
+      "comment" : "Archive safety card: one finding's sentence (one).",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 Objekt ist verschlüsselt; sein Inhalt kann nicht angezeigt werden."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 élément est chiffré ; son contenu ne peut pas être prévisualisé."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1個の項目は暗号化されているため、内容をプレビューできません。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1개 멤버가 암호화되어 있어 내용을 미리 볼 수 없습니다."
+          }
+        }
+      }
+    },
+    "1 member overlaps another's data, a zip bomb construction." : {
+      "comment" : "Archive safety card: one finding's sentence (one).",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 Objekt überlappt die Daten eines anderen, eine typische Zip-Bomben-Konstruktion."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 élément chevauche les données d’un autre, une construction de bombe zip."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1個の項目が他の項目のデータと重なっています。zip爆弾の構造です。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1개 멤버가 다른 멤버의 데이터와 겹칩니다. 압축 폭탄의 구성 방식입니다."
+          }
+        }
+      }
+    },
+    "1 name collides on a case-insensitive disk." : {
+      "comment" : "Archive safety card: one finding's sentence (one).",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 Name kollidiert auf einem Volume ohne Groß-/Kleinschreibung."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 nom entre en conflit sur un disque insensible à la casse."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1個の名前が大文字と小文字を区別しないディスク上で衝突します。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1개 이름이 대소문자를 구분하지 않는 디스크에서 충돌합니다."
+          }
+        }
+      }
+    },
+    "1 name contains bidirectional controls that can disguise an extension." : {
+      "comment" : "Archive safety card: one finding's sentence (one).",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 Name enthält Richtungssteuerzeichen, die eine Dateiendung tarnen können."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 nom contient des contrôles bidirectionnels pouvant masquer une extension."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1個の名前に、拡張子を偽装できる双方向制御文字が含まれています。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1개 이름에 확장자를 위장할 수 있는 양방향 제어 문자가 있습니다."
+          }
+        }
+      }
+    },
+    "1 name contains invisible control characters." : {
+      "comment" : "Archive safety card: one finding's sentence (one).",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 Name enthält unsichtbare Steuerzeichen."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 nom contient des caractères de contrôle invisibles."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1個の名前に、目に見えない制御文字が含まれています。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1개 이름에 보이지 않는 제어 문자가 있습니다."
+          }
+        }
+      }
+    },
+    "1 name uses drive letters or backslashes, which Windows reads as folders." : {
+      "comment" : "Archive safety card: one finding's sentence (one).",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 Name verwendet Laufwerksbuchstaben oder Backslashes, die Windows als Ordner liest."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 nom utilise des lettres de lecteur ou des barres obliques inverses, que Windows lit comme des dossiers."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1個の名前にドライブ文字またはバックスラッシュが使われています。Windowsはこれらをフォルダとして解釈します。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1개 이름에 Windows가 폴더로 읽는 드라이브 문자나 백슬래시가 있습니다."
+          }
+        }
+      }
+    },
+    "1 program wears a document's extension first (“invoice.pdf.exe”), which hides what it is." : {
+      "comment" : "Archive safety card: one finding's sentence (one).",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 Programm trägt zuerst die Endung eines Dokuments („Rechnung.pdf.exe“), was verbirgt, was es ist."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 programme porte d’abord l’extension d’un document (« facture.pdf.exe »), ce qui masque sa nature."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1個のプログラムが書類の拡張子を先に付けており（「invoice.pdf.exe」）、正体を隠しています。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1개 프로그램이 문서 확장자를 앞에 붙여(“invoice.pdf.exe”) 정체를 숨깁니다."
+          }
+        }
+      }
+    },
+    "1 symbolic link." : {
+      "comment" : "Archive safety card: one finding's sentence (one).",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 symbolischer Link."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 lien symbolique."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "シンボリックリンクが1個あります。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "심볼릭 링크 1개."
+          }
+        }
+      }
+    },
+    "7-Zip archive" : {
+      "comment" : "Archive format name shown in the archive preview.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "7-Zip-Archiv"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Archive 7-Zip"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "7-Zipアーカイブ"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "7-Zip 아카이브"
+          }
+        }
+      }
+    },
+    "A very large number of entries" : {
+      "comment" : "Archive safety card: the title of one finding.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sehr viele Einträge"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Très grand nombre d’entrées"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "非常に多くの項目"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "매우 많은 항목"
+          }
+        }
+      }
+    },
+    "Absolute paths" : {
+      "comment" : "Archive safety card: the title of one finding.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Absolute Pfade"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chemins absolus"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "絶対パス"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "절대 경로"
+          }
+        }
+      }
+    },
+    "AES-wrapped" : {
+      "comment" : "Zip compression method of an archive member.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "AES-verpackt"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Encapsulé AES"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "AESラップ"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "AES 래핑"
+          }
+        }
+      }
+    },
+    "ar archive" : {
+      "comment" : "Archive format name shown in the archive preview.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ar-Archiv"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Archive ar"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "arアーカイブ"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ar 아카이브"
+          }
+        }
+      }
+    },
+    "ar archive (%@)" : {
+      "comment" : "Archive format name shown in the archive preview. The argument names the compression, like xz or Zstandard.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ar-Archiv (%@)"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Archive ar (%@)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "arアーカイブ（%@）"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ar 아카이브(%@)"
+          }
+        }
+      }
+    },
+    "Archives inside" : {
+      "comment" : "Archive safety card: the title of one finding.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enthaltene Archive"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Archives internes"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "内部のアーカイブ"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "내부 아카이브"
+          }
+        }
+      }
+    },
+    "Archives inside too large to open here" : {
+      "comment" : "Archive safety card: the title of one finding.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enthaltene Archive zu groß zum Öffnen"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Archives internes trop grandes pour être ouvertes ici"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ここで開くには大きすぎる内部アーカイブ"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "여기서 열기에 너무 큰 내부 아카이브"
+          }
+        }
+      }
+    },
+    "block device" : {
+      "comment" : "Kind of an archive member, shown in the archive's list.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blockgerät"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "périphérique bloc"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ブロックデバイス"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "블록 장치"
+          }
+        }
+      }
+    },
+    "Cabinet archive" : {
+      "comment" : "Archive format name shown in the archive preview.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cabinet-Archiv"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Archive Cabinet"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cabinetアーカイブ"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cabinet 아카이브"
+          }
+        }
+      }
+    },
+    "Cancelled" : {
+      "comment" : "Why the archive listing is partial.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abgebrochen"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Annulé"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "キャンセルしました"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "취소됨"
+          }
+        }
+      }
+    },
+    "character device" : {
+      "comment" : "Kind of an archive member, shown in the archive's list.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zeichengerät"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "périphérique caractère"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "キャラクタデバイス"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "문자 장치"
+          }
+        }
+      }
+    },
+    "Compressed file" : {
+      "comment" : "Archive format name shown in the archive preview.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Komprimierte Datei"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fichier compressé"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "圧縮ファイル"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "압축 파일"
+          }
+        }
+      }
+    },
+    "Could not read the file: %@." : {
+      "comment" : "Archive preview refusal; the argument is a technical reason.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Datei konnte nicht gelesen werden: %@."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Impossible de lire le fichier : %@."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ファイルを読み込めませんでした：%@。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "파일을 읽을 수 없습니다: %@."
+          }
+        }
+      }
+    },
+    "cpio archive" : {
+      "comment" : "Archive format name shown in the archive preview.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cpio-Archiv"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Archive cpio"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cpioアーカイブ"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cpio 아카이브"
+          }
+        }
+      }
+    },
+    "cpio archive (%@)" : {
+      "comment" : "Archive format name shown in the archive preview. The argument names the compression, like xz or Zstandard.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cpio-Archiv (%@)"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Archive cpio (%@)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cpioアーカイブ（%@）"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cpio 아카이브(%@)"
+          }
+        }
+      }
+    },
+    "Debian package" : {
+      "comment" : "Archive format name shown in the archive preview.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Debian-Paket"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Paquet Debian"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Debianパッケージ"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Debian 패키지"
+          }
+        }
+      }
+    },
+    "Device files or pipes" : {
+      "comment" : "Archive safety card: the title of one finding.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gerätedateien oder Pipes"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fichiers de périphérique ou tubes"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "デバイスファイルまたはパイプ"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "장치 파일 또는 파이프"
+          }
+        }
+      }
+    },
+    "Duplicate paths" : {
+      "comment" : "Archive safety card: the title of one finding.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Doppelte Pfade"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chemins en double"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "重複したパス"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "중복 경로"
+          }
+        }
+      }
+    },
+    "Encrypted members" : {
+      "comment" : "Archive safety card: the title of one finding.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verschlüsselte Objekte"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Éléments chiffrés"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "暗号化された項目"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "암호화된 멤버"
+          }
+        }
+      }
+    },
+    "Expands far beyond its size" : {
+      "comment" : "Archive safety card: the title of one finding.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wird weit über seine Größe entpackt"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "S’étend bien au-delà de sa taille"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "サイズをはるかに超えて展開"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "크기보다 훨씬 크게 확장됨"
+          }
+        }
+      }
+    },
+    "fastest" : {
+      "comment" : "Gzip header detail shown in the archive preview. The compressor's setting.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "schnellste"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "la plus rapide"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "最速"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "가장 빠름"
+          }
+        }
+      }
+    },
+    "file" : {
+      "comment" : "Kind of an archive member, shown in the archive's list.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Datei"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "fichier"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ファイル"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "파일"
+          }
+        }
+      }
+    },
+    "folder" : {
+      "comment" : "Kind of an archive member, shown in the archive's list.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ordner"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "dossier"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "フォルダ"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "폴더"
+          }
+        }
+      }
+    },
+    "Gzip file" : {
+      "comment" : "Archive format name shown in the archive preview.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gzip-Datei"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fichier gzip"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gzipファイル"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gzip 파일"
+          }
+        }
+      }
+    },
+    "Gzip-compressed tar (%@)" : {
+      "comment" : "Archive format name shown in the archive preview. The argument is the tar dialect: ustar, GNU or pax.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gzip-komprimiertes Tar (%@)"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tar compressé avec gzip (%@)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gzip圧縮tar（%@）"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gzip 압축 tar(%@)"
+          }
+        }
+      }
+    },
+    "hard link" : {
+      "comment" : "Kind of an archive member, shown in the archive's list.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Harter Link"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "lien physique"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ハードリンク"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "하드 링크"
+          }
+        }
+      }
+    },
+    "Hard links" : {
+      "comment" : "Archive safety card: the title of one finding.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Harte Links"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Liens physiques"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ハードリンク"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "하드 링크"
+          }
+        }
+      }
+    },
+    "Imploded" : {
+      "comment" : "Zip compression method of an archive member.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Imploded"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Implosé"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Imploded"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Imploded"
+          }
+        }
+      }
+    },
+    "ISO 9660 disc image" : {
+      "comment" : "Archive format name shown in the archive preview.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ISO-9660-Image"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Image disque ISO 9660"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ISO 9660ディスクイメージ"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ISO 9660 디스크 이미지"
+          }
+        }
+      }
+    },
+    "LHA archive" : {
+      "comment" : "Archive format name shown in the archive preview.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "LHA-Archiv"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Archive LHA"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "LHAアーカイブ"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "LHA 아카이브"
+          }
+        }
+      }
+    },
+    "Links point outside the archive" : {
+      "comment" : "Archive safety card: the title of one finding.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Links zeigen aus dem Archiv hinaus"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Des liens pointent hors de l’archive"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アーカイブの外を指すリンク"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "아카이브 밖을 가리키는 링크"
+          }
+        }
+      }
+    },
+    "Listing incomplete" : {
+      "comment" : "Archive safety card: the title of one finding.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auflistung unvollständig"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Liste incomplète"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "一覧が不完全です"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "목록이 불완전함"
+          }
+        }
+      }
+    },
+    "listing stops at %@ entries" : {
+      "comment" : "Why the archive listing is partial.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auflistung endet bei %@ Einträgen"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "la liste s’arrête à %@ entrées"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@個の項目で一覧表示を停止します"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "목록이 항목 %@개에서 멈춤"
+          }
+        }
+      }
+    },
+    "maximum compression" : {
+      "comment" : "Gzip header detail shown in the archive preview. The compressor's setting.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "maximale Komprimierung"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "compression maximale"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "最大圧縮"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "최대 압축"
+          }
+        }
+      }
+    },
+    "Members compress implausibly well" : {
+      "comment" : "Archive safety card: the title of one finding.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Objekte lassen sich unplausibel gut komprimieren"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Compression invraisemblable d’éléments"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "項目の圧縮率が異常に高い"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "멤버의 압축률이 비정상적으로 높음"
+          }
+        }
+      }
+    },
+    "Members share compressed data" : {
+      "comment" : "Archive safety card: the title of one finding.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Objekte teilen komprimierte Daten"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Éléments partageant des données compressées"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "項目が圧縮データを共有"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "멤버가 압축 데이터를 공유함"
+          }
+        }
+      }
+    },
+    "Method %u" : {
+      "comment" : "Zip compression method of an archive member. An unknown method, by its number.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Methode %u"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Méthode %u"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "方式%u"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "방식 %u"
+          }
+        }
+      }
+    },
+    "multi-volume continuation" : {
+      "comment" : "Kind of an archive member, shown in the archive's list.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fortsetzung (mehrteilig)"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "suite multivolume"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "マルチボリュームの続き"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "다중 볼륨 연속"
+          }
+        }
+      }
+    },
+    "named pipe" : {
+      "comment" : "Kind of an archive member, shown in the archive's list.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Named Pipe"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tube nommé"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "名前付きパイプ"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "명명된 파이프"
+          }
+        }
+      }
+    },
+    "Names that differ only by case" : {
+      "comment" : "Archive safety card: the title of one finding.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Namen, die sich nur in Groß-/Kleinschreibung unterscheiden"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Noms ne différant que par la casse"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "大文字と小文字だけが異なる名前"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "대소문자만 다른 이름"
+          }
+        }
+      }
+    },
+    "Names with control characters" : {
+      "comment" : "Archive safety card: the title of one finding.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Namen mit Steuerzeichen"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Noms avec caractères de contrôle"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "制御文字を含む名前"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "제어 문자가 있는 이름"
+          }
+        }
+      }
+    },
+    "Names with direction overrides" : {
+      "comment" : "Archive safety card: the title of one finding.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Namen mit Richtungsumkehr"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Noms avec inversions de sens"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "方向制御文字を含む名前"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "방향 재정의 문자가 있는 이름"
+          }
+        }
+      }
+    },
+    "Not an archive format Vitrine reads." : {
+      "comment" : "Archive preview refusal.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kein Archivformat, das Vitrine lesen kann."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Format d’archive non pris en charge par Vitrine."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vitrineが読み込めるアーカイブ形式ではありません。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vitrine이 읽을 수 있는 아카이브 포맷이 아닙니다."
+          }
+        }
+      }
+    },
+    "Not every entry was listed, so these findings may be incomplete." : {
+      "comment" : "Archive safety card: one finding's sentence.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nicht alle Einträge wurden aufgelistet, daher sind diese Ergebnisse eventuell unvollständig."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Toutes les entrées n’ont pas été listées ; ces constats peuvent donc être incomplets."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "一部の項目が表示されていないため、これらの検出事項は不完全な可能性があります。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "일부 항목이 나열되지 않아 이 결과가 불완전할 수 있습니다."
+          }
+        }
+      }
+    },
+    "Only the first %@ entries are listed" : {
+      "comment" : "Why the archive listing is partial.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nur die ersten %@ Einträge werden aufgelistet"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seules les %@ premières entrées sont listées"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "最初の%@個の項目のみ表示しています"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "처음 %@개 항목만 나열됨"
+          }
+        }
+      }
+    },
+    "Paths climb out with “..”" : {
+      "comment" : "Archive safety card: the title of one finding.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pfade steigen mit „..“ aus"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chemins remontant avec « .. »"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「..」で上の階層に出るパス"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“..”로 상위 폴더를 벗어나는 경로"
+          }
+        }
+      }
+    },
+    "PKWARE strong encryption" : {
+      "comment" : "How an archive member is encrypted.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PKWARE Strong Encryption"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chiffrement fort PKWARE"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PKWARE強力暗号化"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PKWARE 강력 암호화"
+          }
+        }
+      }
+    },
+    "Programs and scripts" : {
+      "comment" : "Archive safety card: the title of one finding.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Programme und Skripte"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Programmes et scripts"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "プログラムとスクリプト"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "프로그램 및 스크립트"
+          }
+        }
+      }
+    },
+    "Programs named like documents" : {
+      "comment" : "Archive safety card: the title of one finding.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Programme, die wie Dokumente heißen"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Programmes nommés comme des documents"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "書類のような名前のプログラム"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "문서처럼 이름 붙은 프로그램"
+          }
+        }
+      }
+    },
+    "RAR 5 archive" : {
+      "comment" : "Archive format name shown in the archive preview.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "RAR-5-Archiv"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Archive RAR 5"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "RAR 5アーカイブ"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "RAR 5 아카이브"
+          }
+        }
+      }
+    },
+    "RAR 5 archive (solid)" : {
+      "comment" : "Archive format name shown in the archive preview.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "RAR-5-Archiv (solid)"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Archive RAR 5 (solide)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "RAR 5アーカイブ（ソリッド）"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "RAR 5 아카이브(솔리드)"
+          }
+        }
+      }
+    },
+    "RAR archive" : {
+      "comment" : "Archive format name shown in the archive preview.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "RAR-Archiv"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Archive RAR"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "RARアーカイブ"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "RAR 아카이브"
+          }
+        }
+      }
+    },
+    "RAR archive (solid)" : {
+      "comment" : "Archive format name shown in the archive preview.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "RAR-Archiv (solid)"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Archive RAR (solide)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "RARアーカイブ（ソリッド）"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "RAR 아카이브(솔리드)"
+          }
+        }
+      }
+    },
+    "reading the member ran past the time budget" : {
+      "comment" : "Why a member inside an archive cannot be opened.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das Lesen des Objekts hat das Zeitbudget überschritten"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "la lecture de l’élément a dépassé le temps imparti"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "項目の読み込みが制限時間を超えました"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "멤버를 읽는 데 허용 시간을 초과함"
+          }
+        }
+      }
+    },
+    "Reduced (factor %lld)" : {
+      "comment" : "Zip compression method of an archive member. The argument is the reduction factor, 1 to 4.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reduced (Faktor %lld)"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Réduit (facteur %lld)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reduced（係数%lld）"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reduced(계수 %lld)"
+          }
+        }
+      }
+    },
+    "RPM package" : {
+      "comment" : "Archive format name shown in the archive preview.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "RPM-Paket"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Paquet RPM"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "RPMパッケージ"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "RPM 패키지"
+          }
+        }
+      }
+    },
+    "RPM package (%@)" : {
+      "comment" : "Archive format name shown in the archive preview. The argument names the compression, like xz or Zstandard.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "RPM-Paket (%@)"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Paquet RPM (%@)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "RPMパッケージ（%@）"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "RPM 패키지(%@)"
+          }
+        }
+      }
+    },
+    "Set-group-ID files" : {
+      "comment" : "Archive safety card: the title of one finding.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dateien mit Set-Group-ID"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fichiers set-group-ID"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Set-group-IDファイル"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Set-group-ID 파일"
+          }
+        }
+      }
+    },
+    "Set-user-ID files" : {
+      "comment" : "Archive safety card: the title of one finding.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dateien mit Set-User-ID"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fichiers set-user-ID"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Set-user-IDファイル"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Set-user-ID 파일"
+          }
+        }
+      }
+    },
+    "Shrunk" : {
+      "comment" : "Zip compression method of an archive member.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Shrunk"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Contracté"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Shrunk"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Shrunk"
+          }
+        }
+      }
+    },
+    "socket" : {
+      "comment" : "Kind of an archive member, shown in the archive's list.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Socket"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "socket"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ソケット"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "소켓"
+          }
+        }
+      }
+    },
+    "Stopped after %@ s" : {
+      "comment" : "Why the archive listing is partial. The argument is a number of seconds.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nach %@ s gestoppt"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arrêté après %@ s"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ sで停止しました"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@초 후 중단됨"
+          }
+        }
+      }
+    },
+    "Stopped after %@ s; in a compressed stream each name is reached only by decompressing what comes before it" : {
+      "comment" : "Why the archive listing is partial. The argument is a number of seconds.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nach %@ s gestoppt; in einem komprimierten Datenstrom ist jeder Name nur erreichbar, indem alles davor entpackt wird"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arrêté après %@ s ; dans un flux compressé, chaque nom n’est atteint qu’en décompressant ce qui le précède"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ sで停止しました。圧縮ストリームでは、各名前に到達するにはその前のデータをすべて展開する必要があります"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@초 후 중단됨. 압축 스트림에서는 앞부분을 모두 압축 해제해야 각 이름에 도달할 수 있습니다"
+          }
+        }
+      }
+    },
+    "Stopped after %@ s; in a solid archive each name is reached only by decompressing everything before it" : {
+      "comment" : "Why the archive listing is partial. The argument is a number of seconds.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nach %@ s gestoppt; in einem soliden Archiv ist jeder Name nur erreichbar, indem alles davor entpackt wird"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arrêté après %@ s ; dans une archive solide, chaque nom n’est atteint qu’en décompressant tout ce qui le précède"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ sで停止しました。ソリッドアーカイブでは、各名前に到達するにはその前のデータをすべて展開する必要があります"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@초 후 중단됨. 솔리드 아카이브에서는 앞의 모든 내용을 압축 해제해야 각 이름에 도달할 수 있습니다"
+          }
+        }
+      }
+    },
+    "Stopped after decompressing %@" : {
+      "comment" : "Why the archive listing is partial. The argument is a size, like 2 GB.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nach dem Entpacken von %@ gestoppt"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arrêté après avoir décompressé %@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@を展開した時点で停止しました"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ 압축 해제 후 중단됨"
+          }
+        }
+      }
+    },
+    "stopped after examining %@ of decompressed data" : {
+      "comment" : "Why the archive listing is partial. The argument is a size, like 2 GB.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nach Prüfung von %@ entpackten Daten gestoppt"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "arrêt après examen de %@ de données décompressées"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "展開後のデータを%@調べた時点で停止しました"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "압축 해제된 데이터 %@을(를) 검사한 후 중단됨"
+          }
+        }
+      }
+    },
+    "Stored" : {
+      "comment" : "Zip compression method of an archive member.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gespeichert"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stocké"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stored"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stored"
+          }
+        }
+      }
+    },
+    "symbolic link" : {
+      "comment" : "Kind of an archive member, shown in the archive's list.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Symbolischer Link"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "lien symbolique"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "シンボリックリンク"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "심볼릭 링크"
+          }
+        }
+      }
+    },
+    "Symbolic links" : {
+      "comment" : "Archive safety card: the title of one finding.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Symbolische Links"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Liens symboliques"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "シンボリックリンク"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "심볼릭 링크"
+          }
+        }
+      }
+    },
+    "system %u" : {
+      "comment" : "Gzip header detail shown in the archive preview. An operating system by its number in the gzip header.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "System %u"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "système %u"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "システム%u"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "시스템 %u"
+          }
+        }
+      }
+    },
+    "Tar archive" : {
+      "comment" : "Archive format name shown in the archive preview.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tar-Archiv"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Archive tar"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tarアーカイブ"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tar 아카이브"
+          }
+        }
+      }
+    },
+    "Tar archive (%@)" : {
+      "comment" : "Archive format name shown in the archive preview. The argument is the tar dialect: ustar, GNU or pax.\nArchive format name shown in the archive preview. The argument names the compression, like xz or Zstandard.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tar-Archiv (%@)"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Archive tar (%@)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tarアーカイブ（%@）"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tar 아카이브(%@)"
+          }
+        }
+      }
+    },
+    "tar type ‘%@’" : {
+      "comment" : "Kind of an archive member: an unknown tar type flag, shown as its character.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tar-Typ ‚%@‘"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "type tar « %@ »"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tarタイプ「%@」"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tar 유형 ‘%@’"
+          }
+        }
+      }
+    },
+    "tar type %u" : {
+      "comment" : "Kind of an archive member: an unknown tar type flag, by number.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tar-Typ %u"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "type tar %u"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tarタイプ%u"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tar 유형 %u"
+          }
+        }
+      }
+    },
+    "the archive ends inside a header" : {
+      "comment" : "Why the archive listing is partial.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das Archiv endet innerhalb eines Headers"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "l’archive se termine au milieu d’un en-tête"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アーカイブがヘッダの途中で終わっています"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "아카이브가 헤더 중간에서 끝남"
+          }
+        }
+      }
+    },
+    "the archive ends inside the data of “%@”" : {
+      "comment" : "Why the archive listing is partial. The argument is a member's path.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das Archiv endet innerhalb der Daten von „%@“"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "l’archive se termine au milieu des données de « %@ »"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アーカイブが「%@」のデータの途中で終わっています"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "아카이브가 “%@”의 데이터 중간에서 끝남"
+          }
+        }
+      }
+    },
+    "The archive ends inside the data of “%@”." : {
+      "comment" : "A note under the archive listing. The argument is a member's path.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das Archiv endet innerhalb der Daten von „%@“."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L’archive se termine au milieu des données de « %@ »."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アーカイブが「%@」のデータの途中で終わっています。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "아카이브가 “%@”의 데이터 중간에서 끝납니다."
+          }
+        }
+      }
+    },
+    "The archive ends with one zero block instead of two." : {
+      "comment" : "A note under the archive listing.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das Archiv endet mit einem statt zwei Nullblöcken."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L’archive se termine par un seul bloc de zéros au lieu de deux."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アーカイブの末尾のゼロブロックが2個ではなく1個です。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "아카이브가 0 블록 두 개가 아닌 한 개로 끝납니다."
+          }
+        }
+      }
+    },
+    "The archive expands to many times its own size, the mark of a decompression bomb." : {
+      "comment" : "Archive safety card: one finding's sentence.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das Archiv wird auf ein Vielfaches seiner eigenen Größe entpackt – das Kennzeichen einer Dekomprimierungsbombe."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L’archive se décompresse en un volume bien supérieur à sa propre taille, signe d’une bombe de décompression."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アーカイブが元のサイズの何倍にも展開されます。解凍爆弾の特徴です。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "아카이브가 자기 크기의 몇 배로 확장됩니다. 압축 해제 폭탄의 특징입니다."
+          }
+        }
+      }
+    },
+    "The archive has no end-of-archive marker." : {
+      "comment" : "A note under the archive listing.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das Archiv hat keine Endmarkierung."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L’archive n’a pas de marqueur de fin."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アーカイブに終端マーカーがありません。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "아카이브에 아카이브 끝 표시가 없습니다."
+          }
+        }
+      }
+    },
+    "The archive holds an unusually large number of entries." : {
+      "comment" : "Archive safety card: one finding's sentence.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das Archiv enthält ungewöhnlich viele Einträge."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L’archive contient un nombre inhabituellement élevé d’entrées."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アーカイブに異常に多くの項目が含まれています。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "아카이브에 항목이 비정상적으로 많습니다."
+          }
+        }
+      }
+    },
+    "The archive is damaged after this point: %@" : {
+      "comment" : "Why the archive listing is partial. The argument is libarchive's own message, in English.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das Archiv ist ab dieser Stelle beschädigt: %@"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L’archive est endommagée après ce point : %@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "この位置以降のアーカイブが破損しています：%@"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이 지점 이후로 아카이브가 손상되었습니다: %@"
+          }
+        }
+      }
+    },
+    "The archive is damaged: %@." : {
+      "comment" : "Archive preview refusal; the argument is a technical reason.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das Archiv ist beschädigt: %@."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L’archive est endommagée : %@."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アーカイブが破損しています：%@。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "아카이브가 손상되었습니다: %@."
+          }
+        }
+      }
+    },
+    "The archive is truncated: %@." : {
+      "comment" : "Archive preview refusal; the argument is a technical reason.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das Archiv ist abgeschnitten: %@."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L’archive est tronquée : %@."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アーカイブが途中で切れています：%@。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "아카이브가 잘려 있습니다: %@."
+          }
+        }
+      }
+    },
+    "the central directory is damaged after entry %@: %@" : {
+      "comment" : "Why the archive listing is partial. The second argument is the technical reason.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das zentrale Verzeichnis ist nach Eintrag %1$@ beschädigt: %2$@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "the central directory is damaged after entry %1$@: %2$@"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "le répertoire central est endommagé après l’entrée %1$@ : %2$@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "項目%1$@以降のセントラルディレクトリが破損しています：%2$@"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "항목 %1$@ 이후 중앙 디렉터리가 손상됨: %2$@"
+          }
+        }
+      }
+    },
+    "The end record declares %@ entries; the directory holds %@." : {
+      "comment" : "A note under the archive listing.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Der Endeintrag nennt %1$@ Einträge; das Verzeichnis enthält %2$@."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "The end record declares %1$@ entries; the directory holds %2$@."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L’enregistrement de fin déclare %1$@ entrées ; le répertoire en contient %2$@."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "終端レコードでは%1$@個の項目と宣言されていますが、ディレクトリには%2$@個あります。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "끝 레코드에는 항목이 %1$@개로 선언되어 있지만 디렉터리에는 %2$@개가 있습니다."
+          }
+        }
+      }
+    },
+    "The file could not be read further: %@" : {
+      "comment" : "Why the archive listing is partial. The argument is a technical reason.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Datei konnte nicht weiter gelesen werden: %@"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Impossible de poursuivre la lecture du fichier : %@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "これ以上ファイルを読み込めませんでした：%@"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "파일을 더 이상 읽을 수 없습니다: %@"
+          }
+        }
+      }
+    },
+    "The file holds %@ concatenated gzip members." : {
+      "comment" : "A note under the archive listing.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Datei enthält %@ aneinandergehängte Gzip-Elemente."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le fichier contient %@ membres gzip concaténés."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "このファイルには連結された%@個のgzipメンバーが含まれています。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이 파일에는 연결된 gzip 멤버 %@개가 있습니다."
+          }
+        }
+      }
+    },
+    "the member is encrypted" : {
+      "comment" : "Why a member inside an archive cannot be opened.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das Objekt ist verschlüsselt"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "l’élément est chiffré"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "項目が暗号化されています"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "멤버가 암호화되어 있음"
+          }
+        }
+      }
+    },
+    "the member was not reached within the time budget" : {
+      "comment" : "Why a member inside an archive cannot be opened.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das Objekt wurde nicht innerhalb des Zeitbudgets erreicht"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "l’élément n’a pas été atteint dans le temps imparti"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "制限時間内に項目に到達できませんでした"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "허용 시간 안에 멤버에 도달하지 못함"
+          }
+        }
+      }
+    },
+    "The names are encrypted; listing them needs the password" : {
+      "comment" : "Why the archive listing is partial.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Namen sind verschlüsselt; zum Auflisten ist das Passwort nötig"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Les noms sont chiffrés ; il faut le mot de passe pour les lister"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "名前が暗号化されています。一覧表示にはパスワードが必要です"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이름이 암호화되어 있어 나열하려면 암호가 필요합니다"
+          }
+        }
+      }
+    },
+    "The names inside are encrypted; listing them needs the password." : {
+      "comment" : "A note under the archive listing.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die enthaltenen Namen sind verschlüsselt; zum Auflisten ist das Passwort nötig."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Les noms internes sont chiffrés ; il faut le mot de passe pour les lister."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "内部の名前が暗号化されています。一覧表示にはパスワードが必要です。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "내부 이름이 암호화되어 있어 나열하려면 암호가 필요합니다."
+          }
+        }
+      }
+    },
+    "the old LZ4 format" : {
+      "comment" : "A compression format, named inside a sentence about decoding it.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "das alte LZ4-Format"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "l’ancien format LZ4"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "旧LZ4形式"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이전 LZ4 포맷"
+          }
+        }
+      }
+    },
+    "The uncompressed size comes from the gzip trailer: it is modulo 4 GiB and covers only the last member." : {
+      "comment" : "A note under the archive listing.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die unkomprimierte Größe stammt aus dem Gzip-Trailer: Sie gilt modulo 4 GiB und nur für das letzte Element."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La taille décompressée provient du bloc final gzip : elle est calculée modulo 4 Gio et ne couvre que le dernier membre."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "展開後のサイズはgzipトレーラから取得しています。4 GiBを法とした値で、最後のメンバーのみが対象です。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "압축되지 않은 크기는 gzip 트레일러에서 가져온 값으로, 4GiB 단위로 순환하며 마지막 멤버만 반영합니다."
+          }
+        }
+      }
+    },
+    "this Mac's libarchive decodes %@ only through an external program, which Vitrine never starts" : {
+      "comment" : "Why an archive cannot be listed; the argument names a compression format, like “the old LZ4 format”.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "libarchive auf diesem Mac decodiert %@ nur über ein externes Programm, das Vitrine nie startet"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "la libarchive de ce Mac ne décode %@ qu’au moyen d’un programme externe, que Vitrine ne lance jamais"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "このMacのlibarchiveは%@を外部プログラム経由でしかデコードできず、Vitrineは外部プログラムを起動しません"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이 Mac의 libarchive는 외부 프로그램을 통해서만 %@ 디코딩을 지원하며, Vitrine은 외부 프로그램을 실행하지 않습니다"
+          }
+        }
+      }
+    },
+    "unknown" : {
+      "comment" : "Gzip header detail shown in the archive preview. The operating system that wrote the file is not recorded.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "unbekannt"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "inconnu"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "不明"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "알 수 없음"
+          }
+        }
+      }
+    },
+    "Unsupported archive: %@." : {
+      "comment" : "Archive preview refusal; the argument is a technical reason.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nicht unterstütztes Archiv: %@."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Archive non prise en charge : %@."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "サポートされていないアーカイブです：%@。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "지원되지 않는 아카이브: %@."
+          }
+        }
+      }
+    },
+    "volume label" : {
+      "comment" : "Kind of an archive member, shown in the archive's list.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Volume-Name"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "nom de volume"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ボリュームラベル"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "볼륨 레이블"
+          }
+        }
+      }
+    },
+    "While reading: %@." : {
+      "comment" : "A note under the archive listing. The argument is libarchive's own message, in English.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beim Lesen: %@."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pendant la lecture : %@."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "読み込み中：%@。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "읽는 중 오류: %@."
+          }
+        }
+      }
+    },
+    "Windows-style paths" : {
+      "comment" : "Archive safety card: the title of one finding.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pfade im Windows-Stil"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chemins de style Windows"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Windows形式のパス"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Windows 스타일 경로"
+          }
+        }
+      }
+    },
+    "XAR archive" : {
+      "comment" : "Archive format name shown in the archive preview.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "XAR-Archiv"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Archive XAR"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "XARアーカイブ"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "XAR 아카이브"
+          }
+        }
+      }
+    },
+    "ZIP archive" : {
+      "comment" : "Archive format name shown in the archive preview.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZIP-Archiv"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Archive ZIP"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZIPアーカイブ"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ZIP 아카이브"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

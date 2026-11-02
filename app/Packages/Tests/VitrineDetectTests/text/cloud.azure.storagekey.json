@@ -1,0 +1,11 @@
+{
+  "positive": [
+    "DefaultEndpointsProtocol=https;AccountName=acct;AccountKey=JSE013NjYYkMUSvMb0q1BW1hm4BsC0VShHSdiXoDQhQeqLemfOfM0EJbBUsWKTlSoSSo19mmypuSPSwaiD2yfB==;EndpointSuffix=core.windows.net",
+    "SharedAccessSignature=sv=2022-11-02&ss=b&sig=c4ww31uwOhUJrEaWG7anjuqNDLZFkEPC8NhM8YjUWrM%3D",
+    "https://acct.blob.core.windows.net/c?sp=r&sig=%bTUitVgd0ep28YgDrakNFUPpXH9xaZ0%HO9bEUGw9GmJE"
+  ],
+  "negative": [
+    "AccountKey=pTnBGRr1zDBi3fwEzTAI",
+    "AccountName=acct;EndpointSuffix=core.windows.net"
+  ]
+}

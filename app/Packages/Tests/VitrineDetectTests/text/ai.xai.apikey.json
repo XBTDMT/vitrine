@@ -1,0 +1,11 @@
+{
+  "positive": [
+    "xai-cqUmEkUaLbwqMJxlPvbe4RuF4N1PGeJII4LpRpAfXLpCC3Pm2FMbu0rVo1SvEuxyWPgq3FCqwbyQCJhg",
+    "xai-token-EG9NlFcEchzuZwe6oXvssPFYK7Rygp0q8JftF94c4ZRcgr9I7n2lthzuMRzaRcwX1qz7BnPDH5S02Dgv"
+  ],
+  "negative": [
+    "xai-rnL5JhBfD93MyLHNOXtTfMARQQfoDT",
+    "xai-ATW04Nq8T3lVXRo6aABOdHlsreiCmTOzN9hXLPsZ7lXTK2AfZLFys3FyGNP4zb5xafd9Tl29M9dmXocfx",
+    "xai-token-0Tnw4JmToLzMWvNt6XssdMuGOh2QpDvXMvGSOzN6eDkJT6BwkXFhUoayzYpE2Mavo5sHzwb0FYmTQmZib"
+  ]
+}

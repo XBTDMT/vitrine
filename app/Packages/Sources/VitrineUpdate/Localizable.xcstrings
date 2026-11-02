@@ -1,0 +1,731 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "A file step of the update failed." : {
+      "comment" : "Why an update check or install failed; one sentence in the update alert.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ein Dateischritt des Updates ist fehlgeschlagen."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Une étape de fichier de la mise à jour a échoué."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アップデートのファイル処理に失敗しました。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "업데이트의 파일 단계가 실패했습니다."
+          }
+        }
+      }
+    },
+    "it is running from a read-only disk" : {
+      "comment" : "Lower-case reason Vitrine cannot replace itself; it fills 'Vitrine can't replace itself here: …'.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "es wird von einem schreibgeschützten Volume ausgeführt"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "elle s’exécute depuis un disque en lecture seule"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "読み出し専用のディスクから実行されています"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "읽기 전용 디스크에서 실행 중입니다"
+          }
+        }
+      }
+    },
+    "it is running from a temporary location; move Vitrine to Applications first" : {
+      "comment" : "Lower-case reason Vitrine cannot replace itself; it fills 'Vitrine can't replace itself here: …'.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "es wird von einem temporären Ort ausgeführt; bewegen Sie Vitrine zuerst in den Ordner „Programme“"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "elle s’exécute depuis un emplacement temporaire ; placez d’abord Vitrine dans Applications"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "一時的な場所から実行されています。先にVitrineを「アプリケーション」フォルダに移動してください"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "임시 위치에서 실행 중입니다. 먼저 Vitrine을 응용 프로그램 폴더로 옮기세요"
+          }
+        }
+      }
+    },
+    "The app in the update has a damaged or altered signature, so Vitrine discarded it." : {
+      "comment" : "Why an update check or install failed; one sentence in the update alert.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die App im Update hat eine beschädigte oder veränderte Signatur, daher hat Vitrine sie verworfen."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L’app de la mise à jour a une signature endommagée ou altérée ; Vitrine l’a donc supprimée."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アップデート内のアプリの署名が破損しているか改ざんされているため、Vitrineはそれを破棄しました。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "업데이트에 포함된 앱의 서명이 손상되었거나 변경되어 Vitrine이 해당 앱을 폐기했습니다."
+          }
+        }
+      }
+    },
+    "The app in the update is %@, not the announced %@." : {
+      "comment" : "Why an update check or install failed; one sentence in the update alert.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die App im Update ist %@, nicht das angekündigte %@."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L’app de la mise à jour est %@, et non %@ comme annoncé."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アップデート内のアプリは%1$@で、告知された%2$@ではありません。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "업데이트에 포함된 앱은 %1$@입니다. 공지된 앱은 %2$@입니다."
+          }
+        }
+      }
+    },
+    "The app in the update isn't signed by the same developer as this copy, so Vitrine discarded it." : {
+      "comment" : "Why an update check or install failed; one sentence in the update alert.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die App im Update ist nicht vom selben Entwickler signiert wie diese Kopie, daher hat Vitrine sie verworfen."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L’app de la mise à jour n’est pas signée par le même développeur que cette copie ; Vitrine l’a donc supprimée."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アップデート内のアプリがこのコピーと同じ開発者によって署名されていないため、Vitrineはそれを破棄しました。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "업데이트에 포함된 앱이 이 사본과 같은 개발자의 서명을 받지 않아 Vitrine이 해당 앱을 폐기했습니다."
+          }
+        }
+      }
+    },
+    "The app in the update turns off a macOS code protection, so Vitrine discarded it." : {
+      "comment" : "Why an update check or install failed; one sentence in the update alert.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die App im Update schaltet einen Codeschutz von macOS aus, daher hat Vitrine sie verworfen."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L’app de la mise à jour désactive une protection du code de macOS ; Vitrine l’a donc supprimée."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アップデート内のアプリがmacOSのコード保護をオフにしているため、Vitrineはそれを破棄しました。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "업데이트에 포함된 앱이 macOS 코드 보호 기능을 끄므로 Vitrine이 해당 앱을 폐기했습니다."
+          }
+        }
+      }
+    },
+    "The downloaded disk image couldn't be opened." : {
+      "comment" : "Why an update check or install failed; one sentence in the update alert.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das geladene Image konnte nicht geöffnet werden."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L’image disque téléchargée n’a pas pu être ouverte."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ダウンロードしたディスクイメージを開けませんでした。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "다운로드한 디스크 이미지를 열 수 없습니다."
+          }
+        }
+      }
+    },
+    "The downloaded disk image doesn't hold the Vitrine app." : {
+      "comment" : "Why an update check or install failed; one sentence in the update alert.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das geladene Image enthält die Vitrine-App nicht."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L’image disque téléchargée ne contient pas l’app Vitrine."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ダウンロードしたディスクイメージにVitrineアプリが含まれていません。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "다운로드한 디스크 이미지에 Vitrine 앱이 없습니다."
+          }
+        }
+      }
+    },
+    "The downloaded update doesn't match its signed description, so Vitrine discarded it." : {
+      "comment" : "Why an update check or install failed; one sentence in the update alert.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das geladene Update passt nicht zu seiner signierten Beschreibung, daher hat Vitrine es verworfen."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La mise à jour téléchargée ne correspond pas à sa description signée ; Vitrine l’a donc supprimée."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ダウンロードしたアップデートが署名済みの説明と一致しないため、Vitrineはそれを破棄しました。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "다운로드한 업데이트가 서명된 설명과 일치하지 않아 Vitrine이 해당 업데이트를 폐기했습니다."
+          }
+        }
+      }
+    },
+    "The signed update information has an invalid %@." : {
+      "comment" : "Why an update check or install failed; one sentence in the update alert.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die signierten Update-Informationen enthalten ein ungültiges Feld „%@“."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Les informations de mise à jour signées comportent un %@ non valide."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "署名済みのアップデート情報の%@が無効です。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "서명된 업데이트 정보의 다음 항목이 유효하지 않습니다: %@."
+          }
+        }
+      }
+    },
+    "The update address isn't a secure (HTTPS) address, so Vitrine didn't use it." : {
+      "comment" : "Why an update check or install failed; one sentence in the update alert.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Update-Adresse ist keine sichere (HTTPS-)Adresse, daher hat Vitrine sie nicht verwendet."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L’adresse de mise à jour n’est pas une adresse sécurisée (HTTPS) ; Vitrine ne l’a donc pas utilisée."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アップデートのアドレスが安全な（HTTPS）アドレスではないため、Vitrineは使用しませんでした。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "업데이트 주소가 보안(HTTPS) 주소가 아니므로 Vitrine이 사용하지 않았습니다."
+          }
+        }
+      }
+    },
+    "The update information isn't in the expected format." : {
+      "comment" : "Why an update check or install failed; one sentence in the update alert.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Update-Informationen haben nicht das erwartete Format."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Les informations de mise à jour ne sont pas au format attendu."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アップデート情報が想定された形式ではありません。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "업데이트 정보가 예상한 형식이 아닙니다."
+          }
+        }
+      }
+    },
+    "The update information isn't signed with Vitrine's update key, so Vitrine ignored it." : {
+      "comment" : "Why an update check or install failed; one sentence in the update alert.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Update-Informationen sind nicht mit dem Update-Schlüssel von Vitrine signiert, daher hat Vitrine sie ignoriert."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Les informations de mise à jour ne sont pas signées avec la clé de mise à jour de Vitrine ; Vitrine les a donc ignorées."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アップデート情報がVitrineのアップデートキーで署名されていないため、Vitrineは無視しました。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "업데이트 정보가 Vitrine의 업데이트 키로 서명되지 않아 Vitrine이 무시했습니다."
+          }
+        }
+      }
+    },
+    "The update is for a different app (%@)." : {
+      "comment" : "Why an update check or install failed; one sentence in the update alert.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das Update ist für eine andere App (%@)."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La mise à jour concerne une autre app (%@)."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "このアップデートは別のアプリ（%@）用です。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "다른 앱을 위한 업데이트입니다(%@)."
+          }
+        }
+      }
+    },
+    "The update is installed, but Vitrine couldn't relaunch. Open it again yourself." : {
+      "comment" : "Why an update check or install failed; one sentence in the update alert.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das Update ist installiert, aber Vitrine konnte nicht neu starten. Öffnen Sie Vitrine bitte selbst erneut."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La mise à jour est installée, mais Vitrine n’a pas pu redémarrer. Rouvrez-la vous-même."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アップデートはインストールされましたが、Vitrineを再起動できませんでした。手動でもう一度開いてください。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "업데이트가 설치되었지만 Vitrine을 다시 실행할 수 없습니다. 직접 다시 여세요."
+          }
+        }
+      }
+    },
+    "The update server answered with error %lld." : {
+      "comment" : "Why an update check or install failed; one sentence in the update alert.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Der Update-Server hat mit Fehler %lld geantwortet."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le serveur de mise à jour a répondu avec l’erreur %lld."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アップデートサーバがエラー%lldを返しました。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "업데이트 서버가 오류 %lld(으)로 응답했습니다."
+          }
+        }
+      }
+    },
+    "The update server at %@ sent Vitrine to %@. Vitrine only downloads from the address it was given." : {
+      "comment" : "Why an update check or install failed; one sentence in the update alert.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Der Update-Server unter %@ hat Vitrine an %@ weitergeleitet. Vitrine lädt nur von der angegebenen Adresse."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le serveur de mise à jour à l’adresse %@ a redirigé Vitrine vers %@. Vitrine ne télécharge que depuis l’adresse indiquée."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@のアップデートサーバがVitrineを%2$@に転送しました。Vitrineは指定されたアドレスからのみダウンロードします。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@의 업데이트 서버가 Vitrine을 다른 주소로 보냈습니다: %@. Vitrine은 지정된 주소에서만 다운로드합니다."
+          }
+        }
+      }
+    },
+    "This copy of Vitrine isn't signed with a stable identity, so it can't verify updates. Download the new version yourself." : {
+      "comment" : "Why an update check or install failed; one sentence in the update alert.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diese Kopie von Vitrine ist nicht mit einer stabilen Identität signiert und kann daher keine Updates prüfen. Laden Sie die neue Version selbst."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cette copie de Vitrine n’est pas signée avec une identité stable ; elle ne peut donc pas vérifier les mises à jour. Téléchargez vous-même la nouvelle version."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "このVitrineのコピーは安定したIDで署名されていないため、アップデートを検証できません。新しいバージョンを手動でダウンロードしてください。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이 Vitrine 사본은 안정적인 ID로 서명되지 않아 업데이트를 확인할 수 없습니다. 새 버전을 직접 다운로드하세요."
+          }
+        }
+      }
+    },
+    "This copy of Vitrine was built without an update key, so it can't check for new versions." : {
+      "comment" : "Why an update check or install failed; one sentence in the update alert.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diese Kopie von Vitrine wurde ohne Update-Schlüssel erstellt und kann daher nicht nach neuen Versionen suchen."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cette copie de Vitrine a été compilée sans clé de mise à jour ; elle ne peut donc pas rechercher de nouvelles versions."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "このVitrineのコピーはアップデートキーなしでビルドされているため、新しいバージョンを確認できません。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이 Vitrine 사본은 업데이트 키 없이 빌드되어 새 버전을 확인할 수 없습니다."
+          }
+        }
+      }
+    },
+    "This update needs macOS %@ or later." : {
+      "comment" : "Why an update check or install failed; one sentence in the update alert.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dieses Update erfordert macOS %@ oder neuer."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cette mise à jour nécessite macOS %@ ou ultérieur."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "このアップデートにはmacOS %@以降が必要です。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이 업데이트에는 macOS %@ 이상이 필요합니다."
+          }
+        }
+      }
+    },
+    "Version %@ isn't newer than the installed %@." : {
+      "comment" : "Why an update check or install failed; one sentence in the update alert.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Version %@ ist nicht neuer als die installierte Version %@."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La version %@ n’est pas plus récente que la version installée %@."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "バージョン%1$@はインストール済みの%2$@より新しくありません。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "버전 %1$@은(는) 설치된 버전 %2$@보다 최신이 아닙니다."
+          }
+        }
+      }
+    },
+    "Vitrine can't replace itself here: %@." : {
+      "comment" : "Why an update check or install failed; one sentence in the update alert.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vitrine kann sich hier nicht ersetzen: %@."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vitrine ne peut pas se remplacer ici : %@."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vitrineはここで自身を置き換えられません：%@。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vitrine이 이 위치에서 자신을 교체할 수 없습니다: %@."
+          }
+        }
+      }
+    },
+    "Vitrine couldn't reach the update server (%@)." : {
+      "comment" : "Why an update check or install failed; one sentence in the update alert.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vitrine konnte den Update-Server nicht erreichen (%@)."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vitrine n’a pas pu joindre le serveur de mise à jour (%@)."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アップデートサーバに接続できませんでした（%@）。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vitrine이 업데이트 서버에 연결할 수 없습니다(%@)."
+          }
+        }
+      }
+    },
+    "you don't have permission to change %@" : {
+      "comment" : "Lower-case reason Vitrine cannot replace itself; it fills 'Vitrine can't replace itself here: …'.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sie haben keine Berechtigung, %@ zu ändern"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "vous n’avez pas l’autorisation de modifier %@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@を変更する権限がありません"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@을(를) 변경할 권한이 없습니다"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

@@ -1,0 +1,13 @@
+{
+  "positive": [
+    "glpat-1aW1dQXdprq_jHJ1kSm8",
+    "glptt-a96d41b115f87f8f37bf997db46c1b86f167172c",
+    "GR13489419FasxDbfQ05w2bJMBAQy",
+    "glrt-nT5oa-2Aoo-UPKE58i44"
+  ],
+  "negative": [
+    "glpat-ItnvI",
+    "glptt-a9aa72754d7aee423fe8",
+    "gitlab-ci.yml"
+  ]
+}

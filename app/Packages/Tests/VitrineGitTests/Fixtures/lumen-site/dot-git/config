@@ -1,0 +1,19 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = true
+	autocrlf = false
+[gc]
+	auto = 0
+[user]
+	name = Ada Example
+	email = ada@example.com
+[remote "origin"]
+	url = https://example.com/lumen-site.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "main"]
+	remote = origin
+	merge = refs/heads/main

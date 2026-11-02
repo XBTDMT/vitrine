@@ -1,0 +1,9 @@
+{
+  "positive": [
+    "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"
+  ],
+  "negative": [
+    "sk-or-v1-abc",
+    "sk-or-v2-583f9eae878953fddd21197a9a68d1d5cb74c6e8160f7d0abdd7121bfdc13b89"
+  ]
+}

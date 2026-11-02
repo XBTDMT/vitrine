@@ -1,0 +1,11 @@
+{
+  "positive": [
+    "ssh-ed25519 AAAAD21wDtzFoCOVIOYBLEOCkmPYzvxPSbNToowXG7VEObnbNsd9hIlf8d8oMa0XHZeM user@host",
+    "ecdsa-sha2-nistp256 AAAAMvEbcPXnROdr7Jd5QaHjrr12gWZe1RX6kPfUiQ0RuWhiUZQnXsYhSihPbVNFFVzzh9kHXsu0lOGumlz68dcPyC1jt5UNc7tW/YrQ=",
+    "ssh-rsa AAAAZAX6UQkmRCsqVHYPzXcAYr9EjNSG7hF72DZ51fWHKrI5qjvnPa0OVc1e0AndGhyKqHnqImP5VNb6j4qO+eXUp+JbdWfKXVoos+VeaH73VOaZ7FTdHUb1d2yKS5/T/36yMjXpW3HOMzrOa1lF71WV+DAMDKBD60pRQEm9o2EkIRsfF7hK8FduGMU5n2uzN11uDEFSWRazab3ulI/eud6T94ii73AXuX6KoIU7NhWgYyBf9f8PZcTXeLTuASWTnEJqrOICXX9wcjJ+Il1BR3NO+IvZWn0NYW2X7LpwZiVXDkN7=="
+  ],
+  "negative": [
+    "ssh-ed25519 AAAAWkkvOJbO73",
+    "ssh-keygen -t ed25519"
+  ]
+}

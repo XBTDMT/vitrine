@@ -1,0 +1,11 @@
+{
+  "positive": [
+    "key-08d2c519eaf18f09773d455d24577587",
+    "api key f3b7ceb00f4aa4681f25ddc3d8b78d4f-3e4e2512-0480a94a for mailgun"
+  ],
+  "negative": [
+    "key-3807d0378d",
+    "141e67810e75f8f75cced33570bdcaa5-bb0d8d20-5ab89938",
+    "key-TQFlIdPiUgln3EKN27Oq3TV36pyA1RDG"
+  ]
+}

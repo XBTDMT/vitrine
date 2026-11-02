@@ -1,0 +1,14 @@
+{
+  "positive": [
+    "db-01.internal",
+    "ping printer.local",
+    "vpn.corp",
+    "nas.lan",
+    "wiki.intranet"
+  ],
+  "negative": [
+    "example.com",
+    "db-01.external",
+    "INTERNAL"
+  ]
+}

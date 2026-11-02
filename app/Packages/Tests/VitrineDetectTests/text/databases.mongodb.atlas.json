@@ -1,0 +1,9 @@
+{
+  "positive": [
+    "mongodb+srv://app:whCWpbDnComfT5gaEK@cluster0.ab1cd.mongodb.net/prod?retryWrites=true"
+  ],
+  "negative": [
+    "mongodb+srv://cluster0.ab1cd.mongodb.net/prod",
+    "mongodb://app:IWVGqNLCWG@localhost/db"
+  ]
+}

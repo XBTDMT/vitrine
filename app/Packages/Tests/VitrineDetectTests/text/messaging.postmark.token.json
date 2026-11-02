@@ -1,0 +1,10 @@
+{
+  "positive": [
+    "POSTMARK_SERVER_TOKEN=a0c90a4d-8e18-a452-e920-e390b82e9c09",
+    "POSTMARK_TOKEN: c191f4ab-4eac-82dd-12d7-9c0506802eb8"
+  ],
+  "negative": [
+    "POSTMARK_SERVER_TOKEN=abc",
+    "55778a5b-e5b0-a7b9-290a-91d62ef5f7fe"
+  ]
+}

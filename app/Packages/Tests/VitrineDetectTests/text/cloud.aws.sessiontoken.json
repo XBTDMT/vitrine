@@ -1,0 +1,8 @@
+{
+  "positive": [
+    "aws_session_token = Dys/ge3yvy1Ix8/BUIjeftvArmtHz3lEk7Y7DbbM/A4Hcg0CuBwuBkADh+03kRN55uIdKFa6CSVzFTKCErsWGAoprPDNJB9+Kj9Myv5VMk+F21fIJhOACi7YmrVi8S49VJjk4qtJMzEuupkyBrArS+wSwmMNsUzzKgcurlNfMF/7whP8wmiXw7O5szGoZWkRpmQVqavDZI2eQXkylgdLdVw1LL8a8dT6ZctTPCYjTnlUhfMTPb6Lmsv/MaH4+MUvor3rXssJunZbC2/7jvkTtCiJy/UpjGcqsQeVZXvMzXmQ=="
+  ],
+  "negative": [
+    "aws_session_token = lKyZhEQvsNAhvorzwOc5y13k8KaZlNtYS7lGx5O5y6n7T7kxwp"
+  ]
+}

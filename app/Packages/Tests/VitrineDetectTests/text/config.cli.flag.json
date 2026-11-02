@@ -1,0 +1,13 @@
+{
+  "positive": [
+    "mysql -u root --password=a5ihgkBdA43J",
+    "curl -H x --token NAQQQHlMj4Os5aMINKph",
+    "aws configure --secret pUZCnb8Dy9wVokmy",
+    "--api-key 3TIZ9XGZdHWrbkqEUn7U"
+  ],
+  "negative": [
+    "--password",
+    "--token=abc",
+    "--help"
+  ]
+}

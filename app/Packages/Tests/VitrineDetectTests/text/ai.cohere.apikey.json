@@ -1,0 +1,10 @@
+{
+  "positive": [
+    "COHERE_API_KEY=vBpo6d1EWFe48ZAkdTJmqplUGYjjo1Epfy7JUaOY",
+    "CO_API_KEY='8WjkxllDNt5gmsRfh2uSo9horxazNGcCkQj04SLJ'"
+  ],
+  "negative": [
+    "COHERE_API_KEY=0oDf0zBC56WfUnD7TekM",
+    "8pIoTjYXSmMArgp6ln1UEQjvEiyXbRj2hY7Tv6e2"
+  ]
+}

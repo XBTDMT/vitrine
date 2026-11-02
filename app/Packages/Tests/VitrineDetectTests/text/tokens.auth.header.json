@@ -1,0 +1,14 @@
+{
+  "positive": [
+    "Authorization: Bearer KYDNY8mpDdcBWHUTcGzPWBCOGek9tCIHDE71dQqW",
+    "authorization: Basic dXNlcjpwYTU1d29yZA==",
+    "Authorization: Token M9KImYiDGhYglfwPYquG",
+    "x-api-key: 0CJXWYvtGcYqRjq7K1UqeTLD",
+    "api_key: JbEWKd6aFFrQbOGWIPLB"
+  ],
+  "negative": [
+    "Authorization: Bearer",
+    "Authorization: Negotiate",
+    "x-api-key: short"
+  ]
+}
